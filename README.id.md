@@ -7,6 +7,11 @@
 ![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-blue)
 ](/README.id.md)
 
+
+[
+![Facebook](https://img.shields.io/badge/Grup%20Facebook-Sun%20Valley%20Indonesia-blue?logo=facebook)
+](https://www.facebook.com/groups/sunvalleyindonesia/)
+
 Folder11 ikon direktori khusus yang dibuat mirip dengan gaya ikon pada Windows 11.
 
 > Kami tidak berafiliasi dengan Microsoft.
@@ -25,6 +30,7 @@ Kontribusi Anda diapresiasi, tapi Anda harus megikuti panduan kontribusi. Adapun
 
 ### Spesifikasi Ikon
 
+Kami menyediakan template dalam format fig, ai, dan svg. Adapun spesifikasinya sebagai berikut:
 - Kami tidak memaksakan pada penggunaan pada program vektor tertentu.
 - Ikon harus berupa vektor berformat svg.
 - Ikon semestinya tidak memuat gambar raster.

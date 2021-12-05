@@ -7,6 +7,10 @@
 ![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-blue)
 ](/README.id.md)
 
+[
+![Facebook](https://img.shields.io/badge/Facebook%20Group-Sun%20Valley%20Indonesia-blue?logo=facebook)
+](https://www.facebook.com/groups/sunvalleyindonesia/)
+
 Folder11 is Windows 11-like custom directory icon.
 
 > We do not affiliated with Microsoft.
@@ -25,7 +29,7 @@ Folder11 is just awesome because of your contributions. Your contributions are g
 
 ### Icon Specification
 
-We provided svg, ai, ppt, and fig template to make it easier. The specifications include the following:
+We provided svg, ai, and fig template to make it easier. The specifications include the following:
 
 - We do not oblige to use specific vector program.
 - Icon must be svg formated vector.
