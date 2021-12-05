@@ -30,6 +30,7 @@ jobs:
           ico_repo="./ico"
           input_path="$svg_repo/svg"
           output_path="$ico_repo/ico"
+          output_hash_path="$ico_repo/hash"
           temp_path="./temp"
           changed=false
 
@@ -42,6 +43,7 @@ jobs:
           mkdir -p "$temp_path"
           mkdir -p "$input_path"
           mkdir -p "$output_path"
+          mkdir -p "$output_hash_path"
 
           for i in $(ls "$input_path" | grep '\.svg$'); do
             name="$(echo $i | sed -E 's/^(.+)\.svg$/\1/')"
@@ -50,7 +52,7 @@ jobs:
             input_name="$input_path/$name.svg"
             temp_name="$temp_path/$name.png"
             output_name="$output_path/$name.ico"
-            output_hash_name="$output_path/$name.hash"
+            output_hash_name="$output_hash_path/$name.ico"
 
             echo "Converting $name..."
 
@@ -74,10 +76,10 @@ jobs:
 
           done
 
-          for name in $(ls "$output_path" | grep -E '\.(ico|hash)$' | sed -E 's/^(.*)\.(ico|hash)$/\1/' | uniq); do
+          for name in $(echo $(ls "$output_path") $(ls "$output_hash_name") | grep -E '\.ico$' | sed -E 's/^(.*)\.ico$/\1/' | uniq); do
             input_name="$input_path/$name.svg"
             output_name="$output_path/$name.ico"
-            output_hash_name="$output_path/$name.hash"
+            output_hash_name="$output_hash_path/$name.ico"
 
             if [[ ! -f "$input_name" ]]; then
               echo "Removing $name..."
