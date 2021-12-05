@@ -1,0 +1,105 @@
+name: Convert to ico
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    branches: [main]
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v2
+        with:
+          path: svg
+
+      - name: Checkout ico repo
+        uses: actions/checkout@v2
+        with:
+          path: ico
+          token: ${{ secrets.ACTION_TOKEN }}
+          repository: icon11-community/Folder11-ico
+
+      - name: Convert
+        run: |
+          svg_repo="./svg"
+          ico_repo="./ico"
+          input_path="$svg_repo/svg"
+          output_path="$ico_repo/ico"
+          temp_path="./temp"
+          changed=false
+
+          install_dependencies() {
+            if [[ "$changed" != "true" ]]; then
+              npm i -g svgexport
+            fi
+          }
+
+          mkdir -p "$temp_path"
+          mkdir -p "$input_path"
+          mkdir -p "$output_path"
+
+          for i in $(ls "$input_path" | grep '\.svg$'); do
+            name="$(echo $i | sed -E 's/^(.+)\.svg$/\1/')"
+            hash="$(echo $(git -C "$svg_repo" hash-object ".github/workflows/convert.yml"):$(git -C "$svg_repo" hash-object "svg/$i") | sha1sum | awk '{print $1}')"
+
+            input_name="$input_path/$name.svg"
+            temp_name="$temp_path/$name.png"
+            output_name="$output_path/$name.ico"
+            output_hash_name="$output_path/$name.hash"
+
+            echo "Converting $name..."
+
+            if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" == "$(cat $output_hash_name)" ]]; then
+              echo "$name is already exist."
+              continue
+            fi
+            
+            install_dependencies
+            changed=true
+
+            [[ -f "$output_name" ]] && rm "$output_name"
+            [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
+
+            svgexport "$input_name" "$temp_name" png 1024:1024
+            convert -background transparent "$temp_name" -define icon:auto-resize="256,128,96,64,48,32,16" "$output_name"
+            
+            echo "$hash" >$output_hash_name
+            
+            echo "$name successfully converted."
+
+          done
+
+          for name in $(ls "$output_path" | grep -E '\.(ico|hash)$' | sed -E 's/^(.*)\.(ico|hash)$/\1/' | uniq); do
+            input_name="$input_path/$name.svg"
+            output_name="$output_path/$name.ico"
+            output_hash_name="$output_path/$name.hash"
+
+            if [[ ! -f "$input_name" ]]; then
+              echo "Removing $name..."
+              [[ -f "$output_name" ]] && rm "$output_name"
+              [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
+            fi
+          done
+
+          echo "Cleaning temp..."
+          rm -rf "$temp_path"
+
+          if [[ "$changed" == 'true' ]]; then
+            echo "Push changes..."
+            commit_name="gen: $(git -C "$svg_repo" show -q | grep "commit" | awk '{print $2}')"
+            echo "$commit_name"
+            git -C "$ico_repo" config user.name github-actions
+            git -C "$ico_repo" config user.email github-actions@github.com
+            echo test config
+            git -C "$ico_repo" add .
+            echo test add
+            git -C "$ico_repo" commit -m "$commit_name"
+            echo test commit
+            git -C "$ico_repo" push
+            echo test commit
+          fi
