@@ -1,0 +1,66 @@
+# Folder11
+
+[
+![English](https://img.shields.io/badge/-English-blue)
+](/README.md)
+[
+![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-blue)
+](/README.id.md)
+
+Folder11 is Windows 11-like custom directory icon.
+
+> We do not affiliated with Microsoft.
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Contributing Guidelines](#contributing-guidelines)
+  - [Icon Specification](#icon-specification)
+  - [File Naming](#file-naming)
+  - [Commit Naming](#commit-naming)
+
+## Contributing Guidelines
+
+Folder11 is just awesome because of your contributions. Your contributions are greatly appreciated, but you must follow this contributing guidelines.
+
+### Icon Specification
+
+We provided svg, ai, ppt, and fig template to make it easier. The specifications include the following:
+
+- We do not oblige to use specific vector program.
+- Icon must be svg formated vector.
+- Icon should not have embedded raster image.
+- You should not replace existing icon.
+- Canvas have 1:1 ratio.
+- Assuming the canvas is 256px height, then the margins are as follows:
+  - Left margin is 17px (0.06640625vh).
+  - Right margin is 15px (0.05859375vh).
+  - Bottom margin is 46px (0.1796875vh).
+  - Top margin for "back" is 34px (0.1328125vh).
+  - Top margin for "front" is 62px (0.2421875vh).
+
+### File Naming
+
+- File name is starts with icon name and ends with variant number, -- separated with dash.
+- Name of the icon must be written in snake case.
+- Because of we should not replace existing icon, new icon must be numbered that starts with 1.
+- First icon must be not numbered.
+
+```
+Folder11
+└──📁 svg/
+    ├──📄 my_folder.svg
+    ├──📄 my_folder-1.svg
+    └──📄 my_folder-2.svg
+```
+
+### Commit Naming
+
+- `feat:`  
+  A `feat` type commit introduces new icon or modification to existing one.
+- `docs:`  
+  A `docs` type commit introduces new documentation or modifications to existing one.
+- `chore:`  
+  A `chore` type commit introduces changes that user won't see, e.g: action workflow, `.gitkeep`, and `.gitignore`.
+
+Break changes uses exclamation mark as commit type suffix, e.g: `feat!: changes existing icon`. And commit message is written in english.
