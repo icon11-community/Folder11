@@ -1,15 +1,12 @@
-# Folder11
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46255322/144792780-db2a2947-2a69-4788-ba15-6ae0b6a49a7d.png"  style="width:300px;height:300px;"/>
+</p>
 
-[
-![English](https://img.shields.io/badge/-English-blue)
+[![English](https://img.shields.io/badge/-English-blue)
 ](/README.md)
-[
-![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-blue)
+[![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-blue)
 ](/README.id.md)
-
-![image](https://user-images.githubusercontent.com/46255322/144792780-db2a2947-2a69-4788-ba15-6ae0b6a49a7d.png)
-[
-![Facebook](https://img.shields.io/badge/Facebook%20Group-Sun%20Valley%20Indonesia-blue?logo=facebook)
+[![Facebook](https://img.shields.io/badge/Facebook%20Group-Sun%20Valley%20Indonesia-blue?logo=facebook)
 ](https://www.facebook.com/groups/sunvalleyindonesia/)
 
 Folder11 ikon direktori khusus yang dibuat mirip dengan gaya ikon pada Windows 11.
