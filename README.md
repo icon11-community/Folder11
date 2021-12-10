@@ -9,7 +9,7 @@
 [![Facebook](https://img.shields.io/badge/Facebook%20Group-Sun%20Valley%20Indonesia-blue?logo=facebook)
 ](https://www.facebook.com/groups/sunvalleyindonesia/)
 
-Folder11 is Windows 11-like custom directory icon.
+Folder11 is Windows 11-like custom directory icon. See [Folder11-ico](https://github.com/icon11-community/Folder11-ico) for ICO format.
 
 > We do not affiliated with Microsoft.
 
