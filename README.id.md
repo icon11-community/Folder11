@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Icon11-community.png" style="width:300px;height:300px;"/>
+  <img src="https://github.com/Icon11-community.png?size=250" alt="logo"/>
 </p>
 
 [![English](https://img.shields.io/badge/-English-blue)
@@ -10,8 +10,6 @@
 ](https://www.facebook.com/groups/sunvalleyindonesia/)
 
 Folder11 ikon direktori khusus yang dibuat mirip dengan gaya ikon pada Windows 11.
-
-> Kami tidak berafiliasi dengan Microsoft.
 
 ## Daftar Isi
 
