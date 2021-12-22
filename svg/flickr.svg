@@ -11,9 +11,11 @@
 <g filter="url(#filter1_ii_657_15301)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="url(#paint1_linear_657_15301)"/>
 </g>
+<g filter="url(#filter2_d_657_15301)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M95.1304 135.337H99.9651V153.997H108.175V135.338H114.013V129.385H108.175V127.874C108.175 125.464 108.996 123.952 111.094 123.952C112.325 123.952 113.01 124.094 113.694 124.33L114.195 118.473C114.101 118.456 114.004 118.438 113.905 118.42C112.897 118.235 111.618 118 109.999 118C103.431 118 100.102 120.551 100.102 127.874V129.385H95.1304V135.337ZM125.725 118.567H117.515V153.996H125.725V118.567ZM138.342 119.134H130.133V125.369H138.342V119.134ZM138.342 129.385H130.133V153.996H138.342V129.385ZM156.084 135.053C158.045 135.053 159.55 135.479 161.055 136.423L161.649 130.188C159.778 129.244 157.589 128.818 155.126 128.818C147.281 128.818 141.307 133.542 141.307 141.715C141.307 149.84 147.281 154.564 155.126 154.564C157.316 154.564 159.778 154.186 161.831 153.477L161.649 147.147C160.281 147.903 158.41 148.328 156.54 148.328C152.983 148.328 149.79 145.777 149.79 141.856C149.79 137.604 152.526 135.053 156.084 135.053ZM173.684 139.731H173.592V118.567H165.383V153.996H173.592V141.809H173.684L180.251 153.996H190.194L181.255 140.675L189.51 129.385H180.525L173.684 139.731ZM207.303 135.904C208.261 135.904 209.173 135.904 210.085 136.187L210.496 129.101C209.675 128.96 208.671 128.818 207.714 128.818C204.156 128.818 202.104 130.802 200.69 133.92H200.599V129.385H193.119V153.996H201.328V143.604C201.328 138.785 203.472 135.904 207.303 135.904Z" fill="white"/>
 <circle cx="54.9781" cy="136.311" r="7.97813" fill="#0063DC"/>
 <circle cx="74.858" cy="136.311" r="7.97813" fill="#FF0084"/>
+</g>
 <defs>
 <filter id="filter0_f_657_15301" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
@@ -34,14 +36,23 @@
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
 <feBlend mode="soft-light" in2="effect1_innerShadow_657_15301" result="effect2_innerShadow_657_15301"/>
 </filter>
+<filter id="filter2_d_657_15301" x="43" y="118" width="171.496" height="44.564" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_657_15301"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_657_15301" result="shape"/>
+</filter>
 <linearGradient id="paint0_linear_657_15301" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
 <stop stop-color="#05815D"/>
 <stop offset="1" stop-color="#0C575F"/>
 </linearGradient>
 <linearGradient id="paint1_linear_657_15301" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF8AC7"/>
-<stop offset="0.494792" stop-color="#E7CBF2"/>
-<stop offset="1" stop-color="#87A4C7"/>
+<stop offset="0.286458" stop-color="#FFAEEB"/>
+<stop offset="1" stop-color="#099FFC"/>
 </linearGradient>
 </defs>
 </svg>
