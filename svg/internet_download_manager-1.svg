@@ -11,9 +11,9 @@
 <g filter="url(#filter1_ii_659_15738)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="url(#paint1_linear_659_15738)"/>
 </g>
-<path d="M88.3611 183.861L117.334 146.22L179.682 141.565L88.3611 183.861Z" fill="#020504"/>
-<path d="M117.333 146.22L89.6026 97C98.0507 102.005 153.131 129.018 179.682 141.565L117.333 146.22Z" fill="#00FF32"/>
-<path d="M117.333 146.22L89.6026 97L88.3611 183.861L117.333 146.22Z" fill="#00871C"/>
+<path d="M88.3611 183.861L117.334 146.22L179.682 141.565L88.3611 183.861Z" fill="#0C683E"/>
+<path d="M117.333 146.22L89.6026 97C98.0507 102.005 153.131 129.018 179.682 141.565L117.333 146.22Z" fill="#98D9B0"/>
+<path d="M117.333 146.22L89.6026 97L88.3611 183.861L117.333 146.22Z" fill="#4EAF76"/>
 <defs>
 <filter id="filter0_f_659_15738" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
@@ -39,8 +39,8 @@
 <stop offset="1" stop-color="#0C575F"/>
 </linearGradient>
 <linearGradient id="paint1_linear_659_15738" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
-<stop offset="0.375" stop-color="#055A43"/>
-<stop offset="1" stop-color="#044C5C"/>
+<stop offset="0.375" stop-color="#C8FFF0"/>
+<stop offset="1" stop-color="#5EB5C8"/>
 </linearGradient>
 </defs>
 </svg>
