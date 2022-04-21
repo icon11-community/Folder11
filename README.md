@@ -2,12 +2,14 @@
   <img src="https://github.com/Icon11-community.png?size=250" alt="logo"/>
 </p>
 
-[![English](https://img.shields.io/badge/-English-blue)
+[![English](https://img.shields.io/badge/-English-E4405F?style=for-the-badge)
 ](/README.md)
-[![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-blue)
+[![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
 ](/README.id.md)
-[![Facebook](https://img.shields.io/badge/Facebook%20Group-Sun%20Valley%20Indonesia-blue?logo=facebook)
+[![Facebook](https://img.shields.io/badge/Sun%20Valley%20Indonesia-1877F2?style=for-the-badge&logo=facebook&logoColor=white)
 ](https://www.facebook.com/groups/sunvalleyindonesia/)
+[![Eleven Forum](https://img.shields.io/badge/Eleven%20Forum-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+](https://www.elevenforum.com/t/custom-icons-for-windows-11-thread-folders-dropbox-google-drive-podcasts-nvme-drive-steam-adobe.448)
 
 Folder11 is Windows 11-like custom directory icon. See [Folder11-ico](https://github.com/icon11-community/Folder11-ico) for ICO format.
 
