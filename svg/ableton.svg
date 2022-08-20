@@ -1,1 +1,47 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256"><defs><style>.cls-1,.cls-3,.cls-5,.cls-6,.cls-7,.cls-8{fill-rule:evenodd;}.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#fff;}.cls-3{fill:#0c0c0c;}.cls-4{mask:url(#mask);}.cls-5{fill:#a6a1a1;}.cls-6{fill:url(#linear-gradient-2);}.cls-7{fill:url(#linear-gradient-3);}.cls-8{fill:url(#linear-gradient-4);}</style><linearGradient id="linear-gradient" x1="32.58" y1="239.55" x2="213.35" y2="58.41" gradientTransform="matrix(1, 0, 0, -1, 0, 258)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#05815d"/><stop offset="1" stop-color="#0c575f"/></linearGradient><mask id="mask" x="17" y="34" width="224" height="138" maskUnits="userSpaceOnUse"><g id="mask0_501_11930" data-name="mask0 501 11930"><path class="cls-1" d="M104.43,42.38A23,23,0,0,0,86.67,34H29A12,12,0,0,0,17,46V160a12,12,0,0,0,12,12H229a12,12,0,0,0,12-12V70.14a12,12,0,0,0-12-12H117.4Z"/></g></mask><linearGradient id="linear-gradient-2" x1="17" y1="196" x2="241" y2="48" gradientTransform="matrix(1, 0, 0, -1, 0, 258)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#474747"/><stop offset="0.95" stop-color="#0f0f0f"/></linearGradient><linearGradient id="linear-gradient-3" x1="16.93" y1="57.32" x2="240.94" y2="54.82" gradientTransform="matrix(1, 0, 0, -1, 0, 258)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1f1f1f"/><stop offset="1"/></linearGradient><linearGradient id="linear-gradient-4" x1="17" y1="182" x2="241" y2="182" gradientTransform="matrix(1, 0, 0, -1, 0, 258)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#575757"/><stop offset="1" stop-color="#262626"/></linearGradient></defs><rect class="cls-2" width="256" height="256"/><path class="cls-3" d="M104.43,42.38A23,23,0,0,0,86.67,34H29A12,12,0,0,0,17,46V160a12,12,0,0,0,12,12H229a12,12,0,0,0,12-12V70.14a12,12,0,0,0-12-12H117.4Z"/><g class="cls-4"><path class="cls-5" d="M92.79,74a23,23,0,0,0,13.8-4.6l9.87-7.4H229a12,12,0,0,1,12,12v86a12,12,0,0,1-12,12H29a12,12,0,0,1-12-12V86A12,12,0,0,1,29,74H92.79Z"/></g><path class="cls-6" d="M92.79,74a23,23,0,0,0,13.8-4.6l9.87-7.4H229a12,12,0,0,1,12,12V198a12,12,0,0,1-12,12H29a12,12,0,0,1-12-12V86A12,12,0,0,1,29,74H92.79Z"/><path class="cls-7" d="M17,194v4a12,12,0,0,0,12,12H229a12,12,0,0,0,12-12v-4a12,12,0,0,1-12,12H29A12,12,0,0,1,17,194Z"/><path class="cls-8" d="M106.59,69.4A23,23,0,0,1,92.79,74H29A12,12,0,0,0,17,86v4A12,12,0,0,1,29,78H92.79a23,23,0,0,0,13.8-4.6l9.87-7.4H229a12,12,0,0,1,12,12V74a12,12,0,0,0-12-12H116.46Z"/><path id="Icon" class="cls-2" d="M66.55,170.76a1,1,0,0,1-1,1H58.31a1.06,1.06,0,0,1-1.1-1v-66a1.11,1.11,0,0,1,1.1-.94h7.23a1.09,1.09,0,0,1,1,.94v66Zm18.91,0a1,1,0,0,1-1,1H77.22a1,1,0,0,1-1.09-1v-66a1.1,1.1,0,0,1,1.09-.94h7.23a1.08,1.08,0,0,1,1,.94v66Zm18.92,0a1,1,0,0,1-1,1H96.14a1.06,1.06,0,0,1-1.1-1v-66a1.11,1.11,0,0,1,1.1-.94h7.23a1.09,1.09,0,0,1,1,.94Zm19,0a1,1,0,0,1-1,1h-7.23a1.06,1.06,0,0,1-1.1-1v-66a1.11,1.11,0,0,1,1.1-.94h7.23a1.09,1.09,0,0,1,1,.94Zm74.4-67a1,1,0,0,1,1,1v7.44a1.05,1.05,0,0,1-1,1.12H133.63a1.11,1.11,0,0,1-.92-1.12v-7.44a1.1,1.1,0,0,1,.92-1Zm0,19.54a1,1,0,0,1,1,1v7.44a1.06,1.06,0,0,1-1,1.12H133.63a1.12,1.12,0,0,1-.92-1.12v-7.44a1.09,1.09,0,0,1,.92-1Zm0,19.45a1,1,0,0,1,1,1v7.43a1.06,1.06,0,0,1-1,1.13H133.63a1.11,1.11,0,0,1-.92-1.13v-7.43a1.09,1.09,0,0,1,.92-1Zm0,19.44a1,1,0,0,1,1,1v7.43a1.06,1.06,0,0,1-1,1.13H133.63a1.12,1.12,0,0,1-.92-1.13v-7.43a1.11,1.11,0,0,1,.92-1Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#0C0C0C;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#A6A1A1;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000124149576021241087170000014775825117506879905_);}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000182486015643534154660000006695775639984944311_);}
+	.st5{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M104.4,42.4c-4.4-5.3-10.9-8.4-17.8-8.4H29c-6.6,0-12,5.4-12,12v114c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12
+	V70.1c0-6.6-5.4-12-12-12H117.4L104.4,42.4z"/>
+<g>
+	<path class="st1" d="M92.8,74c5,0,9.8-1.6,13.8-4.6l9.9-7.4H229c6.6,0,12,5.4,12,12v86c0,6.6-5.4,12-12,12H29c-6.6,0-12-5.4-12-12
+		V86c0-6.6,5.4-12,12-12H92.8z"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="17" y1="884" x2="241" y2="1032" gradientTransform="matrix(1 0 0 1 0 -822)">
+	<stop  offset="0" style="stop-color:#474747"/>
+	<stop  offset="0.95" style="stop-color:#0F0F0F"/>
+</linearGradient>
+<path class="st2" d="M92.8,74c5,0,9.8-1.6,13.8-4.6l9.9-7.4H229c6.6,0,12,5.4,12,12v124c0,6.6-5.4,12-12,12H29c-6.6,0-12-5.4-12-12
+	V86c0-6.6,5.4-12,12-12H92.8z"/>
+<linearGradient id="SVGID_00000082353505297022476590000000324896395471984519_" gradientUnits="userSpaceOnUse" x1="16.9254" y1="1022.6826" x2="240.9429" y2="1025.1827" gradientTransform="matrix(1 0 0 1 0 -822)">
+	<stop  offset="0" style="stop-color:#1F1F1F"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000082353505297022476590000000324896395471984519_);" d="
+	M17,194v4c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12v-4c0,6.6-5.4,12-12,12H29C22.4,206,17,200.6,17,194z"/>
+<linearGradient id="SVGID_00000060021789432791997330000015248265096477928089_" gradientUnits="userSpaceOnUse" x1="17" y1="898" x2="241" y2="898" gradientTransform="matrix(1 0 0 1 0 -822)">
+	<stop  offset="0" style="stop-color:#575757"/>
+	<stop  offset="1" style="stop-color:#262626"/>
+</linearGradient>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000060021789432791997330000015248265096477928089_);" d="
+	M106.6,69.4c-4,3-8.8,4.6-13.8,4.6H29c-6.6,0-12,5.4-12,12v4c0-6.6,5.4-12,12-12h63.8c5,0,9.8-1.6,13.8-4.6l9.9-7.4H229
+	c6.6,0,12,5.4,12,12v-4c0-6.6-5.4-12-12-12H116.5L106.6,69.4z"/>
+<path id="Icon" class="st5" d="M66.6,170.8c0,0.6-0.4,1-1,1h-7.2c-0.6,0-1.1-0.4-1.1-1v-66c0.1-0.5,0.6-0.9,1.1-0.9h7.2
+	c0.5,0,0.9,0.4,1,0.9L66.6,170.8L66.6,170.8z M85.5,170.8c0,0.6-0.4,1-1,1h-7.2c-0.6,0-1-0.4-1.1-0.9c0,0,0-0.1,0-0.1v-66
+	c0.1-0.5,0.5-0.9,1.1-0.9h7.2c0.5,0,0.9,0.4,1,0.9L85.5,170.8L85.5,170.8z M104.4,170.8c0,0.6-0.4,1-1,1h-7.2c-0.6,0-1.1-0.4-1.1-1
+	v-66c0.1-0.5,0.6-0.9,1.1-0.9h7.2c0.5,0,0.9,0.4,1,0.9L104.4,170.8z M123.4,170.8c0,0.6-0.4,1-1,1h-7.2c-0.6,0-1.1-0.4-1.1-1v-66
+	c0.1-0.5,0.6-0.9,1.1-0.9h7.2c0.5,0,0.9,0.4,1,0.9V170.8z M197.8,103.8c0.6,0,1,0.4,1,1v7.4c0,0.6-0.4,1.1-1,1.1c0,0,0,0,0,0h-64.1
+	c-0.5-0.1-0.9-0.6-0.9-1.1v-7.4c0-0.5,0.4-0.9,0.9-1H197.8z M197.8,123.3c0.6,0,1,0.4,1,1v7.4c0,0.6-0.4,1.1-1,1.1c0,0,0,0,0,0
+	h-64.1c-0.5-0.1-0.9-0.6-0.9-1.1v-7.4c0-0.5,0.4-0.9,0.9-1L197.8,123.3z M197.8,142.8c0.6,0,1,0.4,1,1v7.4c0,0.6-0.4,1.1-1,1.1
+	c0,0,0,0,0,0h-64.1c-0.5-0.1-0.9-0.6-0.9-1.1v-7.4c0-0.5,0.4-0.9,0.9-1H197.8z M197.8,162.2c0.6,0,1,0.4,1,1v7.4
+	c0,0.6-0.4,1.1-1,1.1c0,0,0,0,0,0h-64.1c-0.5-0.1-0.9-0.6-0.9-1.1v-7.4c0-0.5,0.4-0.9,0.9-1H197.8z"/>
+</svg>
