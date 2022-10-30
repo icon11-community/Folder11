@@ -62,6 +62,8 @@ Folder11
 - `docs:`  
   Jenis commit `docs` merupakan penambahan/perubahan dokumentasi.
 - `chore:`  
-  Jenis commit `chore` merupakan perubahan yang tidak terlihat pengguna, misalnya: action workflow, `.gitkeep`, dan `.gitignore`.
+  Jenis commit `chore` merupakan perubahan yang tidak terlihat pengguna, misalnya: `.gitkeep` dan `.gitignore`.
+- `ci:`  
+  Jenis commit `ci` merupakan perubahan yang meliputi workflow action.
 
 Perubahan besar harus menggunakan tanda seru sebagai sufiks dari jenis commit, misalnya: `feat!: changes existing icon`. Dan pesan commit haruslah berbahasa inggris.

@@ -63,6 +63,8 @@ Folder11
 - `docs:`  
   A `docs` type commit introduces new documentation or modifications to existing one.
 - `chore:`  
-  A `chore` type commit introduces changes that user won't see, e.g: action workflow, `.gitkeep`, and `.gitignore`.
+  A `chore` type commit introduces changes that user won't see, e.g: `.gitkeep` and `.gitignore`.
+- `ci:`  
+  A `ci` type commit introduces new or modification to action workflow.
 
 Break changes uses exclamation mark as commit type suffix, e.g: `feat!: changes existing icon`. And commit message is written in english.
