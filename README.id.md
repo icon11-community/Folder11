@@ -2,6 +2,8 @@
   <img src="https://github.com/Icon11-community.png?size=250" alt="logo"/>
 </p>
 
+> Icons may or may not contain trademarks, registered trademarks, or branded logos. You are allowed to use these icons for personal purposes only. You are not allowed to use them for any other purpose, including but not limited to commercial use, without the express permission of the copyright holder of the trademark, registered trademark, or branded logo.
+
 [![English](https://img.shields.io/badge/-English-E4405F?style=for-the-badge)
 ](/README.md)
 [![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
