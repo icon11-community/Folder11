@@ -24,7 +24,7 @@ body:
    attributes:
     label: Issue tracker rule checks (please read carefully)
     options:
-     - label: "I have checked that my problem <a href='https://github.com/PSGitHubUser1/Folder11/issues' target='_blank'>is not already reported</a>"
+     - label: "I have checked that my problem <a href='https://github.com/icon11-community/Folder11/issues' target='_blank'>is not already reported</a>"
        required: true
      - label: "I have checked that my problem is not already fixed"
        required: true
