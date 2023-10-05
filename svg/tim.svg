@@ -5,27 +5,21 @@
       .cls-1 {
         fill: #fff;
       }
-
       .cls-2 {
         fill: url(#_未命名的渐变_5);
       }
-
       .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         fill-rule: evenodd;
       }
-
       .cls-3 {
         fill: url(#_未命名的渐变_4-2);
       }
-
       .cls-4 {
         fill: url(#_未命名的渐变_3);
       }
-
       .cls-5 {
         fill: url(#_未命名的渐变_4);
       }
-
       .cls-6 {
         fill: #a6a1a1;
       }
