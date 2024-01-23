@@ -1,0 +1,74 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #926e43;
+      }
+
+      .cls-3, .cls-9 {
+        fill: #643513;
+      }
+
+      .cls-4 {
+        mask: url(#mask);
+      }
+
+      .cls-10, .cls-5, .cls-7 {
+        fill: #a67e4f;
+      }
+
+      .cls-6 {
+        fill: #472610;
+      }
+
+      .cls-7, .cls-9 {
+        stroke: #472610;
+        stroke-width: 2px;
+      }
+
+      .cls-10, .cls-7, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        fill: #876641;
+      }
+
+      .cls-10 {
+        stroke: #512a10;
+        stroke-width: 1.5px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="32.58" y1="239.55" x2="213.35" y2="58.41" gradientTransform="matrix(1, 0, 0, -1, 0, 258)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05815d"/>
+      <stop offset="1" stop-color="#0c575f"/>
+    </linearGradient>
+    <mask id="mask" x="17" y="34" width="224" height="138" maskUnits="userSpaceOnUse">
+      <g id="mask0_501_11930" data-name="mask0 501 11930">
+        <path class="cls-1" d="M104.43,42.38A23,23,0,0,0,86.67,34H29A12,12,0,0,0,17,46V160a12,12,0,0,0,12,12H229a12,12,0,0,0,12-12V70.14a12,12,0,0,0-12-12H117.4Z"/>
+      </g>
+    </mask>
+  </defs>
+  <g>
+    <path class="cls-2" d="M29,171a11,11,0,0,1-11-11V46A11,11,0,0,1,29,35H86.67a21.92,21.92,0,0,1,17,8l13.28,16.13H229a11,11,0,0,1,11,11V160a11,11,0,0,1-11,11Z"/>
+    <path class="cls-3" d="M86.67,36a20.93,20.93,0,0,1,16.21,7.65l13,15.76.6.73H229a10,10,0,0,1,10,10V160a10,10,0,0,1-10,10H29a10,10,0,0,1-10-10V46A10,10,0,0,1,29,36H86.67m0-2H29A12,12,0,0,0,17,46V160a12,12,0,0,0,12,12H229a12,12,0,0,0,12-12V70.14a12,12,0,0,0-12-12H117.4l-13-15.76A23,23,0,0,0,86.67,34Z"/>
+  </g>
+  <g class="cls-4">
+    <path class="cls-2" d="M92.79,74a23,23,0,0,0,13.8-4.6l9.87-7.4H229a12,12,0,0,1,12,12v86a12,12,0,0,1-12,12H29a12,12,0,0,1-12-12V86A12,12,0,0,1,29,74H92.79Z"/>
+  </g>
+  <path class="cls-5" d="M241,92.29V198a12,12,0,0,1-12,12H29a12,12,0,0,1-12-12V92.29Z"/>
+  <path class="cls-6" d="M17,194v4a12,12,0,0,0,12,12H229a12,12,0,0,0,12-12v-4a12,12,0,0,1-12,12H29A12,12,0,0,1,17,194Z"/>
+  <path class="cls-2" d="M106.59,69.4A23,23,0,0,1,92.79,74H29A12,12,0,0,0,17,86v4A12,12,0,0,1,29,78H92.79a23,23,0,0,0,13.8-4.6l9.87-7.4H229a12,12,0,0,1,12,12V74a12,12,0,0,0-12-12H116.46Z"/>
+  <rect class="cls-7" x="18" y="77.21" width="221.98" height="128.79" rx="12.21"/>
+  <rect class="cls-8" x="19" y="84.29" width="219.96" height="18"/>
+  <rect class="cls-9" x="100.86" y="114" width="54.29" height="13.86" rx="6.93"/>
+  <rect class="cls-10" x="7.86" y="69" width="242.29" height="26.29"/>
+</svg>
