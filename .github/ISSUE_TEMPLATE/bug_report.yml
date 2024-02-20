@@ -1,0 +1,30 @@
+name: Bug report
+description: Create a report to help us improve (search for duplicates first)
+labels: bug
+body:
+ - type: textarea
+   attributes:
+    label: Issue description
+    description: Explain clearly what went wrong
+    placeholder: |
+      Tell us here about the bug...
+   validations:
+    required: true
+ - type: textarea  
+   attributes:
+    label: How to reproduce this issue?
+    description: Tell steps to reproduce it. Or send a screenshot.
+    placeholder: |
+      Step 1: ...
+      Step 2: ...
+      ...
+   validations:
+     required: false
+ - type: checkboxes
+   attributes:
+    label: Issue tracker rule checks (please read carefully)
+    options:
+     - label: "I have checked that my problem <a href='https://github.com/icon11-community/Folder11/issues' target='_blank'>is not already reported</a>"
+       required: true
+     - label: "I have checked that my problem is not already fixed"
+       required: true
