@@ -21,6 +21,14 @@ def convert_svg_to_ico(input_folder:str, output_folder:str, sizes:Tuple[int, ...
         if len(parts) != 2: return False
         return parts[1][:-2].isdigit()
     
+    def delete_folder(folder_path):
+        folder = Path(folder_path)
+        if folder.exists() and folder.is_dir():
+            for item in folder.iterdir():
+                if item.is_file():
+                    item.unlink()
+        folder.rmdir()
+    
     sizes = sorted(sizes)
 
     base_filenames:List[str] = [filename for filename in os.listdir(input_folder) if filename.lower().endswith('.svg') 
@@ -45,7 +53,8 @@ def convert_svg_to_ico(input_folder:str, output_folder:str, sizes:Tuple[int, ...
         inputs.append({'path': os.path.join(input_folder, base_filename), 'maximum_size': sizes[-1]})
         
         # Step 1: Convert input.svg's to throughput.png's using Imagemagick
-        throughput_paths:List[str] = [os.path.join(output_folder, f'{base_filename[:-4]}-{size_index}.png') for size_index in range(len(sizes))]
+        Path("temp_pngs").mkdir(parents=True, exist_ok=True)
+        throughput_paths:List[str] = [os.path.join("temp_pngs", f'{base_filename[:-4]}-{size_index}.png') for size_index in range(len(sizes))]
         size_index:int = 0
         # print(inputs)
         input:Dict[str, int | str] = inputs.pop(0)
@@ -72,6 +81,7 @@ def convert_svg_to_ico(input_folder:str, output_folder:str, sizes:Tuple[int, ...
             size_index += 1
         
         # Step 2: Combine throughput.png's to final output.ico using Imagemagick
+        Path(output_folder).mkdir(parents=True, exist_ok=True)
         output_filename:str = os.path.splitext(base_filename)[0] + '.ico'
         output_path:str = os.path.join(output_folder, output_filename)
         try:
@@ -87,10 +97,7 @@ def convert_svg_to_ico(input_folder:str, output_folder:str, sizes:Tuple[int, ...
         except subprocess.CalledProcessError as e:
             print(f"PNG2ICO: Error converting {base_filename}: {e}")
         
-        # Create output folder if it doesn't exist
-        Path(output_folder).mkdir(parents=True, exist_ok=True)
-        for throughput_path in throughput_paths:
-            os.remove(throughput_path)
+    delete_folder("temp_pngs")
 
 if __name__ == "__main__":
     # Input folder containing .svg files
