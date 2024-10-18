@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Back_00000034790732468392318000000013741889423312406716_);}
+	.st1{display:none;}
+	.st2{display:inline;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#A6A1A1;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Front_00000080177825385108583930000011646363254843723157_);}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Bottom_Highlight_00000166671970597325528510000009789093951625309347_);}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Top_Highlight_00000145016425086563404710000006544877526321092782_);}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#A58BFE;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#C6A7FF;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#5E4AAF;}
+</style>
+<linearGradient id="Back_00000032616233138855151360000013688058141483280045_" gradientUnits="userSpaceOnUse" x1="129" y1="34" x2="129" y2="172">
+	<stop  offset="2.342358e-07" style="stop-color:#5E4AAF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path id="Back" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#Back_00000032616233138855151360000013688058141483280045_);" d="
+	M104.4,42.4C100,37.1,93.5,34,86.6,34H29c-6.6,0-12,5.4-12,12v12.1v10.1V160c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12V70.1
+	c0-6.6-5.4-12-12-12H117.4L104.4,42.4z"/>
+<g class="st1">
+	<g class="st2">
+		<path class="st3" d="M92.8,74c5,0,9.8-1.6,13.8-4.6l9.9-7.4H229c6.6,0,12,5.4,12,12v34v52c0,6.6-5.4,12-12,12H29
+			c-6.6,0-12-5.4-12-12v-52V86c0-6.6,5.4-12,12-12h58H92.8z"/>
+	</g>
+</g>
+<linearGradient id="Front_00000031195929758032337350000011644013027885403267_" gradientUnits="userSpaceOnUse" x1="16.8933" y1="185.625" x2="247.8374" y2="54.3935" gradientTransform="matrix(1 0 0 -1 0 258)">
+	<stop  offset="7.947285e-08" style="stop-color:#4F4F4F"/>
+	<stop  offset="0.3527" style="stop-color:#262626"/>
+	<stop  offset="1" style="stop-color:#0C0C0C"/>
+</linearGradient>
+<path id="Front" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#Front_00000031195929758032337350000011644013027885403267_);" d="
+	M92.8,74c5,0,9.8-1.6,13.8-4.6l9.9-7.4L229,62.1c6.6,0,12,5.4,12,12v34l-0.1,90c0,6.6-5.4,12-12,12l-200-0.1c-6.6,0-12-5.4-12-12
+	l0.1-90V86c0-6.6,5.4-12,12-12h58H92.8z"/>
+<linearGradient id="Bottom_Highlight_00000107555217071632628140000003298547635484525957_" gradientUnits="userSpaceOnUse" x1="16.9254" y1="1022.6826" x2="240.9429" y2="1025.1827" gradientTransform="matrix(1 0 0 1 0 -822)">
+	<stop  offset="0" style="stop-color:#0C0C0C"/>
+	<stop  offset="0.9957" style="stop-color:#070707"/>
+</linearGradient>
+<path id="Bottom_Highlight" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#Bottom_Highlight_00000107555217071632628140000003298547635484525957_);" d="
+	M17,194v4c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12v-4c0,6.6-5.4,12-12,12H29C22.4,206,17,200.6,17,194z"/>
+<linearGradient id="Top_Highlight_00000023246056059956270220000018432844400200308372_" gradientUnits="userSpaceOnUse" x1="17" y1="898" x2="241" y2="898" gradientTransform="matrix(1 0 0 1 0 -822)">
+	<stop  offset="2.955303e-02" style="stop-color:#5B5B5B"/>
+	<stop  offset="0.9993" style="stop-color:#212121"/>
+</linearGradient>
+<path id="Top_Highlight" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#Top_Highlight_00000023246056059956270220000018432844400200308372_);" d="
+	M106.6,69.4c-4,3-8.8,4.6-13.8,4.6H87H29c-6.6,0-12,5.4-12,12v4c0-6.6,5.4-12,12-12h58h5.8c5,0,9.8-1.6,13.8-4.6l9.9-7.4H229
+	c6.6,0,12,5.4,12,12v-4c0-6.6-5.4-12-12-12H116.5L106.6,69.4z"/>
+<g>
+	<path class="st7" d="M107.2,153.6L127,165v-22.8l-19.8-11.4V153.6z"/>
+	<polygon class="st7" points="98.7,158.5 127,174.8 127,190.8 84.8,166.5 84.8,117.8 98.7,125.8 	"/>
+	<polygon class="st8" points="129,115.8 109.2,127.2 129,138.6 148.8,127.2 	"/>
+	<polygon class="st8" points="129,106 152.8,119.8 166.7,111.8 129,90 86.9,114.3 100.8,122.3 	"/>
+	<polygon class="st9" points="159.3,158.5 159.3,141.9 150.8,146.8 150.8,153.6 131,165 131,165 131,142.1 131,142.1 173.2,117.8 
+		173.2,166.5 131,190.8 131,174.8 	"/>
+</g>
+</svg>
