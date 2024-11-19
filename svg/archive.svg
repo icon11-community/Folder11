@@ -12,7 +12,7 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M29 74C22.3726 74 17 79.3726 17 86V108V198C17 204.627 22.3726 210 29 210H229C235.627 210 241 204.627 241 198V108V86C241 79.3726 235.627 74 229 74H29Z" fill="url(#paint2_linear_493_197)"/>
 </g>
 <g filter="url(#filter2_ddi_493_197)">
-<rect x="93" y="119" width="72" height="23" rx="11.5" fill="url(#paint3_linear_493_197)"/>
+<rect x="93" y="115" width="72" height="23" rx="11.5" fill="url(#paint3_linear_493_197)"/>
 </g>
 <mask id="mask1_493_197" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="74" width="224" height="50">
 <rect x="17" y="74" width="224" height="50" fill="#D9D9D9"/>
@@ -45,7 +45,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.48 0"/>
 <feBlend mode="soft-light" in2="effect1_innerShadow_493_197" result="effect2_innerShadow_493_197"/>
 </filter>
-<filter id="filter2_ddi_493_197" x="89" y="114.5" width="79.1" height="31.1" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_ddi_493_197" x="89" y="110.5" width="79.1" height="31.1" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_493_197"/>
@@ -89,9 +89,9 @@
 <feColorMatrix type="matrix" values="0 0 0 0 0.741667 0 0 0 0 0.586798 0 0 0 0 0.404826 0 0 0 1 0"/>
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow_493_197"/>
 </filter>
-<linearGradient id="paint0_linear_493_197" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8B6B45"/>
-<stop offset="1" stop-color="#5A452C"/>
+<linearGradient id="paint0_linear_493_197" x1="17" y1="34" x2="92.8583" y2="156.104" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7A5B35"/>
+<stop offset="1" stop-color="#50381E"/>
 </linearGradient>
 <linearGradient id="paint1_linear_493_197" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
 <stop stop-color="#05815D"/>
@@ -101,7 +101,7 @@
 <stop stop-color="#A67E4F"/>
 <stop offset="1" stop-color="#7A5B39"/>
 </linearGradient>
-<linearGradient id="paint3_linear_493_197" x1="103" y1="112.5" x2="146" y2="156.5" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint3_linear_493_197" x1="103" y1="108.5" x2="146" y2="152.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="#241409"/>
 <stop offset="1" stop-color="#452712"/>
 </linearGradient>
