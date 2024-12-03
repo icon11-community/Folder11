@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over 0+ icons Folder11 for Windows</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/icon11-community/Folder11-Ico/main/ico/folder11.ico">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --secondary-text-color: #b3b3b3;
+            --card-bg-color: #1e1e1e;
+            --card-border-color: #333;
+            --hover-color: #555;
+            --skeleton-light: #333;
+            --skeleton-dark: #222;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 15px;
+            position: relative;
+        }
+        #github-logo {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            text-decoration: none;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--card-bg-color);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        #github-logo:hover {
+            background-color: var(--hover-color);
+            transform: scale(1.1);
+        }
+        #search-bar {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 20px auto 0;
+            background-color: var(--card-bg-color);
+            border: 1px solid var(--card-border-color);
+            border-radius: 6px;
+            color: var(--text-color);
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        #search-bar::placeholder {
+            color: var(--secondary-text-color);
+        }
+        main {
+            padding: 20px;
+        }
+        .icon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .icon-item {
+            background-color: var(--card-bg-color);
+            padding: 15px;
+            border: 1px solid var(--card-border-color);
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards ease;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .icon-item img {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .icon-item p {
+            font-size: 16px;
+            color: var(--text-color);
+            margin: 10px 0 5px;
+            font-weight: 500;
+        }
+        .icon-item span {
+            font-size: 12px;
+            color: var(--secondary-text-color);
+        }
+        .download-icon {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+        }
+        .icon-item:hover .download-icon {
+            opacity: 1;
+        }
+        .skeleton-item {
+            background-color: var(--card-bg-color);
+            padding: 15px;
+            border: 1px solid var(--card-border-color);
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards ease;
+        }
+        .skeleton {
+            background: linear-gradient(90deg, var(--skeleton-dark) 25%, var(--skeleton-light) 50%, var(--skeleton-dark) 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s infinite;
+        }
+        @keyframes skeleton-loading {
+            from {
+                background-position: 200% 0;
+            }
+            to {
+                background-position: -200% 0;
+            }
+        }
+        .skeleton-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            margin: auto;
+        }
+        .skeleton-text {
+            height: 16px;
+            width: 80%;
+            margin: 10px auto 5px;
+            border-radius: 4px;
+        }
+        .skeleton-size {
+            height: 12px;
+            width: 40%;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://github.com/icon11-community" target="_blank" id="github-logo" title="Visit our GitHub"></a>
+            <svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default" fill="white"></svg>
+                <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
+            </svg>
+        </a>
+        <h1>Folder11 Community</h1>
+        <input type="text" id="search-bar" placeholder="Search icons...">
+    </header>
+    <main>
+        <div id="icons-container" class="icon-list"></div>
+    </main>
+    <script>
+        const githubRepoURL = 'https://api.github.com/repos/icon11-community/Folder11-Ico/contents/ico';
+        let iconsCache = [];
+        let currentPage = 0;
+        const iconsPerPage = 48;
+
+        async function fetchIcons() {
+            displaySkeletons(6);
+            try {
+                const response = await fetch(`${githubRepoURL}`);
+                const data = await response.json();
+                iconsCache = data.filter(icon => icon.name.endsWith('.ico'));
+                updatePageTitleAndMeta(iconsCache.length);
+                displayIcons();
+            } catch (error) {
+                console.error('Error fetching icons:', error);
+                clearSkeletons();
+            }
+        }
+
+        function filterIcons(searchTerm) {
+            const filteredIcons = iconsCache.filter(icon =>
+                formatIconName(icon.name).toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            currentPage = 0;
+            displayIcons(filteredIcons, true);
+        }
+
+        function debounce(func, delay) {
+            let timeout;
+            return function (...args) {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(this, args), delay);
+            };
+        }
+
+        document.getElementById('search-bar').addEventListener(
+            'input',
+            debounce((e) => {
+                const searchTerm = e.target.value;
+                filterIcons(searchTerm);
+            }, 300)
+        );
+
+        function displayIcons(filteredIcons = iconsCache, replaceContent = false) {
+            const container = document.getElementById('icons-container');
+            if (replaceContent) {
+                container.innerHTML = '';
+            }
+            displaySkeletons(6);
+            const start = currentPage * iconsPerPage;
+            const end = start + iconsPerPage;
+            const iconsToShow = filteredIcons.slice(start, end);
+            setTimeout(() => {
+                iconsToShow.forEach(icon => {
+                    const iconItem = document.createElement('div');
+                    iconItem.classList.add('icon-item');
+                    iconItem.innerHTML = `
+                        <img src="${icon.download_url}" alt="${formatIconName(icon.name)}">
+                        <p>${formatIconName(icon.name)}</p>
+                        <span>Size: ${(icon.size / (1024 * 1024)).toFixed(2)} MB</span>
+                    `;
+                    iconItem.addEventListener('dblclick', () => downloadIcon(icon.download_url, icon.name));
+                    container.appendChild(iconItem);
+                });
+                clearSkeletons();
+            }, 500);
+        }
+
+        function displaySkeletons(count) {
+            const container = document.getElementById('icons-container');
+            for (let i = 0; i < count; i++) {
+                const skeletonItem = document.createElement('div');
+                skeletonItem.classList.add('skeleton-item');
+                skeletonItem.innerHTML = `
+                    <div class="skeleton skeleton-image"></div>
+                    <div class="skeleton skeleton-text"></div>
+                    <div class="skeleton skeleton-size"></div>
+                `;
+                container.appendChild(skeletonItem);
+            }
+        }
+
+        function clearSkeletons() {
+            const skeletons = document.querySelectorAll('.skeleton-item');
+            skeletons.forEach(skeleton => skeleton.remove());
+        }
+
+        function formatIconName(name) {
+            return name.replace('.ico', '').replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+        }
+
+        function downloadIcon(url, name) {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = name;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        window.addEventListener('scroll', () => {
+            const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+            if (scrollTop + clientHeight >= scrollHeight - 48) {
+                if ((currentPage + 1) * iconsPerPage < iconsCache.length) {
+                    currentPage++;
+                    displayIcons();
+                }
+            }
+        });
+
+        function updatePageTitleAndMeta(totalIcons) {
+            const searchBar = document.getElementById('search-bar');
+            searchBar.placeholder = `Search ${totalIcons} icons`;
+            document.title = `Over ${totalIcons}+ icons Folder11 for Windows`;
+        }
+
+        fetchIcons();
+    </script>
+</body>
+</html>
