@@ -54,19 +54,24 @@ jobs:
             output_name="$output_path/$name.ico"
             output_hash_name="$output_hash_path/$name.ico"
 
-            echo "Converting $name..."
+            echo "Processing $name..."
+            
+            if [[ -f "$output_hash_name" && "$hash" != "$(cat $output_hash_name)" ]]; then
+              echo "Different hash, delete $name..."
+              [[ -f "$output_name" ]] && rm "$output_name"
+              [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
+            fi
 
             if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" == "$(cat $output_hash_name)" ]]; then
               echo "$name is already exist."
               continue
             fi
             
+
             install_dependencies
             changed=true
 
-            [[ -f "$output_name" ]] && rm "$output_name"
-            [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
-
+            echo "Converting $name..."
             svgexport "$input_name" "$temp_name" png 1024:1024
             convert -background transparent "$temp_name" -define icon:auto-resize="256,128,96,64,48,32,16" "$output_name"
             
