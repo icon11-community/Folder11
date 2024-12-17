@@ -56,17 +56,16 @@ jobs:
 
             echo "Processing $name..."
             
-            if [[ -f "$output_hash_name" && "$hash" != "$(cat $output_hash_name)" ]]; then
-              echo "Different hash, delete $name..."
-              [[ -f "$output_name" ]] && rm "$output_name"
-              [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
-            fi
-
             if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" == "$(cat $output_hash_name)" ]]; then
               echo "$name is already exist."
               continue
             fi
-            
+
+            if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" != "$(cat $output_hash_name)" ]]; then
+              echo "Different hash, delete $name..."
+              [[ -f "$output_name" ]] && rm "$output_name"
+              [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
+            fi
 
             install_dependencies
             changed=true
