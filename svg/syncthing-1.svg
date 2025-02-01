@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 256 256"
+   version="1.1"
+   sodipodi:docname="syncthing-1.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.135131"
+     inkscape:cx="99.525508"
+     inkscape:cy="125.75341"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs9">
+    <linearGradient
+       id="linearGradient27"
+       data-name="未命名的渐变 167"
+       x1="17"
+       y1="103"
+       x2="241"
+       y2="103"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0878a1"
+         id="stop25"
+         style="stop-color:#70d6f0;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#1175b8"
+         id="stop27"
+         style="stop-color:#3fa3f0;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient24"
+       data-name="未命名的渐变 167"
+       x1="17"
+       y1="103"
+       x2="241"
+       y2="103"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0878a1"
+         id="stop22"
+         style="stop-color:#0882c8;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#1175b8"
+         id="stop24"
+         style="stop-color:#26b6db;stop-opacity:1;" />
+    </linearGradient>
+    <style
+       id="style1">
+      .cls-1 {
+        fill: url(#_未命名的渐变_145);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#_新建渐变色板_1);
+      }
+
+      .cls-8 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-9 {
+        mask: url(#mask);
+      }
+
+      .cls-4 {
+        fill: url(#_未命名的渐变_167-2);
+      }
+
+      .cls-5 {
+        fill: #a6a1a1;
+      }
+
+      .cls-6 {
+        fill: url(#_未命名的渐变_167);
+      }
+    </style>
+    <linearGradient
+       id="_未命名的渐变_167"
+       data-name="未命名的渐变 167"
+       x1="17"
+       y1="103"
+       x2="241"
+       y2="103"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0878a1"
+         id="stop1" />
+      <stop
+         offset=".8"
+         stop-color="#0f76b3"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#1175b8"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient"
+       x1="32.58"
+       y1="239.55"
+       x2="213.35"
+       y2="58.41"
+       gradientTransform="translate(0 258) scale(1 -1)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#05815d"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#0c575f"
+         id="stop5" />
+    </linearGradient>
+    <mask
+       id="mask"
+       x="17"
+       y="34"
+       width="224"
+       height="138"
+       maskUnits="userSpaceOnUse">
+      <g
+         id="mask0_501_11930"
+         data-name="mask0 501 11930">
+        <path
+           class="cls-2"
+           d="m104.43,42.38c-4.37-5.31-10.88-8.38-17.75-8.38H29c-6.63,0-12,5.37-12,12v114c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12v-89.86c0-6.63-5.37-12-12-12h-111.6l-12.98-15.76Z"
+           id="path5" />
+      </g>
+    </mask>
+    <linearGradient
+       id="_新建渐变色板_1"
+       data-name="新建渐变色板 1"
+       x1="17"
+       y1="196"
+       x2="241"
+       y2="48"
+       gradientTransform="translate(0 258) scale(1 -1)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0882c8"
+         id="stop6"
+         style="stop-color:#cae8fd;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#26b6db"
+         id="stop7"
+         style="stop-color:#b3e7f4;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="_未命名的渐变_167-2"
+       data-name="未命名的渐变 167"
+       x1="16.93"
+       y1="57.32"
+       x2="240.94"
+       y2="54.82"
+       gradientTransform="translate(0 258) scale(1 -1)"
+       xlink:href="#linearGradient27" />
+    <linearGradient
+       id="_未命名的渐变_145"
+       data-name="未命名的渐变 145"
+       x1="17"
+       y1="182"
+       x2="241"
+       y2="182"
+       gradientTransform="translate(0 258) scale(1 -1)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#82dcff"
+         id="stop8"
+         style="stop-color:#d5f2ff;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#70e7ff"
+         id="stop9"
+         style="stop-color:#b8f5ff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient24"
+       id="linearGradient22"
+       x1="17"
+       y1="64.910736"
+       x2="241"
+       y2="210"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     class="cls-6"
+     d="m104.43,42.38c-4.37-5.31-10.88-8.38-17.75-8.38H29c-6.63,0-12,5.37-12,12v114c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12v-89.86c0-6.63-5.37-12-12-12h-111.6l-12.98-15.76Z"
+     id="path9" />
+  <g
+     class="cls-9"
+     mask="url(#mask)"
+     id="g10">
+    <path
+       class="cls-5"
+       d="m92.79,74c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v86c0,6.63-5.37,12-12,12H29c-6.63,0-12-5.37-12-12v-74c0-6.63,5.37-12,12-12h63.79Z"
+       id="path10" />
+  </g>
+  <path
+     class="cls-3"
+     d="m92.79,74c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v124c0,6.63-5.37,12-12,12H29c-6.63,0-12-5.37-12-12v-112c0-6.63,5.37-12,12-12h63.79Z"
+     id="path11" />
+  <path
+     class="cls-4"
+     d="m17,194v4c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12v-4c0,6.63-5.37,12-12,12H29c-6.63,0-12-5.37-12-12Z"
+     id="path12" />
+  <path
+     class="cls-1"
+     d="m106.59,69.4c-3.98,2.98-8.82,4.6-13.8,4.6H29c-6.63,0-12,5.37-12,12v4c0-6.63,5.37-12,12-12h63.79c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v-4c0-6.63-5.37-12-12-12h-112.54l-9.87,7.4Z"
+     id="path13" />
+  <g
+     id="g18"
+     style="fill-opacity:1;fill:url(#linearGradient22)">
+    <path
+       id="line17"
+       style="fill:url(#linearGradient22);stroke-miterlimit:10;fill-opacity:1.0"
+       d="m 139.10352,140.57227 -50.898442,4.70117 0.550781,5.97461 50.900391,-4.70118 z M 93.08,140.56 c -4.3,-2.5 -9.8,-1.1 -12.3,3.1 -2.5,4.3 -1.1,9.8 3.1,12.3 4.3,2.5 9.8,1.1 12.3,-3.1 2.5,-4.2 1.1,-9.7 -3.1,-12.3 z m 38.8,7.9 c 2.7,4.2 8.3,5.4 12.4,2.7 4.2,-2.7 5.4,-8.3 2.7,-12.4 -2.7,-4.2 -8.3,-5.4 -12.4,-2.7 -4.2,2.6 -5.4,8.2 -2.7,12.4 z m 9.9657,-6.61039 -4.93164,3.41992 19,27.40039 4.93164,-3.41992 z M 149.48,170.16 c -0.4,4.9 3.2,9.3 8.2,9.8 5,0.4 9.3,-3.2 9.8,-8.2 0.4,-4.9 -3.2,-9.3 -8.2,-9.8 -5,-0.4 -9.4,3.2 -9.8,8.2 z m 18.0825,-53.90805 -30.09961,25 3.83398,4.61524 30.09961,-25 z M 166.58,126.96 c 4.7,1.6 9.8,-0.9 11.4,-5.6 1.6,-4.7 -0.9,-9.8 -5.6,-11.4 -4.7,-1.6 -9.8,0.9 -11.4,5.6 -1.6,4.7 0.9,9.8 5.6,11.4 z M 130.58008,90.960937 c -25.75616,2e-6 -46.699218,20.943053 -46.699221,46.699223 10e-7,25.75616 20.943051,46.69921 46.699221,46.69921 25.75616,0 46.69922,-20.94305 46.69922,-46.69921 -1e-5,-25.75617 -20.94306,-46.699222 -46.69922,-46.699223 z m 0,6 c 22.51352,10e-7 40.69921,18.185693 40.69922,40.699223 0,22.51352 -18.1857,40.69921 -40.69922,40.69921 -22.51352,0 -40.69922,-18.18569 -40.699221,-40.69921 2e-6,-22.51353 18.185701,-40.699221 40.699221,-40.699223 z"
+       inkscape:label="logo" />
+  </g>
+</svg>
