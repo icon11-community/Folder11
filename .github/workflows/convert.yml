@@ -1,9 +1,5 @@
 name: Convert to ico
 on:
-  # push:
-  #   branches: [main]
-  # pull_request:
-  #   branches: [main]
   workflow_dispatch:
     branches: [main]
 
@@ -47,61 +43,58 @@ jobs:
 
           for i in $(ls "$input_path" | grep '\.svg$'); do
             name="$(echo $i | sed -E 's/^(.+)\.svg$/\1/')"
-            hash="$(git -C "$svg_repo" hash-object ".github/workflows/convert.yml")"
-
             input_name="$input_path/$name.svg"
+            
+            # Gunakan hash dari file SVG itu sendiri
+            hash="$(git -C "$svg_repo" hash-object "$input_name")"
+
             temp_name="$temp_path/$name.png"
             output_name="$output_path/$name.ico"
             output_hash_name="$output_hash_path/$name.ico"
 
-            echo "Converting $name..."
+            echo "Checking $name..."
 
+            # Cek apakah hash sama dengan yang tersimpan
             if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" == "$(cat $output_hash_name)" ]]; then
-              echo "$name is already exist."
+              echo "$name tidak berubah, skip."
               continue
             fi
             
             install_dependencies
             changed=true
 
+            echo "Mengkonversi $name..."
             [[ -f "$output_name" ]] && rm "$output_name"
             [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
 
             svgexport "$input_name" "$temp_name" png 1024:1024
             convert -background transparent "$temp_name" -define icon:auto-resize="256,128,96,64,48,32,16" "$output_name"
             
-            echo "$hash" >$output_hash_name
-            
-            echo "$name successfully converted."
-
+            echo "$hash" > "$output_hash_name"
+            echo "$name selesai dikonversi."
           done
 
-          for name in $(echo $(ls "$output_path") $(ls "$output_hash_name") | grep -E '\.ico$' | sed -E 's/^(.*)\.ico$/\1/' | uniq); do
+          # Hapus ikon yang tidak memiliki file SVG
+          for ico_file in $(ls "$output_path" | grep '\.ico$'); do
+            name="$(echo $ico_file | sed -E 's/^(.+)\.ico$/\1/')"
             input_name="$input_path/$name.svg"
-            output_name="$output_path/$name.ico"
-            output_hash_name="$output_hash_path/$name.ico"
-
+            
             if [[ ! -f "$input_name" ]]; then
-              echo "Removing $name..."
-              [[ -f "$output_name" ]] && rm "$output_name"
-              [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
+              echo "Menghapus $name..."
+              rm -f "$output_path/$name.ico"
+              rm -f "$output_hash_path/$name.ico"
             fi
           done
 
-          echo "Cleaning temp..."
+          echo "Membersihkan temp..."
           rm -rf "$temp_path"
 
           if [[ "$changed" == 'true' ]]; then
-            echo "Push changes..."
-            commit_name="gen: $(git -C "$svg_repo" show -q | grep "commit" | awk '{print $2}')"
-            echo "$commit_name"
+            echo "Push perubahan..."
+            commit_name="gen: $(git -C "$svg_repo" log -1 --pretty=format:'%h')"
             git -C "$ico_repo" config user.name github-actions
             git -C "$ico_repo" config user.email github-actions@github.com
-            echo test config
             git -C "$ico_repo" add .
-            echo test add
             git -C "$ico_repo" commit -m "$commit_name"
-            echo test commit
             git -C "$ico_repo" push
-            echo test commit
           fi
