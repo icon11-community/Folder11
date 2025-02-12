@@ -43,9 +43,9 @@ jobs:
 
           for i in $(ls "$input_path" | grep '\.svg$'); do
             name="$(echo $i | sed -E 's/^(.+)\.svg$/\1/')"
-            hash="$(git -C "$svg_repo" hash-object ".github/workflows/convert.yml")"
+            input_name="./svg/$name.svg"
+            hash="$(git -C "$svg_repo" hash-object "$input_name")"
 
-            input_name="$input_path/$name.svg"
             temp_name="$temp_path/$name.png"
             output_name="$output_path/$name.ico"
             output_hash_name="$output_hash_path/$name.ico"
