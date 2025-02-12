@@ -43,27 +43,23 @@ jobs:
 
           for i in $(ls "$input_path" | grep '\.svg$'); do
             name="$(echo $i | sed -E 's/^(.+)\.svg$/\1/')"
-            input_name="$input_path/$name.svg"
-            
-            # Gunakan hash dari file SVG itu sendiri
-            hash="$(git -C "$svg_repo" hash-object "$input_name")"
+            hash="$(git -C "$svg_repo" hash-object ".github/workflows/convert.yml")"
 
+            input_name="$input_path/$name.svg"
             temp_name="$temp_path/$name.png"
             output_name="$output_path/$name.ico"
             output_hash_name="$output_hash_path/$name.ico"
 
             echo "Checking $name..."
 
-            # Cek apakah hash sama dengan yang tersimpan
             if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" == "$(cat $output_hash_name)" ]]; then
-              echo "$name tidak berubah, skip."
+              echo "$name is already exist."
               continue
             fi
             
             install_dependencies
             changed=true
 
-            echo "Mengkonversi $name..."
             [[ -f "$output_name" ]] && rm "$output_name"
             [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
 
@@ -71,26 +67,25 @@ jobs:
             convert -background transparent "$temp_name" -define icon:auto-resize="256,128,96,64,48,32,16" "$output_name"
             
             echo "$hash" > "$output_hash_name"
-            echo "$name selesai dikonversi."
+            echo "$name successfully converted."
           done
 
-          # Hapus ikon yang tidak memiliki file SVG
           for ico_file in $(ls "$output_path" | grep '\.ico$'); do
             name="$(echo $ico_file | sed -E 's/^(.+)\.ico$/\1/')"
             input_name="$input_path/$name.svg"
             
             if [[ ! -f "$input_name" ]]; then
-              echo "Menghapus $name..."
+              echo "Removing $name..."
               rm -f "$output_path/$name.ico"
               rm -f "$output_hash_path/$name.ico"
             fi
           done
 
-          echo "Membersihkan temp..."
+          echo "Cleaning temp..."
           rm -rf "$temp_path"
 
           if [[ "$changed" == 'true' ]]; then
-            echo "Push perubahan..."
+            echo "Push changes...."
             commit_name="gen: $(git -C "$svg_repo" log -1 --pretty=format:'%h')"
             git -C "$ico_repo" config user.name github-actions
             git -C "$ico_repo" config user.email github-actions@github.com
