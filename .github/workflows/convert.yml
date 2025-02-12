@@ -43,7 +43,7 @@ jobs:
 
           for i in $(ls "$input_path" | grep '\.svg$'); do
             name="$(echo $i | sed -E 's/^(.+)\.svg$/\1/')"
-            hash="$(git -C "$svg_repo" hash-object "$input_path/$i")"
+            hash="$(git -C "$svg_repo" hash-object ".github/workflows/convert.yml")"
 
             input_name="$input_path/$name.svg"
             temp_name="$temp_path/$name.png"
@@ -53,27 +53,26 @@ jobs:
             echo "Converting $name..."
 
             if [[ -f "$output_name" && -f "$output_hash_name" && "$hash" == "$(cat $output_hash_name)" ]]; then
-              echo "$name is already up-to-date."
+              echo "$name is already exist."
               continue
             fi
-
+            
             install_dependencies
             changed=true
 
-            # Remove old files if they exist
             [[ -f "$output_name" ]] && rm "$output_name"
             [[ -f "$output_hash_name" ]] && rm "$output_hash_name"
 
             svgexport "$input_name" "$temp_name" png 1024:1024
             convert -background transparent "$temp_name" -define icon:auto-resize="256,128,96,64,48,32,16" "$output_name"
-
+            
             echo "$hash" >$output_hash_name
-
+            
             echo "$name successfully converted."
 
           done
 
-          for name in $(echo $(ls "$output_path") $(ls "$output_hash_path") | grep -E '\.ico$' | sed -E 's/^(.*)\.ico$/\1/' | uniq); do
+          for name in $(echo $(ls "$output_path") $(ls "$output_hash_name") | grep -E '\.ico$' | sed -E 's/^(.*)\.ico$/\1/' | uniq); do
             input_name="$input_path/$name.svg"
             output_name="$output_path/$name.ico"
             output_hash_name="$output_hash_path/$name.ico"
@@ -94,7 +93,11 @@ jobs:
             echo "$commit_name"
             git -C "$ico_repo" config user.name github-actions
             git -C "$ico_repo" config user.email github-actions@github.com
+            echo test config
             git -C "$ico_repo" add .
+            echo test add
             git -C "$ico_repo" commit -m "$commit_name"
+            echo test commit
             git -C "$ico_repo" push
+            echo test commit
           fi
