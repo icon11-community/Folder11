@@ -106,15 +106,17 @@ jobs:
             size=$(stat -c%s "$ico_file")
             url_icon="https://raw.githubusercontent.com/icon11-community/Folder11-Ico/main/ico/$filename"
             hash=$(cat "$HASH_DIR/$name.hash")
+            commit_date=$(git log -1 --format="%ad" --date=iso -- "$svg_file")
 
             json_content=$(
-              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" '
+              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg commit_date "$commit_date" '
                 .icons += [
                   {
                     "name": $name,
                     "size": $size,
                     "url_icon": $url_icon,
                     "hash": $hash
+                    "date": $commit_date
                   }
                 ]
               '
