@@ -15,6 +15,7 @@ jobs:
         with:
           repository: icon11-community/Folder11
           path: Folder11
+          fetch-depth: 0
 
       - name: Checkout ICO Repo
         uses: actions/checkout@v3
@@ -106,17 +107,19 @@ jobs:
             size=$(stat -c%s "$ico_file")
             url_icon="https://raw.githubusercontent.com/icon11-community/Folder11-Ico/main/ico/$filename"
             hash=$(cat "$HASH_DIR/$name.hash")
-            commit_date=$(git log -1 --format="%ad" --date=iso -- "$svg_file")
+            
+            svg_file_path="svg/$name.svg"
+            date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
 
             json_content=$(
-              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg commit_date "$commit_date" '
+              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" '
                 .icons += [
                   {
                     "name": $name,
                     "size": $size,
                     "url_icon": $url_icon,
-                    "hash": $hash
-                    "date": $commit_date
+                    "hash": $hash,
+                    "date": $date
                   }
                 ]
               '
