@@ -6,7 +6,7 @@
    fill="none"
    version="1.1"
    id="svg24"
-   sodipodi:docname="Cachefile.svg"
+   sodipodi:docname="cachefile.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -21,9 +21,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="5.1497175"
-     inkscape:cx="59.323642"
-     inkscape:cy="95.830499"
+     inkscape:zoom="2.5748588"
+     inkscape:cx="-67.770708"
+     inkscape:cy="-9.1267142"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="2149"
@@ -33,7 +33,7 @@
   <path
      fill-rule="evenodd"
      clip-rule="evenodd"
-     d="M 104.42532,42.37839 C 100.05622,37.07332 93.543716,34 86.671216,34 h -57.6712 c -6.62742,0 -12,5.37258 -12,12 V 58.1371 68.2 160 c 0,6.627 5.37258,12 12,12 H 229.00002 c 6.627,0 12,-5.373 12,-12 V 70.1371 c 0,-6.6274 -5.373,-12 -12,-12 h -111.596 z"
+     d="M 104.4253,42.37839 C 100.0562,37.07332 93.5437,34 86.6712,34 H 29 C 22.37258,34 17,39.37258 17,46 V 58.1371 68.2 160 c 0,6.627 5.37258,12 12,12 h 200 c 6.627,0 12,-5.373 12,-12 V 70.1371 c 0,-6.6274 -5.373,-12 -12,-12 H 117.404 Z"
      fill="url(#paint0_linear_489_180)"
      id="path1"
      style="fill:url(#paint0_linear_489_180)" />
@@ -48,13 +48,13 @@
        fill-rule="evenodd"
        clip-rule="evenodd"
        d="M 87.4253,8.37839 C 83.0562,3.07332 76.5437,0 69.6712,0 H 12 C 5.37258,0 0,5.37258 0,12 V 24.1371 34.2 126 c 0,6.627 5.37258,12 12,12 h 200 c 6.627,0 12,-5.373 12,-12 V 36.1371 c 0,-6.6274 -5.373,-12 -12,-12 H 100.404 Z"
-       fill="url(#paint1_linear_489_180)"
+       fill="#747674"
        id="path2" />
   </mask>
   <g
      mask="url(#mask0_489_180)"
      id="g4"
-     transform="translate(17.000008,34)">
+     transform="translate(17,34)">
     <g
        filter="url(#filter0_f_489_180)"
        id="g3">
@@ -70,19 +70,19 @@
   <g
      filter="url(#filter1_ii_489_180)"
      id="g5"
-     transform="translate(17.000008,34)">
+     transform="translate(17,34)">
     <path
        fill-rule="evenodd"
        clip-rule="evenodd"
-       d="m 75.789,41 c 4.9752,0 9.8162,-1.6132 13.7968,-4.5976 L 99.4592,29 H 212 c 6.627,0 12,5.3726 12,12 v 34 90 c 0,6.627 -5.373,12 -12,12 H 12 C 5.37257,177 -7.62939e-6,171.627 -7.62939e-6,165 L 0,75 V 53 C 0,46.3726 5.37258,41 12,41 h 58 z"
-       fill="url(#paint2_linear_489_180)"
+       d="m 75.789,41 c 4.9752,0 9.8162,-1.6132 13.7969,-4.5976 L 99.4592,29 H 212 c 6.627,0 12,5.3726 12,12 v 34 90 c 0,6.627 -5.373,12 -12,12 H 12 C 5.37258,177 0,171.627 0,165 L 7.62939e-6,75 V 53 C 7.62939e-6,46.3726 5.37259,41 12,41 h 58 z"
+       fill="url(#paint1_linear_489_180)"
        id="path4"
-       style="fill:url(#paint2_linear_489_180)" />
+       style="fill:url(#paint1_linear_489_180)" />
   </g>
   <g
      filter="url(#filter2_d_489_180)"
      id="g6"
-     transform="translate(17.000008,34)">
+     transform="translate(17,34)">
     <path
        d="m 69.428,131.824 c -1.008,0 -1.92,0.216 -2.736,0.648 -0.816,0.432 -1.512,1.056 -2.088,1.872 -0.552,0.816 -0.972,1.8 -1.26,2.952 -0.288,1.152 -0.432,2.448 -0.432,3.888 0,1.944 0.24,3.612 0.72,5.004 0.48,1.368 1.212,2.424 2.196,3.168 0.984,0.744 2.22,1.116 3.708,1.116 1.032,0 2.04,-0.108 3.024,-0.324 0.984,-0.24 1.98,-0.552 2.988,-0.936 v 3.924 c -0.984,0.432 -2.004,0.744 -3.06,0.936 -1.032,0.192 -2.196,0.288 -3.492,0.288 -2.52,0 -4.596,-0.54 -6.228,-1.62 -1.632,-1.104 -2.856,-2.64 -3.672,-4.608 -0.792,-1.992 -1.188,-4.32 -1.188,-6.984 0,-1.944 0.252,-3.72 0.756,-5.328 0.504,-1.608 1.248,-3 2.232,-4.176 0.984,-1.176 2.196,-2.088 3.636,-2.736 1.44,-0.648 3.084,-0.972 4.932,-0.972 1.224,0 2.46,0.156 3.708,0.468 1.272,0.288 2.388,0.696 3.348,1.224 l -1.62,3.78 c -0.84,-0.408 -1.716,-0.768 -2.628,-1.08 -0.888,-0.336 -1.836,-0.504 -2.844,-0.504 z M 95.5139,154 l -1.98,-6.804 h -8.784 l -1.98,6.804 h -5.184 l 8.64,-25.812 h 5.796 L 100.698,154 Z m -5.184,-17.388 c -0.096,-0.384 -0.228,-0.84 -0.396,-1.368 -0.144,-0.552 -0.288,-1.116 -0.432,-1.692 -0.12,-0.576 -0.24,-1.116 -0.36,-1.62 -0.096,0.576 -0.216,1.152 -0.36,1.728 -0.144,0.552 -0.288,1.08 -0.432,1.584 -0.12,0.504 -0.24,0.96 -0.36,1.368 l -2.016,6.624 h 6.408 z m 23.1141,-4.788 c -1.008,0 -1.92,0.216 -2.736,0.648 -0.816,0.432 -1.512,1.056 -2.088,1.872 -0.552,0.816 -0.972,1.8 -1.26,2.952 -0.288,1.152 -0.432,2.448 -0.432,3.888 0,1.944 0.24,3.612 0.72,5.004 0.48,1.368 1.212,2.424 2.196,3.168 0.984,0.744 2.22,1.116 3.708,1.116 1.032,0 2.04,-0.108 3.024,-0.324 0.984,-0.24 1.98,-0.552 2.988,-0.936 v 3.924 c -0.984,0.432 -2.004,0.744 -3.06,0.936 -1.032,0.192 -2.196,0.288 -3.492,0.288 -2.52,0 -4.596,-0.54 -6.228,-1.62 -1.632,-1.104 -2.856,-2.64 -3.672,-4.608 -0.792,-1.992 -1.188,-4.32 -1.188,-6.984 0,-1.944 0.252,-3.72 0.756,-5.328 0.504,-1.608 1.248,-3 2.232,-4.176 0.984,-1.176 2.196,-2.088 3.636,-2.736 1.44,-0.648 3.084,-0.972 4.932,-0.972 1.224,0 2.46,0.156 3.708,0.468 1.272,0.288 2.388,0.696 3.348,1.224 l -1.62,3.78 c -0.84,-0.408 -1.716,-0.768 -2.628,-1.08 -0.888,-0.336 -1.836,-0.504 -2.844,-0.504 z M 144.246,154 h -4.86 V 142.588 H 129.45 V 154 h -4.824 v -25.704 h 4.824 v 10.368 h 9.936 v -10.368 h 4.86 z m 19.904,0 h -13.86 v -25.704 h 13.86 v 3.852 h -9.036 v 6.552 h 8.46 v 3.852 h -8.46 v 7.56 h 9.036 z"
        fill="#dcdcdc"
@@ -91,7 +91,7 @@
   <g
      filter="url(#filter3_d_489_180)"
      id="g7"
-     transform="translate(17.000008,34)">
+     transform="translate(17,34)">
     <ellipse
        cx="112"
        cy="73"
@@ -136,7 +136,7 @@
     </filter>
     <filter
        id="filter1_ii_489_180"
-       x="-7.62939e-06"
+       x="0"
        y="29"
        width="224"
        height="148"
@@ -197,7 +197,7 @@
          k4="0" />
       <feColorMatrix
          type="matrix"
-         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
          id="feColorMatrix11" />
       <feBlend
          mode="normal"
@@ -207,10 +207,10 @@
     </filter>
     <filter
        id="filter2_d_489_180"
-       x="57.908001"
-       y="127.936"
-       width="106.242"
-       height="28.424"
+       x="51.908001"
+       y="123.936"
+       width="118.242"
+       height="38.424"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -226,6 +226,9 @@
       <feOffset
          dy="2"
          id="feOffset12" />
+      <feGaussianBlur
+         stdDeviation="3"
+         id="feGaussianBlur12" />
       <feComposite
          in2="hardAlpha"
          operator="out"
@@ -248,10 +251,10 @@
     </filter>
     <filter
        id="filter3_d_489_180"
-       x="67"
-       y="58"
-       width="90"
-       height="59"
+       x="61"
+       y="54"
+       width="102"
+       height="69"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -267,6 +270,9 @@
       <feOffset
          dy="2"
          id="feOffset14" />
+      <feGaussianBlur
+         stdDeviation="3"
+         id="feGaussianBlur14" />
       <feComposite
          in2="hardAlpha"
          operator="out"
@@ -294,7 +300,7 @@
        x2="180.76801"
        y2="181.142"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(17.000016,34)">
+       gradientTransform="translate(17,34)">
       <stop
          stop-color="#7B7B7B"
          id="stop16" />
@@ -306,44 +312,36 @@
     <linearGradient
        id="paint1_linear_489_180"
        x1="0"
-       y1="0"
-       x2="180.76801"
-       y2="181.142"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#05815D"
-         id="stop18" />
-      <stop
-         offset="1"
-         stop-color="#0C575F"
-         id="stop19" />
-    </linearGradient>
-    <linearGradient
-       id="paint2_linear_489_180"
-       x1="-7.62939e-06"
        y1="29"
        x2="224"
        y2="177"
        gradientUnits="userSpaceOnUse">
       <stop
+         stop-color="#7F7F7F"
+         id="stop18" />
+      <stop
          offset="0.131666"
          stop-color="#A9A9A9"
+         id="stop19" />
+      <stop
+         offset="0.261666"
+         stop-color="#ABB9BC"
          id="stop20" />
       <stop
          offset="0.416666"
-         stop-color="#9A9A9A"
+         stop-color="#B49791"
          id="stop21" />
       <stop
-         offset="0.521666"
-         stop-color="#898989"
+         offset="0.571666"
+         stop-color="#838378"
          id="stop22" />
       <stop
          offset="0.701666"
-         stop-color="#666666"
+         stop-color="#747378"
          id="stop23" />
       <stop
          offset="1"
-         stop-color="#2E2E2E"
+         stop-color="#78918D"
          id="stop24" />
     </linearGradient>
   </defs>
