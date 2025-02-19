@@ -8,6 +8,8 @@
 ](/README.md)
 [![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
 ](/README.id.md)
+[![简体中文](https://img.shields.io/badge/Chinese%20Simplified-E4405F?style=for-the-badge)
+](/README.zh_cn.md)
 
 Folder11 ikon direktori khusus yang dibuat mirip dengan gaya ikon pada Windows 11.
 
