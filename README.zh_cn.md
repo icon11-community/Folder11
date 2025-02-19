@@ -8,7 +8,7 @@
 ](/README.md)
 [![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
 ](/README.id.md)
-[![Chinese - Simplified](https://img.shields.io/badge/Chinese%20Simplified-E4405F?style=for-the-badge)
+[![简体中文](https://img.shields.io/badge/Chinese%20Simplified-E4405F?style=for-the-badge)
 ](/README.zh_cn.md)
 
 Folder11 是类似 Windows 11 的文件夹图标。可以到[Folder11-ico](https://github.com/icon11-community/Folder11-ico)获取 ICO 格式。
