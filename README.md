@@ -8,6 +8,8 @@
 ](/README.md)
 [![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
 ](/README.id.md)
+[![简体中文](https://img.shields.io/badge/Chinese%20Simplified-E4405F?style=for-the-badge)
+](/README.zh_cn.md)
 
 Folder11 is Windows 11-like custom directory icon. See [Folder11-ico](https://github.com/icon11-community/Folder11-ico) for ICO format.
 
