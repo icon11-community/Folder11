@@ -8,6 +8,8 @@
 ](/README.md)
 [![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
 ](/README.id.md)
+[![简体中文](https://img.shields.io/badge/Chinese%20Simplified-E4405F?style=for-the-badge)
+](/README.zh_cn.md)
 
 Folder11 is Windows 11-like custom directory icon. See [Folder11-ico](https://github.com/icon11-community/Folder11-ico) for ICO format.
 
@@ -39,6 +41,13 @@ We provided svg, ai, and fig template to make it easier. The specifications incl
   - Top margin for "back" is 34px (0.1328125vh).
   - Top margin for "front" is 62px (0.2421875vh).
 
+### Small Icon Variants
+
+- The `small` folder is optional and contains smaller versions of the icons.
+- These icons are optimized for smaller pixel sizes commonly used in Windows folder icons, such as 32px, 24px, 20px, and 16px.
+- Contributors are encouraged to provide these smaller variants to ensure consistency across different icon sizes.
+- The naming and structure of the `small` folder should mirror that of the `svg` folder for easy maintenance and updates.
+
 ### File Naming
 
 - File name is starts with icon name and ends with variant number, -- separated with dash.
@@ -48,7 +57,11 @@ We provided svg, ai, and fig template to make it easier. The specifications incl
 
 ```
 Folder11
-└──📁 svg/
+├──📁 svg/
+│   ├──📄 my_folder.svg
+│   ├──📄 my_folder-1.svg
+│   └──📄 my_folder-2.svg
+└──📁 small/
     ├──📄 my_folder.svg
     ├──📄 my_folder-1.svg
     └──📄 my_folder-2.svg

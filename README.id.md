@@ -2,12 +2,14 @@
   <img src="https://github.com/Icon11-community.png?size=250" alt="logo"/>
 </p>
 
-> Icons may or may not contain trademarks, registered trademarks, or branded logos. You are allowed to use these icons for personal purposes only. You are not allowed to use them for any other purpose, including but not limited to commercial use, without the express permission of the copyright holder of the trademark, registered trademark, or branded logo.
+> Ikon mungkin mengandung merek dagang, merek dagang terdaftar, atau logo merek. Anda diperbolehkan menggunakan ikon ini hanya untuk tujuan pribadi. Anda tidak diperbolehkan menggunakannya untuk tujuan lain, termasuk tetapi tidak terbatas pada penggunaan komersial, tanpa izin tertulis dari pemegang hak cipta merek dagang, merek dagang terdaftar, atau logo merek.
 
 [![English](https://img.shields.io/badge/-English-E4405F?style=for-the-badge)
 ](/README.md)
 [![Bahasa](https://img.shields.io/badge/-Bahasa%20Indonesia-E4405F?style=for-the-badge)
 ](/README.id.md)
+[![简体中文](https://img.shields.io/badge/Chinese%20Simplified-E4405F?style=for-the-badge)
+](/README.zh_cn.md)
 
 Folder11 ikon direktori khusus yang dibuat mirip dengan gaya ikon pada Windows 11.
 
@@ -38,6 +40,13 @@ Kami menyediakan template dalam format fig, ai, dan svg. Adapun spesifikasinya s
   - Margin atas untuk "back" adalah 34px (0.1328125vh).
   - Margin atas untuk "front" adalah 62px (0.2421875vh).
 
+### Varian Ikon Kecil
+
+- Folder `small` adalah opsional dan berisi versi kecil dari ikon.
+- Ikon ini dioptimalkan untuk ukuran piksel kecil yang umum digunakan pada ikon folder Windows, seperti 32px, 24px, 20px, dan 16px.
+- Kontributor diharapkan untuk menyediakan varian kecil ini untuk memastikan konsistensi di berbagai ukuran ikon.
+- Penamaan dan struktur folder `small` harus mengikuti struktur folder `svg` untuk memudahkan pemeliharaan dan pembaruan.
+
 ### Penamaan Berkas
 
 - Penamaan berkas dimulai dengan nama ikon dan diakhiri dengan nomor varian yang dipisahkan dengan tanda hubung.
@@ -47,7 +56,11 @@ Kami menyediakan template dalam format fig, ai, dan svg. Adapun spesifikasinya s
 
 ```
 Folder11
-└──📁 svg/
+├──📁 svg/
+│   ├──📄 my_folder.svg
+│   ├──📄 my_folder-1.svg
+│   └──📄 my_folder-2.svg
+└──📁 small/
     ├──📄 my_folder.svg
     ├──📄 my_folder-1.svg
     └──📄 my_folder-2.svg
