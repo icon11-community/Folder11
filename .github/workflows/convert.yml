@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'svg/**'
+      - 'small/**'
+
 jobs:
   convert:
     runs-on: ubuntu-latest
@@ -33,6 +35,7 @@ jobs:
         id: convert_svg
         run: |
           SVG_DIR="./Folder11/svg"
+          SMALL_DIR="./Folder11/small"
           ICO_DIR="./Folder11-Ico/ico"
           HASH_DIR="./Folder11-Ico/hash"
           TEMP_DIR=$(mktemp -d)
@@ -41,14 +44,21 @@ jobs:
 
           for svg_file in "$SVG_DIR"/*.svg; do
             [ -f "$svg_file" ] || continue
-
             filename=$(basename -- "$svg_file")
             name="${filename%.*}"
 
             current_hash=$(git hash-object "$svg_file")
-            hash_file="$HASH_DIR/$name.hash"
+            small_file="$SMALL_DIR/$name.svg"
+            if [ -f "$small_file" ]; then
+              small_hash=$(git hash-object "$small_file")
+            else
+              small_hash=""
+            fi
 
-            if [ -f "$hash_file" ] && [ -f "$ICO_DIR/$name.ico" ] && [ "$current_hash" == "$(cat "$hash_file")" ]; then
+            combined_hash=$(echo "$current_hash$small_hash" | git hash-object --stdin)
+            
+            hash_file="$HASH_DIR/$name.hash"
+            if [ -f "$hash_file" ] && [ -f "$ICO_DIR/$name.ico" ] && [ "$combined_hash" == "$(cat "$hash_file")" ]; then
               echo "🟢 No changes for: $name"
               continue
             fi
@@ -61,20 +71,32 @@ jobs:
             svgexport "$svg_file" "$temp_png" png 1024:1024
 
             convert -background transparent "$temp_png" \
-              -define icon:auto-resize="256,128,96,64,48,32,16" \
+              -define icon:auto-resize="256,64,48,40" \
               "$ico_output"
 
-            echo "$current_hash" > "$hash_file"
+            if [ -f "$small_file" ]; then
+              temp_small_png="$TEMP_DIR/$name-small.png"
+              svgexport "$small_file" "$temp_small_png" png 1024:1024
+              convert -background transparent "$temp_small_png" \
+                -define icon:auto-resize="32,24,20,16" \
+                "$ico_output"
+            else
+              convert -background transparent "$temp_png" \
+                -define icon:auto-resize="32,24,20,16" \
+                "$ico_output"
+            fi
+
+            echo "$combined_hash" > "$hash_file"
           done
 
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
-
             filename=$(basename -- "$ico_file")
             name="${filename%.*}"
             svg_file="$SVG_DIR/$name.svg"
+            small_file="$SMALL_DIR/$name.svg"
 
-            if [ ! -f "$svg_file" ]; then
+            if [ ! -f "$svg_file" ] && [ ! -f "$small_file" ]; then
               echo "🔴 Removing orphaned: $name"
               rm -f "$ico_file"
               rm -f "$HASH_DIR/$name.hash"
@@ -82,8 +104,7 @@ jobs:
           done
 
           rm -rf "$TEMP_DIR"
-
-          echo "hash=$current_hash" >> $GITHUB_ENV
+          echo "hash=$combined_hash" >> $GITHUB_ENV
 
       - name: Generate icon.json
         run: |
@@ -101,7 +122,6 @@ jobs:
 
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
-
             filename=$(basename -- "$ico_file")
             name="${filename%.*}"
             size=$(stat -c%s "$ico_file")
@@ -109,7 +129,13 @@ jobs:
             hash=$(cat "$HASH_DIR/$name.hash")
             
             svg_file_path="svg/$name.svg"
-            date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
+            small_file_path="small/$name.svg"
+
+            if [ -f "./Folder11/$small_file_path" ]; then
+              date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$small_file_path" "$svg_file_path" | sort -r | head -n 1)
+            else
+              date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
+            fi
 
             json_content=$(
               echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" '
