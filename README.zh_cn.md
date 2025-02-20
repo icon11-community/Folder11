@@ -62,9 +62,9 @@ Folder11
 │   ├──📄 my_folder-1.svg
 │   └──📄 my_folder-2.svg
 └──📁 small/ (可选)
-├──📄 my_folder.svg
-├──📄 my_folder-1.svg
-└──📄 my_folder-2.svg
+    ├──📄 my_folder.svg
+    ├──📄 my_folder-1.svg
+    └──📄 my_folder-2.svg
 ```
 
 ### 提交命名
