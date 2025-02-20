@@ -5,10 +5,10 @@ on:
     branches: [main]
     paths:
       - 'svg/**'
+      - 'small/**'
 jobs:
   convert:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout SVG Repo
         uses: actions/checkout@v3
@@ -16,19 +16,16 @@ jobs:
           repository: icon11-community/Folder11
           path: Folder11
           fetch-depth: 0
-
       - name: Checkout ICO Repo
         uses: actions/checkout@v3
         with:
           repository: icon11-community/Folder11-Ico
           token: ${{ secrets.ACTION_TOKEN }}
           path: Folder11-Ico
-
       - name: Setup Dependencies
         run: |
           sudo apt-get install -y imagemagick jq
           npm install -g svgexport
-
       - name: Convert SVG to ICO
         id: convert_svg
         run: |
@@ -36,53 +33,72 @@ jobs:
           ICO_DIR="./Folder11-Ico/ico"
           HASH_DIR="./Folder11-Ico/hash"
           TEMP_DIR=$(mktemp -d)
-
           mkdir -p "$ICO_DIR" "$HASH_DIR"
-
+          
           for svg_file in "$SVG_DIR"/*.svg; do
             [ -f "$svg_file" ] || continue
-
             filename=$(basename -- "$svg_file")
             name="${filename%.*}"
+            
+            # Skip small SVG files
+            if [[ "$name" == *"-small" ]]; then
+              continue
+            fi
 
-            current_hash=$(git hash-object "$svg_file")
+            # Calculate hashes
+            main_hash=$(git hash-object "$svg_file")
+            small_svg="${SVG_DIR}/${name}-small.svg"
+            if [ -f "$small_svg" ]; then
+              small_hash=$(git hash-object "$small_svg")
+              current_hash="${main_hash}-${small_hash}"
+            else
+              current_hash="${main_hash}"
+            fi
+
             hash_file="$HASH_DIR/$name.hash"
-
             if [ -f "$hash_file" ] && [ -f "$ICO_DIR/$name.ico" ] && [ "$current_hash" == "$(cat "$hash_file")" ]; then
               echo "🟢 No changes for: $name"
               continue
             fi
 
             echo "🔵 Converting: $name"
-
-            temp_png="$TEMP_DIR/$name.png"
+            temp_png_dir=$(mktemp -d)
             ico_output="$ICO_DIR/$name.ico"
 
-            svgexport "$svg_file" "$temp_png" png 500:500
+            for size in 256:256 64:64 48:48 40:40; do
+              svgexport "$svg_file" "$temp_png_dir/$size.png" png "$size"
+            done
 
-            convert -background transparent "$temp_png" \
-              -define icon:auto-resize="256,64,48,40,32,24,20,16" \
-              "$ico_output"
+            if [ -f "$small_svg" ]; then
+              for size in 32:32 24:24 20:20 16:16; do
+                svgexport "$small_svg" "$temp_png_dir/$size.png" png "$size"
+              done
+            else
+              for size in 32:32 24:24 20:20 16:16; do
+                svgexport "$svg_file" "$temp_png_dir/$size.png" png "$size"
+              done
+            fi
 
+            convert -background transparent "$temp_png_dir"/*.png "$ico_output"
+            
+            # Save combined hash
             echo "$current_hash" > "$hash_file"
+            rm -rf "$temp_png_dir"
           done
 
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
-
             filename=$(basename -- "$ico_file")
             name="${filename%.*}"
             svg_file="$SVG_DIR/$name.svg"
-
-            if [ ! -f "$svg_file" ]; then
+            
+            if [ ! -f "$svg_file" ] && [ ! -f "$small_file" ]; then
               echo "🔴 Removing orphaned: $name"
               rm -f "$ico_file"
               rm -f "$HASH_DIR/$name.hash"
             fi
           done
-
           rm -rf "$TEMP_DIR"
-
           echo "hash=$current_hash" >> $GITHUB_ENV
 
       - name: Generate icon.json
@@ -90,7 +106,6 @@ jobs:
           ICO_DIR="./Folder11-Ico/ico"
           HASH_DIR="./Folder11-Ico/hash"
           JSON_FILE="./Folder11-Ico/icon.json"
-
           json_content=$(
             jq -n --argjson icons '[]' '
               {
@@ -98,10 +113,8 @@ jobs:
               }
             '
           )
-
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
-
             filename=$(basename -- "$ico_file")
             name="${filename%.*}"
             size=$(stat -c%s "$ico_file")
@@ -110,7 +123,6 @@ jobs:
             
             svg_file_path="svg/$name.svg"
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
-
             json_content=$(
               echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" '
                 .icons += [
@@ -125,7 +137,6 @@ jobs:
               '
             )
           done
-
           echo "$json_content" | jq . > "$JSON_FILE"
 
       - name: Commit and Push Changes
@@ -133,7 +144,6 @@ jobs:
           cd Folder11-Ico
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "gen: ${{ env.hash }}"
