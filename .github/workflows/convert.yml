@@ -29,70 +29,77 @@ jobs:
       - name: Convert SVG to ICO
         id: convert_svg
         run: |
-          SVG_DIR="./Folder11/svg"
+          MAIN_SVG_DIR="./Folder11/svg"
+          SMALL_SVG_DIR="./Folder11/small"
           ICO_DIR="./Folder11-Ico/ico"
           HASH_DIR="./Folder11-Ico/hash"
           TEMP_DIR=$(mktemp -d)
           mkdir -p "$ICO_DIR" "$HASH_DIR"
           
-          for svg_file in "$SVG_DIR"/*.svg; do
-            [ -f "$svg_file" ] || continue
-            filename=$(basename -- "$svg_file")
+          for main_svg in "$MAIN_SVG_DIR"/*.svg; do
+            [ -f "$main_svg" ] || continue
+            filename=$(basename -- "$main_svg")
             name="${filename%.*}"
             
-            # Skip small SVG files
-            if [[ "$name" == *"-small" ]]; then
-              continue
-            fi
-
-            # Calculate hashes
-            main_hash=$(git hash-object "$svg_file")
-            small_svg="${SVG_DIR}/${name}-small.svg"
+            # Periksa apakah file small tersedia di folder small
+            small_svg="$SMALL_SVG_DIR/$filename"
             if [ -f "$small_svg" ]; then
+              # Kombinasikan hash dari file main dan small
+              main_hash=$(git hash-object "$main_svg")
               small_hash=$(git hash-object "$small_svg")
-              current_hash="${main_hash}-${small_hash}"
+              current_hash=$(echo -n "${main_hash}_${small_hash}" | sha1sum | awk '{print $1}')
             else
-              current_hash="${main_hash}"
+              # Jika file small tidak ada, gunakan hash dari file main saja
+              current_hash=$(git hash-object "$main_svg")
             fi
-
+            
             hash_file="$HASH_DIR/$name.hash"
             if [ -f "$hash_file" ] && [ -f "$ICO_DIR/$name.ico" ] && [ "$current_hash" == "$(cat "$hash_file")" ]; then
               echo "🟢 No changes for: $name"
               continue
             fi
-
-            echo "🔵 Converting: $name"
-            temp_png_dir=$(mktemp -d)
-            ico_output="$ICO_DIR/$name.ico"
-
-            for size in 256:256 64:64 48:48 40:40; do
-              svgexport "$svg_file" "$temp_png_dir/$size.png" png "$size"
-            done
-
-            if [ -f "$small_svg" ]; then
-              for size in 32:32 24:24 20:20 16:16; do
-                svgexport "$small_svg" "$temp_png_dir/$size.png" png "$size"
-              done
-            else
-              for size in 32:32 24:24 20:20 16:16; do
-                svgexport "$svg_file" "$temp_png_dir/$size.png" png "$size"
-              done
-            fi
-
-            convert -background transparent "$temp_png_dir"/*.png "$ico_output"
             
-            # Save combined hash
+            echo "🔵 Converting: $name"
+            ico_output="$ICO_DIR/$name.ico"
+            
+            if [ -f "$small_svg" ]; then
+              temp_png_main="$TEMP_DIR/${name}_main.png"
+              svgexport "$main_svg" "$temp_png_main" png 500:500
+              
+              temp_png_small="$TEMP_DIR/${name}_small.png"
+              svgexport "$small_svg" "$temp_png_small" png 500:500
+              
+              convert -background transparent "$temp_png_main" -resize 256x256 "$TEMP_DIR/${name}_256.png"
+              convert -background transparent "$temp_png_main" -resize 64x64 "$TEMP_DIR/${name}_64.png"
+              convert -background transparent "$temp_png_main" -resize 48x48 "$TEMP_DIR/${name}_48.png"
+              convert -background transparent "$temp_png_main" -resize 40x40 "$TEMP_DIR/${name}_40.png"
+              
+              convert -background transparent "$temp_png_small" -resize 32x32 "$TEMP_DIR/${name}_32.png"
+              convert -background transparent "$temp_png_small" -resize 24x24 "$TEMP_DIR/${name}_24.png"
+              convert -background transparent "$temp_png_small" -resize 20x20 "$TEMP_DIR/${name}_20.png"
+              convert -background transparent "$temp_png_small" -resize 16x16 "$TEMP_DIR/${name}_16.png"
+              
+              convert "$TEMP_DIR/${name}_256.png" "$TEMP_DIR/${name}_64.png" "$TEMP_DIR/${name}_48.png" "$TEMP_DIR/${name}_40.png" \
+                      "$TEMP_DIR/${name}_32.png" "$TEMP_DIR/${name}_24.png" "$TEMP_DIR/${name}_20.png" "$TEMP_DIR/${name}_16.png" \
+                      "$ico_output"
+            else
+            
+              temp_png="$TEMP_DIR/${name}.png"
+              svgexport "$main_svg" "$temp_png" png 500:500
+              convert -background transparent "$temp_png" \
+                -define icon:auto-resize="256,64,48,40,32,24,20,16" \
+                "$ico_output"
+            fi
+            
             echo "$current_hash" > "$hash_file"
-            rm -rf "$temp_png_dir"
           done
-
+          
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
             filename=$(basename -- "$ico_file")
             name="${filename%.*}"
-            svg_file="$SVG_DIR/$name.svg"
-            
-            if [ ! -f "$svg_file" ] && [ ! -f "$small_file" ]; then
+            main_svg="$MAIN_SVG_DIR/$name.svg"
+            if [ ! -f "$main_svg" ]; then
               echo "🔴 Removing orphaned: $name"
               rm -f "$ico_file"
               rm -f "$HASH_DIR/$name.hash"
@@ -100,7 +107,6 @@ jobs:
           done
           rm -rf "$TEMP_DIR"
           echo "hash=$current_hash" >> $GITHUB_ENV
-
       - name: Generate icon.json
         run: |
           ICO_DIR="./Folder11-Ico/ico"
@@ -138,7 +144,6 @@ jobs:
             )
           done
           echo "$json_content" | jq . > "$JSON_FILE"
-
       - name: Commit and Push Changes
         run: |
           cd Folder11-Ico
