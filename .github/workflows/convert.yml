@@ -68,21 +68,33 @@ jobs:
             temp_png="$TEMP_DIR/$name.png"
             ico_output="$ICO_DIR/$name.ico"
 
-            svgexport "$svg_file" "$temp_png" png 1024:1024
-
-            convert -background transparent "$temp_png" \
-              -define icon:auto-resize="256,64,48,40" \
-              "$ico_output"
+            svgexport "$svg_file" "$temp_png" png 500:500
 
             if [ -f "$small_file" ]; then
               temp_small_png="$TEMP_DIR/$name-small.png"
-              svgexport "$small_file" "$temp_small_png" png 1024:1024
-              convert -background transparent "$temp_small_png" \
-                -define icon:auto-resize="32,24,20,16" \
+              svgexport "$small_file" "$temp_small_png" png 500:500
+              convert -background transparent \
+                \( "$temp_png" -resize 256x256 \) \
+                \( "$temp_png" -resize 64x64 \) \
+                \( "$temp_png" -resize 48x48 \) \
+                \( "$temp_png" -resize 40x40 \) \
+                \( "$temp_small_png" -resize 32x32 \) \
+                \( "$temp_small_png" -resize 24x24 \) \
+                \( "$temp_small_png" -resize 20x20 \) \
+                \( "$temp_small_png" -resize 16x16 \) \
+                -define icon:auto-resize="256,64,48,40,32,24,20,16" \
                 "$ico_output"
             else
-              convert -background transparent "$temp_png" \
-                -define icon:auto-resize="32,24,20,16" \
+              convert -background transparent \
+                \( "$temp_png" -resize 256x256 \) \
+                \( "$temp_png" -resize 64x64 \) \
+                \( "$temp_png" -resize 48x48 \) \
+                \( "$temp_png" -resize 40x40 \) \
+                \( "$temp_png" -resize 32x32 \) \
+                \( "$temp_png" -resize 24x24 \) \
+                \( "$temp_png" -resize 20x20 \) \
+                \( "$temp_png" -resize 16x16 \) \
+                -define icon:auto-resize="256,64,48,40,32,24,20,16" \
                 "$ico_output"
             fi
 
