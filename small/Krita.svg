@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Krita icon - 2021</title>
+ <defs>
+  <linearGradient id="linearGradient1403" x1="1142.588" x2="1280.895" y1="62.71332" y2="200.874" gradientTransform="rotate(-5.888766 1223.265 99.83401)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#343434" offset="0"/>
+   <stop stop-color="#4d4d4d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1405" x1="1327.594" x2="1324.91" y1="230.8623" y2="89.86234" gradientTransform="matrix(.0111212 .9999382 .9999382 -.0111212 1077.89 -1093.522)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5596ea" offset="0"/>
+   <stop stop-color="#5596ea" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath839-4">
+   <circle cx="532" cy="538" r="400" fill-opacity=".4745098"/>
+  </clipPath>
+  <linearGradient id="linearGradient1351" x1="112" x2="711.8644" y1="512" y2="512" gradientTransform="translate(-1211.405 -699.405)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ff0" offset="0"/>
+   <stop stop-color="#ff0" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1353" x1="112" x2="711.8644" y1="512" y2="512" gradientTransform="translate(-324.595 187.405)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0ff" offset="0"/>
+   <stop stop-color="#0ff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1355" x1="112" x2="711.8644" y1="512" y2="512" gradientTransform="translate(0,-1024)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f0f" offset="0"/>
+   <stop stop-color="#f0f" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Krita icon - 2021</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Wolthera van Hövell tot Westerflier and Timothée Giet</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:description>Based on Krita icon by Timothée Giet, 2013</dc:description>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <circle transform="translate(-20.00001)" cx="532" cy="532" r="406.5" clip-path="url(#clipPath839-4)" fill-opacity=".4745098"/>
+  <g>
+   <circle cx="512" cy="512" r="400" fill="#fff"/>
+   <circle transform="rotate(210)" cx="-699.405" cy="-187.405" r="400" fill="url(#linearGradient1351)"/>
+   <circle transform="rotate(-30)" cx="187.405" cy="699.405" r="400" fill="url(#linearGradient1353)"/>
+   <circle transform="rotate(90)" cx="512" cy="-512" r="400" fill="url(#linearGradient1355)"/>
+  </g>
+  <path d="m224.7461 234.2559a400 400 0 0 0-59.66797 79.26953c58.48788 57.23259 121.469 117.9717 147.1504 145.6465 43.44948 46.82193 134.0228 115.223 200.0723 107.3496 26.08233 18.34373 85.18115 59.44269 104.9375 69.1875-0.3872 9.44375 1.50322 19.01979 4.90039 28.52735 18.5219 51.84164 87.76386 85.51928 47.45899 140.7715 79.34028-48.07796 100.4418-128.312 66.82422-185.541-20.99162-35.73501-51.53205-47.46636-76.95508-38.92383-15.22515-17.21921-75.78806-67.51063-98.08594-85.86719-14.21833-63.93905-100.4453-129.8923-155.373-158.498-33.56981-17.48279-110.3586-60.67891-181.2617-101.9219z" fill-opacity=".4745098"/>
+  <g transform="matrix(3.50294 0 0 3.50294 -3949.233 -128.6456)">
+   <path d="m1287.872 191.7706c-18.2961 17.07187-53.4954-10.00757-68.3526-27.01475-15.2811-17.49248-72.3403-76.48993-76.5109-80.31625-4.1704-3.826182-7.4918-8.551341-3.8041-13.25257 3.839-4.578442 9.1479-2.303721 13.7523 0.987377 4.6047 3.291218 74.1071 46.94733 94.3766 58.28971 19.707 11.02772 53.4675 39.8812 40.5387 61.30648z" fill="url(#linearGradient1403)"/>
+   <path d="m1317.223 208.6184c-71.4065 63.70087-129.8099 2.65141-138.859-18.49677 5.3512 36.70726 30.086 69.55591 67.4525 82.19764 28.2209 9.54743 73.2537 9.32583 93.4427-27.04736z" fill="url(#linearGradient1405)"/>
+   <path d="m1316.928 214.613c-5.8329 2.67141-5.2021 4.60226-10.3812 3.76933-3.5721-0.5745-34.5172-24.03135-34.5172-24.03135-1.5685-3.76412 0.313-8.93876 3.8473-13.03432 3.278-4.30338 7.953-7.21221 11.9598-6.45429 0 0 29.3379 25.43836 30.6372 28.81501 1.8838 4.89578-0.1357 4.67702-1.5459 10.93562z" fill="#bfbfbf"/>
+   <path d="m1318.529 266.5019c23.0515-13.0388 29.7607-35.75218 20.6586-52.37039-7.0732-12.91387-18.687-15.35542-26.7086-9.1112-7.9576 6.19442-8.6591 13.57562-6.2854 20.90644 4.8408 14.95155 24.3098 25.15463 12.3354 40.57515z" fill="#282828"/>
+  </g>
+ </g>
+</svg>
