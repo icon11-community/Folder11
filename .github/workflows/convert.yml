@@ -129,15 +129,23 @@ jobs:
             
             svg_file_path="svg/$name.svg"
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
+            small_svg_file="$SMALL_SVG_DIR/$name.svg"
+            if [ -f "$small_svg_file" ]; then
+              url_small_icon="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
+            else
+              url_small_icon=""
+            fi
+
             json_content=$(
-              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" '
+              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" --arg url_small_icon "$url_small_icon" '
                 .icons += [
                   {
                     "name": $name,
                     "size": $size,
                     "url_icon": $url_icon,
                     "hash": $hash,
-                    "date": $date
+                    "date": $date,
+                    "url_small_icon": ($url_small_icon | select(. != ""))
                   }
                 ]
               '
