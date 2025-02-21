@@ -111,6 +111,7 @@ jobs:
         run: |
           ICO_DIR="./Folder11-Ico/ico"
           HASH_DIR="./Folder11-Ico/hash"
+          SMALL_SVG_DIR="./Folder11/small"
           JSON_FILE="./Folder11-Ico/icon.json"
           json_content=$(
             jq -n --argjson icons '[]' '
@@ -126,9 +127,10 @@ jobs:
             size=$(stat -c%s "$ico_file")
             url_icon="https://raw.githubusercontent.com/icon11-community/Folder11-Ico/main/ico/$filename"
             hash=$(cat "$HASH_DIR/$name.hash")
-            
+
             svg_file_path="svg/$name.svg"
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
+
             small_svg_file="$SMALL_SVG_DIR/$name.svg"
             if [ -f "$small_svg_file" ]; then
               url_small_icon="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
@@ -143,9 +145,9 @@ jobs:
                     "name": $name,
                     "size": $size,
                     "url_icon": $url_icon,
+                    "url_small_icon": ($url_small_icon | select(. != ""))
                     "hash": $hash,
                     "date": $date,
-                    "url_small_icon": ($url_small_icon | select(. != ""))
                   }
                 ]
               '
