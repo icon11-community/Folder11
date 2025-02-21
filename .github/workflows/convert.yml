@@ -146,7 +146,7 @@ jobs:
                     "url_icon": $url_icon,
                     "hash": $hash,
                     "date": $date,
-                    "url_small_icon": ($small_svg_url | select(. != ""))
+                    "small_svg_url": $small_svg_url
                   }
                 ]
               '
