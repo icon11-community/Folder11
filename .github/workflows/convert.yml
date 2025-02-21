@@ -127,27 +127,26 @@ jobs:
             size=$(stat -c%s "$ico_file")
             url_icon="https://raw.githubusercontent.com/icon11-community/Folder11-Ico/main/ico/$filename"
             hash=$(cat "$HASH_DIR/$name.hash")
-
+            
             svg_file_path="svg/$name.svg"
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
-
-            small_svg_file="$SMALL_SVG_DIR/$name.svg"
-            if [ -f "$small_svg_file" ]; then
-              url_small_icon="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
-            else
-              url_small_icon=""
+            
+            # Cek apakah file small SVG ada
+            small_svg_url=""
+            if [ -f "$SMALL_SVG_DIR/$name.svg" ]; then
+              small_svg_url="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
             fi
-
+            
             json_content=$(
-              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" --arg url_small_icon "$url_small_icon" '
+              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" --arg small_svg_url "$small_svg_url" '
                 .icons += [
                   {
                     "name": $name,
                     "size": $size,
                     "url_icon": $url_icon,
-                    "url_small_icon": ($url_small_icon | select(. != ""))
                     "hash": $hash,
                     "date": $date,
+                    "url_small_icon": ($small_svg_url | select(. != ""))
                   }
                 ]
               '
