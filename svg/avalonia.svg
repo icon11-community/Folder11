@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 224 176">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变_20);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #c5bbff;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-9 {
+        mask: url(#mask-1);
+      }
+
+      .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #620a9b;
+      }
+
+      .cls-6 {
+        fill: url(#_未命名的渐变_24);
+      }
+
+      .cls-7 {
+        fill: url(#_未命名的渐变_18);
+      }
+
+      .cls-10 {
+        mask: url(#mask);
+      }
+
+      .cls-8 {
+        fill: #a6a1a1;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_18" data-name="未命名的渐变 18" x1=".61" y1="7.47" x2="212.29" y2="147.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7e6ce5"/>
+      <stop offset="1" stop-color="#c1b0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="15.58" y1="205.55" x2="196.35" y2="24.41" gradientTransform="translate(0 190) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05815d"/>
+      <stop offset="1" stop-color="#0c575f"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="224" height="138" maskUnits="userSpaceOnUse">
+      <g id="mask0_501_11930" data-name="mask0 501 11930">
+        <path class="cls-4" d="m87.43,8.38c-4.37-5.31-10.88-8.38-17.75-8.38H12C5.37,0,0,5.37,0,12v114c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12V36.14c0-6.63-5.37-12-12-12h-111.6l-12.98-15.76Z"/>
+      </g>
+    </mask>
+    <linearGradient id="_未命名的渐变_24" data-name="未命名的渐变 24" x1="0" y1="162" x2="224" y2="14" gradientTransform="translate(0 190) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c1b0ff"/>
+      <stop offset="1" stop-color="#795bd6"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_20" data-name="未命名的渐变 20" x1="-.07" y1="23.32" x2="223.94" y2="20.82" gradientTransform="translate(0 190) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9153f4"/>
+      <stop offset="1" stop-color="#ad40f4"/>
+    </linearGradient>
+    <mask id="mask-1" x="49.83" y="38.91" width="124.78" height="124.78" maskUnits="userSpaceOnUse">
+      <g id="bg-mask-0">
+        <rect id="path_0" data-name="path 0" class="cls-1" x="49.83" y="38.91" width="124.78" height="124.78"/>
+      </g>
+    </mask>
+  </defs>
+  <path class="cls-7" d="m87.43,8.38c-4.37-5.31-10.88-8.38-17.75-8.38H12C5.37,0,0,5.37,0,12v114c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12V36.14c0-6.63-5.37-12-12-12h-111.6l-12.98-15.76Z"/>
+  <g class="cls-10">
+    <path class="cls-8" d="m75.79,40c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v86c0,6.63-5.37,12-12,12H12c-6.63,0-12-5.37-12-12V52c0-6.63,5.37-12,12-12h63.79Z"/>
+  </g>
+  <path class="cls-6" d="m75.79,40c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v124c0,6.63-5.37,12-12,12H12c-6.63,0-12-5.37-12-12V52c0-6.63,5.37-12,12-12h63.79Z"/>
+  <path class="cls-2" d="m0,160v4c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12v-4c0,6.63-5.37,12-12,12H12c-6.63,0-12-5.37-12-12Z"/>
+  <path class="cls-3" d="m89.59,35.4c-3.98,2.98-8.82,4.6-13.8,4.6H12c-6.63,0-12,5.37-12,12v4c0-6.63,5.37-12,12-12h63.79c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v-4c0-6.63-5.37-12-12-12h-112.54l-9.87,7.4Z"/>
+  <g class="cls-9">
+    <g>
+      <path id="_路径_1" data-name="路径 1" class="cls-5" d="m106.98,64.84c2.88-.49,10.07-.27,12.99.37,7.07,1.51,13.04,4.65,18.13,9.5,6.38,6.07,10.31,13.89,11.4,22.69.15,1.27.24,9.6.24,21.74v19.69h-19.25v-2.19c0-1.22-.05-2.19-.12-2.19s-.88.37-1.78.83c-2.97,1.49-6.12,2.49-10.16,3.19-2.58.46-8.41.51-11.09.12-12.21-1.75-22.69-9.33-28.22-20.35-.93-1.88-2.49-5.95-2.49-6.53,0-.17.68-.61,1.51-1,3.9-1.8,6.29-6.36,5.56-10.58-.56-3.24-2.68-6.09-5.58-7.48-.83-.39-1.49-.85-1.49-1.02,0-.54,1.68-4.92,2.58-6.68,2.41-4.85,7.16-10.41,11.48-13.45,4.83-3.41,10.33-5.68,16.28-6.65h0Zm2.07,19.25c-6.63,1.41-11.8,6.17-13.79,12.7-.63,2.07-.66,7.68-.02,9.72,4.19,13.6,20.91,17.52,30.51,7.16,1.78-1.92,3.51-5.12,4.14-7.63.59-2.34.54-6.68-.1-9.02-1.68-6.07-6.14-10.63-12.33-12.53-2.19-.68-6.19-.88-8.41-.41h0Z"/>
+      <path id="_路径_2" data-name="路径 2" class="cls-5" d="m69.04,106.49c4.14,4.02,11.04,1.49,11.45-4.19.15-2.29-.39-3.83-1.88-5.36-1.78-1.83-4.73-2.49-7.16-1.63-4.53,1.63-5.87,7.8-2.41,11.19Z"/>
+    </g>
+  </g>
+</svg>
