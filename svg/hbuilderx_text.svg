@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 224 176">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .cls-1 {
@@ -67,6 +67,7 @@
       <stop offset="1" stop-color="#4f9c47"/>
     </linearGradient>
   </defs>
+  <g transform="translate(17, 34)">
   <path class="cls-5" d="m87.43,8.38c-4.37-5.31-10.88-8.38-17.75-8.38H12C5.37,0,0,5.37,0,12v114c0,6.63,5.37,12,12,12h200c6.63,0,12-5.37,12-12V36.14c0-6.63-5.37-12-12-12h-111.6l-12.98-15.76Z"/>
   <g class="cls-10">
     <path class="cls-6" d="m75.79,40c4.98,0,9.82-1.61,13.8-4.6l9.87-7.4h112.54c6.63,0,12,5.37,12,12v86c0,6.63-5.37,12-12,12H12c-6.63,0-12-5.37-12-12V52c0-6.63,5.37-12,12-12h63.79Z"/>
@@ -83,4 +84,5 @@
     </g>
   </g>
   <text class="cls-7" transform="translate(82.9 113.77)"><tspan x="0" y="0">HBuilder X</tspan></text>
+  </g>
 </svg>
