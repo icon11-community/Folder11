@@ -64,20 +64,28 @@ jobs:
             
             if [ -f "$small_svg" ]; then
               temp_png_main="$TEMP_DIR/${name}_main.png"
-              svgexport "$main_svg" "$temp_png_main" png 1054:1054
+              svgexport "$main_svg" "$temp_png_main" png 2048:2048
               
               temp_png_small="$TEMP_DIR/${name}_small.png"
-              svgexport "$small_svg" "$temp_png_small" png 1054:1054
+              svgexport "$small_svg" "$temp_png_small" png 2048:2048
               
-              convert -background transparent "$temp_png_main" -resize 256x256 "$TEMP_DIR/${name}_256.png"
-              convert -background transparent "$temp_png_main" -resize 64x64 "$TEMP_DIR/${name}_64.png"
-              convert -background transparent "$temp_png_main" -resize 48x48 "$TEMP_DIR/${name}_48.png"
-              convert -background transparent "$temp_png_main" -resize 40x40 "$TEMP_DIR/${name}_40.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_main" -resize 256x256 "$TEMP_DIR/${name}_256.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_main" -resize 64x64 "$TEMP_DIR/${name}_64.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_main" -resize 48x48 "$TEMP_DIR/${name}_48.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_main" -resize 40x40 "$TEMP_DIR/${name}_40.png"
               
-              convert -background transparent "$temp_png_small" -resize 32x32 "$TEMP_DIR/${name}_32.png"
-              convert -background transparent "$temp_png_small" -resize 24x24 "$TEMP_DIR/${name}_24.png"
-              convert -background transparent "$temp_png_small" -resize 20x20 "$TEMP_DIR/${name}_20.png"
-              convert -background transparent "$temp_png_small" -resize 16x16 "$TEMP_DIR/${name}_16.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_small" -resize 32x32 "$TEMP_DIR/${name}_32.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_small" -resize 24x24 "$TEMP_DIR/${name}_24.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_small" -resize 20x20 "$TEMP_DIR/${name}_20.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB \
+              "$temp_png_small" -resize 16x16 "$TEMP_DIR/${name}_16.png"
               
               convert "$TEMP_DIR/${name}_256.png" "$TEMP_DIR/${name}_64.png" "$TEMP_DIR/${name}_48.png" "$TEMP_DIR/${name}_40.png" \
                       "$TEMP_DIR/${name}_32.png" "$TEMP_DIR/${name}_24.png" "$TEMP_DIR/${name}_20.png" "$TEMP_DIR/${name}_16.png" \
@@ -89,6 +97,7 @@ jobs:
               convert -background transparent "$temp_png" \
                 -define icon:auto-resize="256,64,48,40,32,24,20,16" \
                 "$ico_output"
+                
             fi
             
             echo "$current_hash" > "$hash_file"
