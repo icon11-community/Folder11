@@ -41,7 +41,6 @@ jobs:
             filename=$(basename -- "$main_svg")
             name="${filename%.*}"
             
-            # Periksa apakah file small tersedia di folder small
             small_svg="$SMALL_SVG_DIR/$filename"
             if [ -f "$small_svg" ]; then
               # Kombinasikan hash dari file main dan small
@@ -49,7 +48,7 @@ jobs:
               small_hash=$(git hash-object "$small_svg")
               current_hash=$(echo -n "${main_hash}_${small_hash}" | sha1sum | awk '{print $1}')
             else
-              # Jika file small tidak ada, gunakan hash dari file main saja
+            
               current_hash=$(git hash-object "$main_svg")
             fi
             
@@ -140,7 +139,6 @@ jobs:
             svg_file_path="svg/$name.svg"
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
             
-            # Cek apakah file small SVG ada
             small_svg_url=""
             if [ -f "$SMALL_SVG_DIR/$name.svg" ]; then
               small_svg_url="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
