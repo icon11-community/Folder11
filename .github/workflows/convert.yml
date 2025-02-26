@@ -93,8 +93,8 @@ jobs:
             else
             
               temp_png="$TEMP_DIR/${name}.png"
-              svgexport "$main_svg" "$temp_png" png 500:500
-              convert -background transparent "$temp_png" \
+              svgexport "$main_svg" "$temp_png" png 2048:2048
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png" \
                 -define icon:auto-resize="256,64,48,40,32,24,20,16" \
                 "$ico_output"
                 
