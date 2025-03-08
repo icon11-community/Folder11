@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="base" xmlns="http://www.w3.org/2000/svg" width="256" height="256" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#top);
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        fill-rule: evenodd;
+      }
+
+      .st6 {
+        fill: #fff;
+      }
+
+      .st7 {
+        mask: url(#mask);
+      }
+
+      .st1 {
+        fill: #004a19;
+      }
+
+      .st2 {
+        fill: url(#bg);
+      }
+
+      .st3 {
+        fill: url(#bottom);
+      }
+
+      .st4 {
+        fill: #a6a1a1;
+      }
+
+      .st5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="32.6" y1="239.5" x2="213.3" y2="58.4" gradientTransform="translate(0 258) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05815d"/>
+      <stop offset="1" stop-color="#0c575f"/>
+    </linearGradient>
+    <mask id="mask" x="17" y="34" width="224" height="138" maskUnits="userSpaceOnUse">
+      <g id="mask0_501_11930">
+        <path class="st5" d="M104.4,42.4c-4.4-5.3-10.9-8.4-17.8-8.4H29c-6.6,0-12,5.4-12,12v114c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12v-89.9c0-6.6-5.4-12-12-12h-111.6l-13-15.8Z"/>
+      </g>
+    </mask>
+    <linearGradient id="bg" x1="17" y1="196" x2="241" y2="48" gradientTransform="translate(0 258) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#65ad6a"/>
+      <stop offset="1" stop-color="#007808"/>
+    </linearGradient>
+    <linearGradient id="bottom" x1="16.9" y1="57.3" x2="240.9" y2="54.8" gradientTransform="translate(0 258) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a5c34"/>
+      <stop offset="1" stop-color="#084010"/>
+    </linearGradient>
+    <linearGradient id="top" x1="17" y1="182" x2="241" y2="182" gradientTransform="translate(0 258) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#62ac67"/>
+      <stop offset="1" stop-color="#4fa255"/>
+    </linearGradient>
+  </defs>
+  <path class="st1" d="M104.4,42.4c-4.4-5.3-10.9-8.4-17.8-8.4H29c-6.6,0-12,5.4-12,12v114c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12v-89.9c0-6.6-5.4-12-12-12h-111.6l-13-15.8Z"/>
+  <g class="st7">
+    <path class="st4" d="M92.8,74c5,0,9.8-1.6,13.8-4.6l9.9-7.4h112.5c6.6,0,12,5.4,12,12v86c0,6.6-5.4,12-12,12H29c-6.6,0-12-5.4-12-12v-74c0-6.6,5.4-12,12-12h63.8Z"/>
+  </g>
+  <path class="st2" d="M92.8,74c5,0,9.8-1.6,13.8-4.6l9.9-7.4h112.5c6.6,0,12,5.4,12,12v124c0,6.6-5.4,12-12,12H29c-6.6,0-12-5.4-12-12v-112c0-6.6,5.4-12,12-12h63.8Z"/>
+  <path class="st3" d="M17,194v4c0,6.6,5.4,12,12,12h200c6.6,0,12-5.4,12-12v-4c0,6.6-5.4,12-12,12H29c-6.6,0-12-5.4-12-12Z"/>
+  <path class="st0" d="M106.6,69.4c-4,3-8.8,4.6-13.8,4.6H29c-6.6,0-12,5.4-12,12v4c0-6.6,5.4-12,12-12h63.8c5,0,9.8-1.6,13.8-4.6l9.9-7.4h112.5c6.6,0,12,5.4,12,12v-4c0-6.6-5.4-12-12-12h-112.5l-9.9,7.4Z"/>
+  <path class="st6" d="M164.7,177.5h-20.7c-2.3,0-4.4-1.4-5.3-3.5s-.5-4.6,1.2-6.2l19.1-19.1v-9l-36.2,36.2c-1.2,1.2-2.5,1.6-4.1,1.6h-25.4c-2.3,0-4.4-1.4-5.3-3.5s-.5-4.6,1.2-6.2l61.8-61.8h-9l-44.5,44.5c-1.6,1.6-4.1,2.1-6.2,1.2-2.3-.9-3.7-3-3.7-5.3v-25.4c0-1.6.7-3,1.6-4.1l10.8-10.8h-6.9c-3,0-5.5-2.5-5.5-5.8s2.5-5.8,5.8-5.8h20.7c2.3,0,4.4,1.4,5.3,3.5.9,2.1.5,4.6-1.2,6.2l-19.1,19.1v9l36.2-36.2c1.2-.9,2.5-1.6,4.1-1.6h25.4c2.3,0,4.4,1.4,5.3,3.5.9,2.1.5,4.6-1.2,6.2l-61.8,61.8h9l44.5-44.5c1.6-1.6,4.1-2.1,6.2-1.2s3.5,3,3.5,5.3v25.4c0,1.6-.7,3-1.6,4.1l-10.8,10.8h6.9c3.2,0,5.8,2.5,5.8,5.8s-2.5,5.8-5.8,5.8Z"/>
+</svg>
