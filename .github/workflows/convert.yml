@@ -19,7 +19,7 @@ jobs:
       - name: Checkout ICO Repo
         uses: actions/checkout@v3
         with:
-          repository: icon11-community/Folder11-Ico
+          repository: icon11-community/Folder-Ico
           token: ${{ secrets.ACTION_TOKEN }}
           path: Folder11-Ico
       - name: Setup Dependencies
@@ -31,8 +31,8 @@ jobs:
         run: |
           MAIN_SVG_DIR="./Folder11/svg"
           SMALL_SVG_DIR="./Folder11/small"
-          ICO_DIR="./Folder11-Ico/ico"
-          HASH_DIR="./Folder11-Ico/hash"
+          ICO_DIR="./Folder-Ico/ico"
+          HASH_DIR="./Folder-Ico/hash"
           TEMP_DIR=$(mktemp -d)
           mkdir -p "$ICO_DIR" "$HASH_DIR"
           
@@ -117,10 +117,10 @@ jobs:
           echo "hash=$current_hash" >> $GITHUB_ENV
       - name: Generate icon.json
         run: |
-          ICO_DIR="./Folder11-Ico/ico"
-          HASH_DIR="./Folder11-Ico/hash"
+          ICO_DIR="./Folder-Ico/ico"
+          HASH_DIR="./Folder-Ico/hash"
           SMALL_SVG_DIR="./Folder11/small"
-          JSON_FILE="./Folder11-Ico/icon.json"
+          JSON_FILE="./Folder-Ico/Folder11.json"
           json_content=$(
             jq -n --argjson icons '[]' '
               {
@@ -133,7 +133,7 @@ jobs:
             filename=$(basename -- "$ico_file")
             name="${filename%.*}"
             size=$(stat -c%s "$ico_file")
-            url_icon="https://raw.githubusercontent.com/icon11-community/Folder11-Ico/main/ico/$filename"
+            url_icon="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/$filename"
             hash=$(cat "$HASH_DIR/$name.hash")
             
             svg_file_path="svg/$name.svg"
