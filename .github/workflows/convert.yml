@@ -21,7 +21,7 @@ jobs:
         with:
           repository: icon11-community/Folder-Ico
           token: ${{ secrets.ACTION_TOKEN }}
-          path: Folder11-Ico
+          path: Folder-Ico
       - name: Setup Dependencies
         run: |
           sudo apt-get install -y imagemagick jq
@@ -162,7 +162,7 @@ jobs:
           echo "$json_content" | jq . > "$JSON_FILE"
       - name: Commit and Push Changes
         run: |
-          cd Folder11-Ico
+          cd Folder-Ico
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           if [ -n "$(git status --porcelain)" ]; then
