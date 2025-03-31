@@ -24,7 +24,8 @@ jobs:
           path: Folder-Ico
       - name: Setup Dependencies
         run: |
-          sudo apt-get install -y imagemagick jq
+          sudo apt-get update
+          sudo apt-get install -y imagemagick jq --fix-missing
           npm install -g svgexport
       - name: Convert SVG to ICO
         id: convert_svg
