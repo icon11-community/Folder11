@@ -122,13 +122,10 @@ jobs:
           HASH_DIR="./Folder-Ico/hash"
           SMALL_SVG_DIR="./Folder11/small"
           JSON_FILE="./Folder-Ico/Folder11.json"
-          json_content=$(
-            jq -n --argjson icons '[]' '
-              {
-                "icons": $icons
-              }
-            '
-          )
+          
+          # Inisialisasi JSON kosong
+          json_content=$(jq -n '{"icons": []}')
+          
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
             filename=$(basename -- "$ico_file")
@@ -138,19 +135,37 @@ jobs:
             hash=$(cat "$HASH_DIR/$name.hash")
             
             svg_file_path="svg/$name.svg"
+            
+            # --- BAGIAN BARU: AMBIL AUTHOR & TANGGAL ---
+            # Mengambil tanggal commit terakhir
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
             
+            # Mengambil nama Author (orang pertama yang membuat file ini)
+            author=$(git -C ./Folder11 log --diff-filter=A --format="%an" -- "$svg_file_path" | tail -1)
+            
+            # Jika author kosong (file baru belum di-commit), gunakan default
+            if [ -z "$author" ]; then author="Unknown"; fi
+            # -------------------------------------------
+
             small_svg_url=""
             if [ -f "$SMALL_SVG_DIR/$name.svg" ]; then
               small_svg_url="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
             fi
             
             json_content=$(
-              echo "$json_content" | jq --arg name "$name" --arg size "$size" --arg url_icon "$url_icon" --arg hash "$hash" --arg date "$date" --arg small_svg_url "$small_svg_url" '
+              echo "$json_content" | jq \
+                --arg name "$name" \
+                --arg size "$size" \
+                --arg url_icon "$url_icon" \
+                --arg hash "$hash" \
+                --arg date "$date" \
+                --arg author "$author" \
+                --arg small_svg_url "$small_svg_url" '
                 .icons += [
                   {
                     "name": $name,
-                    "size": $size,
+                    "author": $author,
+                    "size": ($size | tonumber),
                     "url_icon": $url_icon,
                     "hash": $hash,
                     "date": $date,
