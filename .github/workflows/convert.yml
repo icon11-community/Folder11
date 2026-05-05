@@ -117,14 +117,19 @@ jobs:
           rm -rf "$TEMP_DIR"
           echo "hash=$current_hash" >> $GITHUB_ENV
       - name: Generate icon.json
+        env:
+          GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
         run: |
           ICO_DIR="./Folder-Ico/ico"
           HASH_DIR="./Folder-Ico/hash"
           SMALL_SVG_DIR="./Folder11/small"
           JSON_FILE="./Folder-Ico/Folder11.json"
           
-          # Inisialisasi JSON kosong
           json_content=$(jq -n '{"icons": []}')
+          
+          declare -A CACHE_NAME
+          declare -A CACHE_LINK
+          declare -A CACHE_PROFILE
           
           for ico_file in "$ICO_DIR"/*.ico; do
             [ -f "$ico_file" ] || continue
@@ -135,17 +140,40 @@ jobs:
             hash=$(cat "$HASH_DIR/$name.hash")
             
             svg_file_path="svg/$name.svg"
-            
-            # --- BAGIAN BARU: AMBIL AUTHOR & TANGGAL ---
-            # Mengambil tanggal commit terakhir
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
             
-            # Mengambil nama Author (orang pertama yang membuat file ini)
-            author=$(git -C ./Folder11 log --diff-filter=A --format="%an" -- "$svg_file_path" | tail -1)
+            first_commit=$(git -C ./Folder11 log --diff-filter=A --format="%H" -- "$svg_file_path" | tail -1)
             
-            # Jika author kosong (file baru belum di-commit), gunakan default
-            if [ -z "$author" ]; then author="Unknown"; fi
-            # -------------------------------------------
+            if [ -z "$first_commit" ]; then
+                author_name="Unknown"
+                author_link="https://github.com/icon11-community"
+                author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
+            else
+                author_email=$(git -C ./Folder11 log -1 --format="%ae" "$first_commit")
+                
+                if [ -n "${CACHE_NAME[$author_email]}" ]; then
+                    author_name="${CACHE_NAME[$author_email]}"
+                    author_link="${CACHE_LINK[$author_email]}"
+                    author_profile="${CACHE_PROFILE[$author_email]}"
+                else
+                    author_name=$(git -C ./Folder11 log -1 --format="%an" "$first_commit")
+                    author_link="https://github.com/icon11-community"
+                    author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
+                    
+                    gh_user=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.login' 2>/dev/null || echo "")
+                    gh_avatar=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.avatar_url' 2>/dev/null || echo "")
+                    
+                    if [ -n "$gh_user" ] && [ "$gh_user" != "null" ]; then
+                        author_name="$gh_user"
+                        author_link="https://github.com/$gh_user"
+                        author_profile="$gh_avatar"
+                    fi
+                    
+                    CACHE_NAME[$author_email]="$author_name"
+                    CACHE_LINK[$author_email]="$author_link"
+                    CACHE_PROFILE[$author_email]="$author_profile"
+                fi
+            fi
 
             small_svg_url=""
             if [ -f "$SMALL_SVG_DIR/$name.svg" ]; then
@@ -159,12 +187,16 @@ jobs:
                 --arg url_icon "$url_icon" \
                 --arg hash "$hash" \
                 --arg date "$date" \
-                --arg author "$author" \
+                --arg author_name "$author_name" \
+                --arg author_link "$author_link" \
+                --arg author_profile "$author_profile" \
                 --arg small_svg_url "$small_svg_url" '
                 .icons += [
                   {
                     "name": $name,
-                    "author": $author,
+                    "author_name": $author_name,
+                    "author_link": $author_link,
+                    "author_profile": $author_profile,
                     "size": ($size | tonumber),
                     "url_icon": $url_icon,
                     "hash": $hash,
