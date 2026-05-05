@@ -16,26 +16,40 @@ jobs:
           repository: icon11-community/Folder11
           path: Folder11
           fetch-depth: 0
+          
       - name: Checkout ICO Repo
         uses: actions/checkout@v3
         with:
           repository: icon11-community/Folder-Ico
           token: ${{ secrets.ACTION_TOKEN }}
           path: Folder-Ico
+          
       - name: Setup Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick jq --fix-missing
           npm install -g svgexport
-      - name: Convert SVG to ICO
-        id: convert_svg
+          
+      - name: Process Icons & Update Database
+        env:
+          GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
         run: |
           MAIN_SVG_DIR="./Folder11/svg"
           SMALL_SVG_DIR="./Folder11/small"
           ICO_DIR="./Folder-Ico/ico"
-          HASH_DIR="./Folder-Ico/hash"
+          JSON_FILE="./Folder-Ico/Folder11.json"
           TEMP_DIR=$(mktemp -d)
-          mkdir -p "$ICO_DIR" "$HASH_DIR"
+          
+          mkdir -p "$ICO_DIR"
+          
+          # Buat JSON kosong jika belum pernah ada
+          if [ ! -f "$JSON_FILE" ]; then
+            echo '{"icons": []}' > "$JSON_FILE"
+          fi
+          
+          declare -A CACHE_NAME
+          declare -A CACHE_LINK
+          declare -A CACHE_PROFILE
           
           for main_svg in "$MAIN_SVG_DIR"/*.svg; do
             [ -f "$main_svg" ] || continue
@@ -44,105 +58,72 @@ jobs:
             
             small_svg="$SMALL_SVG_DIR/$filename"
             if [ -f "$small_svg" ]; then
-              # Kombinasikan hash dari file main dan small
               main_hash=$(git hash-object "$main_svg")
               small_hash=$(git hash-object "$small_svg")
               current_hash=$(echo -n "${main_hash}_${small_hash}" | sha1sum | awk '{print $1}')
             else
-            
               current_hash=$(git hash-object "$main_svg")
             fi
             
-            hash_file="$HASH_DIR/$name.hash"
-            if [ -f "$hash_file" ] && [ -f "$ICO_DIR/$name.ico" ] && [ "$current_hash" == "$(cat "$hash_file")" ]; then
+            # --- CEK HASH LANGSUNG DARI JSON ---
+            old_hash=$(jq -r --arg n "$name" '.icons[] | select(.name == $n and .is_history == false) | .hash // empty' "$JSON_FILE")
+            
+            ico_output="$ICO_DIR/$name.ico"
+            
+            # Jika hash sama persis, SKIP
+            if [ "$old_hash" == "$current_hash" ] && [ -f "$ico_output" ]; then
               echo "🟢 No changes for: $name"
               continue
             fi
             
-            echo "🔵 Converting: $name"
-            ico_output="$ICO_DIR/$name.ico"
+            echo "🔵 Processing: $name"
             
+            # 1. ARSIPKAN VERSI LAMA (JIKA ADA REVISI)
+            if [ -n "$old_hash" ] && [ -f "$ico_output" ]; then
+              echo "📦 Archiving old version: ${name}_history_${old_hash}"
+              
+              # Rename file .ico
+              mv "$ico_output" "$ICO_DIR/${name}_history_${old_hash}.ico"
+              
+              # Update status di JSON menjadi history = true
+              tmp_json=$(mktemp)
+              jq --arg n "$name" --arg h "$old_hash" '
+                (.icons[] | select(.name == $n and .is_history == false)) |= 
+                (.is_history = true | .url_icon = "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/'${name}_history_${old_hash}'.ico")
+              ' "$JSON_FILE" > "$tmp_json" && mv "$tmp_json" "$JSON_FILE"
+            fi
+            
+            # 2. CONVERT SVG BARU KE ICO (CURRENT)
             if [ -f "$small_svg" ]; then
               temp_png_main="$TEMP_DIR/${name}_main.png"
               svgexport "$main_svg" "$temp_png_main" png 2048:2048
-              
               temp_png_small="$TEMP_DIR/${name}_small.png"
               svgexport "$small_svg" "$temp_png_small" png 2048:2048
               
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_main" -resize 256x256 "$TEMP_DIR/${name}_256.png"
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_main" -resize 64x64 "$TEMP_DIR/${name}_64.png"
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_main" -resize 48x48 "$TEMP_DIR/${name}_48.png"
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_main" -resize 40x40 "$TEMP_DIR/${name}_40.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_main" -resize 256x256 "$TEMP_DIR/${name}_256.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_main" -resize 64x64 "$TEMP_DIR/${name}_64.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_main" -resize 48x48 "$TEMP_DIR/${name}_48.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_main" -resize 40x40 "$TEMP_DIR/${name}_40.png"
               
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_small" -resize 32x32 "$TEMP_DIR/${name}_32.png"
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_small" -resize 24x24 "$TEMP_DIR/${name}_24.png"
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_small" -resize 20x20 "$TEMP_DIR/${name}_20.png"
-              convert -background transparent -filter Lanczos -colorspace sRGB \
-              "$temp_png_small" -resize 16x16 "$TEMP_DIR/${name}_16.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_small" -resize 32x32 "$TEMP_DIR/${name}_32.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_small" -resize 24x24 "$TEMP_DIR/${name}_24.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_small" -resize 20x20 "$TEMP_DIR/${name}_20.png"
+              convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png_small" -resize 16x16 "$TEMP_DIR/${name}_16.png"
               
               convert "$TEMP_DIR/${name}_256.png" "$TEMP_DIR/${name}_64.png" "$TEMP_DIR/${name}_48.png" "$TEMP_DIR/${name}_40.png" \
                       "$TEMP_DIR/${name}_32.png" "$TEMP_DIR/${name}_24.png" "$TEMP_DIR/${name}_20.png" "$TEMP_DIR/${name}_16.png" \
                       "$ico_output"
             else
-            
               temp_png="$TEMP_DIR/${name}.png"
               svgexport "$main_svg" "$temp_png" png 2048:2048
               convert -background transparent -filter Lanczos -colorspace sRGB "$temp_png" \
                 -define icon:auto-resize="256,64,48,40,32,24,20,16" \
                 "$ico_output"
-                
             fi
             
-            echo "$current_hash" > "$hash_file"
-          done
-          
-          for ico_file in "$ICO_DIR"/*.ico; do
-            [ -f "$ico_file" ] || continue
-            filename=$(basename -- "$ico_file")
-            name="${filename%.*}"
-            main_svg="$MAIN_SVG_DIR/$name.svg"
-            if [ ! -f "$main_svg" ]; then
-              echo "🔴 Removing orphaned: $name"
-              rm -f "$ico_file"
-              rm -f "$HASH_DIR/$name.hash"
-            fi
-          done
-          rm -rf "$TEMP_DIR"
-          echo "hash=$current_hash" >> $GITHUB_ENV
-      - name: Generate icon.json
-        env:
-          GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
-        run: |
-          ICO_DIR="./Folder-Ico/ico"
-          HASH_DIR="./Folder-Ico/hash"
-          SMALL_SVG_DIR="./Folder11/small"
-          JSON_FILE="./Folder-Ico/Folder11.json"
-          
-          json_content=$(jq -n '{"icons": []}')
-          
-          declare -A CACHE_NAME
-          declare -A CACHE_LINK
-          declare -A CACHE_PROFILE
-          
-          for ico_file in "$ICO_DIR"/*.ico; do
-            [ -f "$ico_file" ] || continue
-            filename=$(basename -- "$ico_file")
-            name="${filename%.*}"
-            size=$(stat -c%s "$ico_file")
-            url_icon="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/$filename"
-            hash=$(cat "$HASH_DIR/$name.hash")
-            
-            svg_file_path="svg/$name.svg"
-            date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "$svg_file_path")
-            
-            first_commit=$(git -C ./Folder11 log --diff-filter=A --format="%H" -- "$svg_file_path" | tail -1)
+            # 3. FETCH METADATA UNTUK VERSI CURRENT BARU
+            date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "svg/$filename")
+            first_commit=$(git -C ./Folder11 log --diff-filter=A --format="%H" -- "svg/$filename" | tail -1)
             
             if [ -z "$first_commit" ]; then
                 author_name="Unknown"
@@ -150,7 +131,6 @@ jobs:
                 author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
             else
                 author_email=$(git -C ./Folder11 log -1 --format="%ae" "$first_commit")
-                
                 if [ -n "${CACHE_NAME[$author_email]}" ]; then
                     author_name="${CACHE_NAME[$author_email]}"
                     author_link="${CACHE_LINK[$author_email]}"
@@ -174,40 +154,59 @@ jobs:
                     CACHE_PROFILE[$author_email]="$author_profile"
                 fi
             fi
-
+            
+            size=$(stat -c%s "$ico_output")
+            url_icon="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/$name.ico"
             small_svg_url=""
-            if [ -f "$SMALL_SVG_DIR/$name.svg" ]; then
-              small_svg_url="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$name.svg"
+            if [ -f "$small_svg" ]; then
+              small_svg_url="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$filename"
             fi
             
-            json_content=$(
-              echo "$json_content" | jq \
-                --arg name "$name" \
-                --arg size "$size" \
-                --arg url_icon "$url_icon" \
-                --arg hash "$hash" \
-                --arg date "$date" \
-                --arg author_name "$author_name" \
-                --arg author_link "$author_link" \
-                --arg author_profile "$author_profile" \
-                --arg small_svg_url "$small_svg_url" '
-                .icons += [
-                  {
-                    "name": $name,
-                    "author_name": $author_name,
-                    "author_link": $author_link,
-                    "author_profile": $author_profile,
-                    "size": ($size | tonumber),
-                    "url_icon": $url_icon,
-                    "hash": $hash,
-                    "date": $date,
-                    "small_svg_url": $small_svg_url
-                  }
-                ]
-              '
-            )
+            # 4. TAMBAHKAN ENTRY BARU KE JSON (Current)
+            tmp_json=$(mktemp)
+            jq --arg name "$name" \
+               --arg author_name "$author_name" \
+               --arg author_link "$author_link" \
+               --arg author_profile "$author_profile" \
+               --arg size "$size" \
+               --arg url_icon "$url_icon" \
+               --arg hash "$current_hash" \
+               --arg date "$date" \
+               --arg small_svg_url "$small_svg_url" \
+               --argjson is_history false \
+               '.icons += [{
+                 name: $name,
+                 author_name: $author_name,
+                 author_link: $author_link,
+                 author_profile: $author_profile,
+                 size: ($size | tonumber),
+                 url_icon: $url_icon,
+                 hash: $hash,
+                 date: $date,
+                 small_svg_url: $small_svg_url,
+                 is_history: $is_history
+               }]' "$JSON_FILE" > "$tmp_json" && mv "$tmp_json" "$JSON_FILE"
+               
           done
-          echo "$json_content" | jq . > "$JSON_FILE"
+          
+          # 5. CLEANUP ORPHANED ICONS (Jika SVG dihapus sepenuhnya dari repo)
+          echo "🧹 Cleaning up orphaned files..."
+          current_icons=$(jq -r '.icons[] | select(.is_history == false) | .name' "$JSON_FILE")
+          for name in $current_icons; do
+            if [ ! -f "$MAIN_SVG_DIR/$name.svg" ]; then
+              echo "🔴 Removing orphaned icon and its history: $name"
+              # Hapus file fisiknya
+              rm -f "$ICO_DIR/$name.ico"
+              rm -f "$ICO_DIR/${name}_history_"*.ico
+              
+              # Hapus seluruh datanya (current + history) dari JSON
+              tmp_json=$(mktemp)
+              jq --arg n "$name" 'del(.icons[] | select(.name == $n))' "$JSON_FILE" > "$tmp_json" && mv "$tmp_json" "$JSON_FILE"
+            fi
+          done
+          
+          rm -rf "$TEMP_DIR"
+          
       - name: Commit and Push Changes
         run: |
           cd Folder-Ico
@@ -215,7 +214,7 @@ jobs:
           git config user.email "actions@github.com"
           if [ -n "$(git status --porcelain)" ]; then
             git add .
-            git commit -m "gen: ${{ env.hash }}"
+            git commit -m "gen: auto-update icons and database"
             git push
           else
             echo "No changes to commit"
