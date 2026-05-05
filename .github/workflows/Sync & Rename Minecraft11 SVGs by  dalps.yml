@@ -1,0 +1,42 @@
+name: Sync & Rename Minecraft11 SVGs
+
+on:
+  workflow_dispatch: # Jalankan manual kapan pun kamu mau
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Folder11 Repo
+        uses: actions/checkout@v4
+        with:
+          path: Folder11
+
+      - name: Checkout dalps/minecraft11 Repo
+        uses: actions/checkout@v4
+        with:
+          repository: dalps/minecraft11
+          path: minecraft11
+
+      - name: Copy and Rename SVG files
+        run: |
+          mkdir -p Folder11/svg 
+          
+          for file in minecraft11/svg/*.svg; do
+            filename=$(basename "$file")
+        
+            cp "$file" "Folder11/svg/minecraft_$filename"
+          done
+
+      - name: Commit and Push changes
+        run: |
+          cd Folder11
+          git config user.name "dalps"
+          git config user.email "dalps@users.noreply.github.com" 
+          
+          git add "svg/minecraft_*.svg"
+          
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "feat: add minecraft SVGs from dalps"
+            git push origin main
+          fi
