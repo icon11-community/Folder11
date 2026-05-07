@@ -126,17 +126,17 @@ jobs:
             first_commit=$(git -C ./Folder11 log --diff-filter=A --format="%H" -- "svg/$filename" | tail -1)
             
             if [ -z "$first_commit" ]; then
-                author_name="Unknown"
+                author="Unknown"
                 author_link="https://github.com/icon11-community"
                 author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
             else
                 author_email=$(git -C ./Folder11 log -1 --format="%ae" "$first_commit")
                 if [ -n "${CACHE_NAME[$author_email]}" ]; then
-                    author_name="${CACHE_NAME[$author_email]}"
+                    author="${CACHE_NAME[$author_email]}"
                     author_link="${CACHE_LINK[$author_email]}"
                     author_profile="${CACHE_PROFILE[$author_email]}"
                 else
-                    author_name=$(git -C ./Folder11 log -1 --format="%an" "$first_commit")
+                    author=$(git -C ./Folder11 log -1 --format="%an" "$first_commit")
                     author_link="https://github.com/icon11-community"
                     author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
                     
@@ -144,12 +144,12 @@ jobs:
                     gh_avatar=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.avatar_url' 2>/dev/null || echo "")
                     
                     if [ -n "$gh_user" ] && [ "$gh_user" != "null" ]; then
-                        author_name="$gh_user"
+                        author="$gh_user"
                         author_link="https://github.com/$gh_user"
                         author_profile="$gh_avatar"
                     fi
                     
-                    CACHE_NAME[$author_email]="$author_name"
+                    CACHE_NAME[$author_email]="$author"
                     CACHE_LINK[$author_email]="$author_link"
                     CACHE_PROFILE[$author_email]="$author_profile"
                 fi
@@ -165,7 +165,7 @@ jobs:
             # 4. TAMBAHKAN ENTRY BARU KE JSON (Current)
             tmp_json=$(mktemp)
             jq --arg name "$name" \
-               --arg author_name "$author_name" \
+               --arg author "$author" \
                --arg author_link "$author_link" \
                --arg author_profile "$author_profile" \
                --arg size "$size" \
@@ -176,7 +176,7 @@ jobs:
                --argjson is_history false \
                '.icons += [{
                  name: $name,
-                 author_name: $author_name,
+                 author: $author,
                  author_link: $author_link,
                  author_profile: $author_profile,
                  size: ($size | tonumber),
