@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="shulkerbox__c">
+      <stop offset="0" style="stop-color:#989898;stop-opacity:.25"/>
+      <stop offset="1" style="stop-color:#fff;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="shulkerbox__b">
+      <stop offset="0" style="stop-color:#191919;stop-opacity:.59638554"/>
+      <stop offset=".999" style="stop-color:#b4b4b4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="shulkerbox__a" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F50"/>
+      <stop offset=".41" stop-color="#F50"/>
+      <stop offset=".582" stop-color="#FF2000"/>
+      <stop offset="1" stop-color="#FF2000"/>
+    </linearGradient>
+    <linearGradient xlink:href="#shulkerbox__a" id="shulkerbox__d" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#shulkerbox__b" id="shulkerbox__n" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#shulkerbox__b" id="shulkerbox__k" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="shulkerbox__e">
+      <stop offset="0" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#707070;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#shulkerbox__c" id="shulkerbox__o" x1="209" x2="65" y1="82" y2="82" gradientUnits="userSpaceOnUse"/>
+    <clipPath id="shulkerbox__l" clipPathUnits="userSpaceOnUse">
+      <path fill="url(#shulkerbox__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:1;fill:url(#shulkerbox__d)"/>
+    </clipPath>
+    <clipPath id="shulkerbox__g" clipPathUnits="userSpaceOnUse">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:1;fill:none"/>
+    </clipPath>
+    <clipPath id="shulkerbox__f" clipPathUnits="userSpaceOnUse">
+      <path d="M29 34a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 46v152a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198V70.137q-.002-1.245-.244-2.418a11.9 11.9 0 0 0-1.805-4.291 12 12 0 0 0-1.467-1.776A11.98 11.98 0 0 0 229 58.136H117.404L104.426 42.38A23.02 23.02 0 0 0 86.672 34Z" style="clip-rule:evenodd;display:inline;opacity:1;fill:#d7d7d7;fill-rule:evenodd;stroke-width:3.77953"/>
+    </clipPath>
+    <filter id="shulkerbox__j" width="1.174" height="1.758" x="-.087" y="-.379" style="color-interpolation-filters:sRGB">
+      <feGaussianBlur stdDeviation=".856"/>
+    </filter>
+    <filter id="shulkerbox__i" width="1.153" height="2.174" x="-.076" y="-.587" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="7.136 6.841"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="comp1" operator="atop" result="comp2"/>
+    </filter>
+    <filter id="shulkerbox__m" width="1.053" height="1.138" x="-.026" y="-.062" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="1"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <radialGradient xlink:href="#shulkerbox__e" id="shulkerbox__h" cx="129" cy="103" r="112" fx="129" fy="103" gradientTransform="matrix(0 -.163 .42003 0 -9.398 48.28)" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g clip-path="url(#shulkerbox__f)" style="display:inline;opacity:1;fill:none" transform="translate(-1)">
+    <g clip-path="url(#shulkerbox__g)">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;fill:#d7d7d7;fill-opacity:1"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wsSEQca5ZKJZQAAAUpJREFUKM+NkVFuGzEMRJ83G+9a K5T8yeV6i+YCuUmQ461gxKVa70opYrsfVNwWBQIPoI+hOMOhtHn6+nTRqMgk5GPGFkN3inwR8pKx o6FRkSDktfFJkSik74leozIfZmqtWDE0KHOeqe8VW91sPszUt+rmQZn3zlNO9DIKdarYT7/UUeGE 86jopAAuHhWNChvnEoQ+l+yTYhMDOikaFO6AU+Nj4xeufckSnR0NHf4403kTdzh64Nz42Y8V8wSj 0GlUrHqBzidexTQz/jW21deVKHQyCTqpG/CX+CPNuaV4bzVAg2LFyEumz0v7ukkpv8r/CU5N3LDr dtd1kyV6W9vrBqWUwuPL44ZP8Pzt+ZJeE7YashP60AcOywGAYRi4Bbb6ww/bge5BHtBRsTe7ScwG dPD+XDLd/sceq0bow20GZ7jf3hO2gVwyvwFIX7DmYlM6zwAAAABJRU5ErkJggg==" width="223.998" height="167.999" x="17" preserveAspectRatio="none" style="display:inline;opacity:1;mix-blend-mode:normal;fill:none;image-rendering:pixelated"/>
+      <g style="display:inline">
+        <path fill="#c53030" fill-rule="evenodd" d="M27.363 11.213a6.09 6.09 0 0 0-4.697-2.217H7.406a3.175 3.175 0 0 0-3.174 3.175v30.162a3.175 3.175 0 0 0 3.175 3.175h52.916a3.175 3.175 0 0 0 3.175-3.175V18.557a3.175 3.175 0 0 0-3.175-3.175H30.797Z" clip-rule="evenodd" style="font-variation-settings:normal;display:inline;opacity:.5;mix-blend-mode:multiply;vector-effect:none;fill:url(#shulkerbox__h);stroke-width:.122353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000" transform="translate(1)scale(3.77953)"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;opacity:.64;mix-blend-mode:multiply;fill:#fff;fill-opacity:1;fill-rule:evenodd;filter:url(#shulkerbox__i)" transform="translate(-.006)"/>
+        <path d="M47.611 222.508h19.447a2.117 2.117 45 0 1 2.117 2.117v1.19a2.117 2.117 135 0 1-2.117 2.117H47.61a2.117 2.117 45 0 1-2.117-2.117v-1.19a2.117 2.117 135 0 1 2.117-2.117" style="display:inline;opacity:.254;mix-blend-mode:multiply;fill:#000;fill-opacity:1;stroke:none;stroke-width:.144851;stroke-opacity:1;filter:url(#shulkerbox__j)" transform="matrix(4.06313 0 0 5.44848 -159.506 -1142.034)"/>
+        <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:.64;fill:url(#shulkerbox__k);mix-blend-mode:overlay"/>
+      </g>
+    </g>
+    <g clip-path="url(#shulkerbox__l)" style="display:inline">
+      <path fill="url(#shulkerbox__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;fill:#aeaeae;fill-opacity:1"/>
+      <g clip-path="none" style="display:inline;opacity:1;fill:none;mix-blend-mode:normal" transform="translate(-99.013 -553.937)scale(2.82506)">
+        <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9 kT1Iw0AcxV9bpaIVRTuIiASsTnZREcdSxSJYKG2FVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAI foC4ujgpukiJ/0sKLWI8OO7Hu3uPu3eAt15mitERARTV1JOxqJDJrgr+V/RgAP0Yw6jIDC2eWkzD dXzdw8PXuzDPcj/35+iVcwYDPAJxhGm6SbxBPLtpapz3iYOsKMrE58STOl2Q+JHrksNvnAs2e3lm UE8n54mDxEKhjaU2ZkVdIZ4hDsmKSvnejMMy5y3OSrnKmvfkLwzk1JUU12mOIIYlxJGAAAlVlFCG iTCtKikGkrQfdfEP2/4EuSRylcDIsYAKFIi2H/wPfndr5KennKRAFOh8sayPccC/CzRqlvV9bFmN E8D3DFypLX+lDsx9kl5raaEjoG8buLhuadIecLkDDD1poi7ako+mN58H3s/om7LA4C3Qveb01tzH 6QOQpq6Wb4CDQ2CiQNnrLu/uau/t3zPN/n4AzjVyy3RnbcYAAAAGYktHRAD/AP8A/6C9p5MAAAAJ cEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfnCxIQKhrEerm9AAAA4klEQVQoz42PS27CQBBE39hD prEt0ffLjiPkAlwhJ+B0LLBERFuWf1KMs5gJWJBFetOqrqonteNpjh/HBQfcgGVluKj3n3u3zvtn AAtMwxQBWSrO0Rq+h5d49ufFrZwFyNOe+QfglgBupX8h+SvAHd4Pi5bKrtzd/5y66RHOEiRNta24 tBesN8QJXgvlfD0zTiNaKdYa1htaKloo1hg2GlooKsrp64R1UYc84K0zdBuLLMSyKNYZzElXivUG GXe49YZ4IdNKCZuAvAl1UyMbIYSAbIS6rREvD/+atA+IE5q24QciyWCbBIZ3PQAAAABJRU5ErkJg gg==" width="79.325" height="39.662" x="41.065" y="235.725" preserveAspectRatio="none" style="display:inline;opacity:1;mix-blend-mode:normal;image-rendering:pixelated"/>
+        <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wsSEQca5ZKJZQAAAUpJREFUKM+NkVFuGzEMRJ83G+9a K5T8yeV6i+YCuUmQ461gxKVa70opYrsfVNwWBQIPoI+hOMOhtHn6+nTRqMgk5GPGFkN3inwR8pKx o6FRkSDktfFJkSik74leozIfZmqtWDE0KHOeqe8VW91sPszUt+rmQZn3zlNO9DIKdarYT7/UUeGE 86jopAAuHhWNChvnEoQ+l+yTYhMDOikaFO6AU+Nj4xeufckSnR0NHf4403kTdzh64Nz42Y8V8wSj 0GlUrHqBzidexTQz/jW21deVKHQyCTqpG/CX+CPNuaV4bzVAg2LFyEumz0v7ukkpv8r/CU5N3LDr dtd1kyV6W9vrBqWUwuPL44ZP8Pzt+ZJeE7YashP60AcOywGAYRi4Bbb6ww/bge5BHtBRsTe7ScwG dPD+XDLd/sceq0bow20GZ7jf3hO2gVwyvwFIX7DmYlM6zwAAAABJRU5ErkJggg==" width="79.29" height="59.467" x="41.065" y="196.08" preserveAspectRatio="none" style="display:inline;opacity:1;mix-blend-mode:normal;image-rendering:pixelated"/>
+        <path d="M60.888 235.725v19.823H35.402v18.646h90.618v-18.646h-25.487v-19.823z" style="display:inline;fill:#8e638e;fill-opacity:1;stroke:none;stroke-width:.0668927;stroke-linecap:round;stroke-dasharray:.200678,.200678;stroke-dashoffset:0;stroke-opacity:.496471;paint-order:stroke fill markers;filter:url(#shulkerbox__m)"/>
+      </g>
+      <path fill="url(#shulkerbox__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:.64;fill:url(#shulkerbox__n);mix-blend-mode:overlay;fill-opacity:1"/>
+      <path d="M241 193.998a11.9 11.9 0 0 1-2.049 6.709 12 12 0 0 1-1.467 1.775 11.98 11.98 0 0 1-8.484 3.516H29a12 12 0 0 1-2.418-.244 11.9 11.9 0 0 1-6.066-3.272A11.98 11.98 0 0 1 17 193.998V198a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198Z" style="clip-rule:evenodd;display:inline;fill:#1a1a1a;fill-opacity:.495208;fill-rule:evenodd"/>
+      <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#shulkerbox__o);fill-opacity:.303514;fill-rule:evenodd;stroke:none"/>
+      <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#shulkerbox__o);fill-opacity:.303514;fill-rule:evenodd;stroke:none"/>
+    </g>
+  </g>
+</svg>

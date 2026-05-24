@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <filter id="noteblock__P" width="1.174" height="1.758" x="-.087" y="-.379" style="color-interpolation-filters:sRGB">
+      <feGaussianBlur stdDeviation=".856"/>
+    </filter>
+    <filter id="noteblock__O" width="1.153" height="2.174" x="-.076" y="-.587" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="7.136 6.841"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="comp1" operator="atop" result="comp2"/>
+    </filter>
+    <filter id="noteblock__e" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__f" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__g" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__h" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__i" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__j" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__k" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__l" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__m" width="1.324" height="1.216" x="-.162" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__n" width="1.648" height="1.648" x="-.324" y="-.324" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__o" width="1.13" height="1.324" x="-.065" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__p" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__q" width="1.324" height="1.324" x="-.162" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__r" width="1.046" height="1.072" x="-.023" y="-.036" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__t" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__u" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__v" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__w" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__x" width="1.216" height="1.216" x="-.108" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__y" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__z" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__A" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__B" width="1.324" height="1.216" x="-.162" y="-.108" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__C" width="1.648" height="1.648" x="-.324" y="-.324" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__D" width="1.13" height="1.324" x="-.065" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__E" width="1.216" height="1.324" x="-.108" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__F" width="1.324" height="1.324" x="-.162" y="-.162" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__G" width="1.046" height="1.072" x="-.023" y="-.036" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="noteblock__M" width="1" height="1" x="0" y="0" style="color-interpolation-filters:sRGB">
+      <feColorMatrix result="colormatrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -21.25 -71.54 -7.21 50 0"/>
+      <feComposite in2="colormatrix" k2=".298" operator="arithmetic" result="composite"/>
+    </filter>
+    <linearGradient id="noteblock__c">
+      <stop offset="0" style="stop-color:#989898;stop-opacity:.25"/>
+      <stop offset="1" style="stop-color:#fff;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="noteblock__b">
+      <stop offset="0" style="stop-color:#191919;stop-opacity:.59638554"/>
+      <stop offset=".999" style="stop-color:#b4b4b4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="noteblock__a" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F50"/>
+      <stop offset=".41" stop-color="#F50"/>
+      <stop offset=".582" stop-color="#FF2000"/>
+      <stop offset="1" stop-color="#FF2000"/>
+    </linearGradient>
+    <linearGradient xlink:href="#noteblock__a" id="noteblock__H" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#noteblock__b" id="noteblock__T" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#noteblock__b" id="noteblock__Q" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="noteblock__I">
+      <stop offset="0" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#707070;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#noteblock__c" id="noteblock__U" x1="209" x2="65" y1="82" y2="82" gradientUnits="userSpaceOnUse"/>
+    <pattern xlink:href="#noteblock__d" id="noteblock__S" patternTransform="translate(15.958 61.476)" preserveAspectRatio="xMidYMid"/>
+    <pattern id="noteblock__d" width="223.998" height="153.999" patternTransform="translate(15.998 61.476)" patternUnits="userSpaceOnUse" preserveAspectRatio="xMidYMid">
+      <g style="display:inline" transform="translate(-15.998 -61.476)scale(3.77953)">
+        <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALBAMAAACEzBAKAAAAw3pUWHRSYXcgcHJvZmlsZSB0eXBl IGV4aWYAAHjabVBRDsMgCP33FDsC8CzicezaJbvBjj+sNKlbX+ITeOSJpP3zfqVHh3BOeSmmVZUc ueYqzQOjgXYwUz44EjqDqZ5oDUG8BL8xUtPoP+tMkxM3j5aLkT1DWGeh5vC3HyMZF/pEPd7CqIYR ZAgcBm18i7RauX5h3WmGjZM6ZZvH/suLb29b/B2I7GCQM6BjAPSDhOYCOwvUGxnVY4IelRJmvpC7 PZ1IXxxSWUMUvZCVAAABhGlDQ1BJQ0MgcHJvZmlsZQAAeJx9kT1Iw0AcxV9TRdGKiBmkOGSoTnbx C8dSxSJYKG2FVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAIfoC4ujgpukiJ/0sKLWI9OO7Hu3uP u3eAUC8zzeqKAJpum8lYVMpkV6WeV/QjiCGImJGZZcRTi2l0HF/38PH1LsyzOp/7cwyoOYsBPok4 wgzTJt4gnt20Dc77xCIryirxOfGESRckfuS64vEb54LLAs8UzXRynlgklgptrLQxK5oa8TRxSNV0 yhcyHquctzhr5Spr3pO/MJDTV1JcpzmKGJYQRwISFFRRQhk2wrTqpFhI0n60gz/o+hPkUshVAiPH AirQILt+8D/43a2Vn5r0kgJRoPvFcT7GgJ5doFFznO9jx2mcAP5n4Epv+St1YO6T9FpLCx0Bg9vA xXVLU/aAyx1g5MmQTdmV/DSFfB54P6NvygLDt0Dfmtdbcx+nD0Caulq+AQ4OgfECZa93eHdve2// nmn29wP4mHLc38rbggAADXZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6 eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDQuNC4wLUV4aXYyIj4KIDxyZGY6 UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5z IyI+CiAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgIHhtbG5zOnhtcE1NPSJodHRw Oi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5h ZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgIHhtbG5zOmRjPSJodHRw Oi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cu Z2ltcC5vcmcveG1wLyIKICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8x LjAvIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICB4bXBN TTpEb2N1bWVudElEPSJnaW1wOmRvY2lkOmdpbXA6NGRhMmJlMzUtMmJiNy00OTNmLWFiODEtMDM2 OTUxMDYzY2QzIgogICB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjZhMzg2ZTFhLWIxMzAtNGZh NS1iMjhkLTQxZDllODYwYjNhZSIKICAgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlk OjNkNjFkMzA3LWU3NjUtNDY5Yi04ODRlLWZlMTQ3NWEzNTI4YiIKICAgZGM6Rm9ybWF0PSJpbWFn ZS9wbmciCiAgIEdJTVA6QVBJPSIyLjAiCiAgIEdJTVA6UGxhdGZvcm09IldpbmRvd3MiCiAgIEdJ TVA6VGltZVN0YW1wPSIxNzAxMDIxOTg3MzI4MDM2IgogICBHSU1QOlZlcnNpb249IjIuMTAuMzYi CiAgIHRpZmY6T3JpZW50YXRpb249IjEiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgog ICB4bXA6TWV0YWRhdGFEYXRlPSIyMDIzOjExOjI2VDE5OjA2OjI3KzAxOjAwIgogICB4bXA6TW9k aWZ5RGF0ZT0iMjAyMzoxMToyNlQxOTowNjoyNyswMTowMCI+CiAgIDx4bXBNTTpIaXN0b3J5Pgog ICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAg ICBzdEV2dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmMwNDFi M2Q3LWNkMGItNDg0Ni04ZWE4LTNiNDMyNGU1MWJjNyIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2Vu dD0iR2ltcCAyLjEwIChXaW5kb3dzKSIKICAgICAgc3RFdnQ6d2hlbj0iMjAyMy0xMS0yNlQxOTow NjoyNyIvPgogICAgPC9yZGY6U2VxPgogICA8L3htcE1NOkhpc3Rvcnk+CiAgPC9yZGY6RGVzY3Jp cHRpb24+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK ICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz5sfIsVAAAAElBM VEWUXUF7UDlaPClaNCBBKBgpKCBTPsHrAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wsa EgYbTHweBAAAAEtJREFUCNdjCIUChiABRgEGRkZVhkAHEwMgVGUIEmEGQmFWhkCwgKEoQ4AwWEiU IdDRxBAIgYpVhEWERYAiQS6OIAjUpQQGqgwwkwER+xCAb77LfwAAAABJRU5ErkJggg==" width="59.266" height="40.746" x="4.233" y="16.266" preserveAspectRatio="none" style="display:inline;image-rendering:pixelated"/>
+        <g style="display:inline">
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__e)" transform="translate(-14.817 29.634)"/>
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__f)" transform="translate(-7.408 22.225)"/>
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__g)" transform="translate(0 29.634)"/>
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__h)" transform="translate(7.409 22.225)"/>
+          <path d="M15.346 27.377v3.705H11.64v3.704h3.705v3.704h3.704v-3.704h3.704v-3.704H19.05v-3.705z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__i)"/>
+          <path d="M15.345 42.194v3.704h-3.704v3.705h11.113v-3.705H19.05v-3.704z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__j)"/>
+          <path d="M30.162 42.194v3.704h-3.704v3.705H37.57v-3.705h-3.704v-3.704z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__k)"/>
+          <path d="M44.979 42.194V45.9h-3.704v3.704h11.113V45.9h-3.704v-3.705z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__l)"/>
+          <path d="M52.388 34.786v3.704h-3.704v3.704h3.704v3.704h3.704V34.786z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__m)"/>
+          <path d="M11.641 38.49h3.704v3.704h-3.704z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__n)"/>
+          <path d="M11.641 23.673v3.705h3.705v-3.705zm7.409 0v3.704h3.704v3.704h3.704v-3.704h3.705v-3.704z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__o)"/>
+          <path d="M33.867 23.673v3.704h3.704v3.705h3.703v-3.705h3.705v-3.704h-7.408z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__p)"/>
+          <path d="M48.683 23.673v3.704h3.705v3.704h3.704v-7.408Z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__q)"/>
+          <path d="M7.937 19.969h51.86v33.338H7.936Z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__r)"/>
+        </g>
+      </g>
+    </pattern>
+    <pattern xlink:href="#noteblock__s" id="noteblock__L" patternTransform="translate(-11)" preserveAspectRatio="xMidYMid"/>
+    <pattern id="noteblock__s" width="223.998" height="153.999" patternTransform="translate(15.998 61.476)" patternUnits="userSpaceOnUse" preserveAspectRatio="xMidYMid">
+      <g style="display:inline" transform="translate(-15.998 -61.476)scale(3.77953)">
+        <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALBAMAAACEzBAKAAAAw3pUWHRSYXcgcHJvZmlsZSB0eXBl IGV4aWYAAHjabVBRDsMgCP33FDsC8CzicezaJbvBjj+sNKlbX+ITeOSJpP3zfqVHh3BOeSmmVZUc ueYqzQOjgXYwUz44EjqDqZ5oDUG8BL8xUtPoP+tMkxM3j5aLkT1DWGeh5vC3HyMZF/pEPd7CqIYR ZAgcBm18i7RauX5h3WmGjZM6ZZvH/suLb29b/B2I7GCQM6BjAPSDhOYCOwvUGxnVY4IelRJmvpC7 PZ1IXxxSWUMUvZCVAAABhGlDQ1BJQ0MgcHJvZmlsZQAAeJx9kT1Iw0AcxV9TRdGKiBmkOGSoTnbx C8dSxSJYKG2FVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAIfoC4ujgpukiJ/0sKLWI9OO7Hu3uP u3eAUC8zzeqKAJpum8lYVMpkV6WeV/QjiCGImJGZZcRTi2l0HF/38PH1LsyzOp/7cwyoOYsBPok4 wgzTJt4gnt20Dc77xCIryirxOfGESRckfuS64vEb54LLAs8UzXRynlgklgptrLQxK5oa8TRxSNV0 yhcyHquctzhr5Spr3pO/MJDTV1JcpzmKGJYQRwISFFRRQhk2wrTqpFhI0n60gz/o+hPkUshVAiPH AirQILt+8D/43a2Vn5r0kgJRoPvFcT7GgJ5doFFznO9jx2mcAP5n4Epv+St1YO6T9FpLCx0Bg9vA xXVLU/aAyx1g5MmQTdmV/DSFfB54P6NvygLDt0Dfmtdbcx+nD0Caulq+AQ4OgfECZa93eHdve2// nmn29wP4mHLc38rbggAADXZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6 eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDQuNC4wLUV4aXYyIj4KIDxyZGY6 UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5z IyI+CiAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgIHhtbG5zOnhtcE1NPSJodHRw Oi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5h ZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgIHhtbG5zOmRjPSJodHRw Oi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cu Z2ltcC5vcmcveG1wLyIKICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8x LjAvIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICB4bXBN TTpEb2N1bWVudElEPSJnaW1wOmRvY2lkOmdpbXA6NGRhMmJlMzUtMmJiNy00OTNmLWFiODEtMDM2 OTUxMDYzY2QzIgogICB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjZhMzg2ZTFhLWIxMzAtNGZh NS1iMjhkLTQxZDllODYwYjNhZSIKICAgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlk OjNkNjFkMzA3LWU3NjUtNDY5Yi04ODRlLWZlMTQ3NWEzNTI4YiIKICAgZGM6Rm9ybWF0PSJpbWFn ZS9wbmciCiAgIEdJTVA6QVBJPSIyLjAiCiAgIEdJTVA6UGxhdGZvcm09IldpbmRvd3MiCiAgIEdJ TVA6VGltZVN0YW1wPSIxNzAxMDIxOTg3MzI4MDM2IgogICBHSU1QOlZlcnNpb249IjIuMTAuMzYi CiAgIHRpZmY6T3JpZW50YXRpb249IjEiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgog ICB4bXA6TWV0YWRhdGFEYXRlPSIyMDIzOjExOjI2VDE5OjA2OjI3KzAxOjAwIgogICB4bXA6TW9k aWZ5RGF0ZT0iMjAyMzoxMToyNlQxOTowNjoyNyswMTowMCI+CiAgIDx4bXBNTTpIaXN0b3J5Pgog ICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAg ICBzdEV2dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmMwNDFi M2Q3LWNkMGItNDg0Ni04ZWE4LTNiNDMyNGU1MWJjNyIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2Vu dD0iR2ltcCAyLjEwIChXaW5kb3dzKSIKICAgICAgc3RFdnQ6d2hlbj0iMjAyMy0xMS0yNlQxOTow NjoyNyIvPgogICAgPC9yZGY6U2VxPgogICA8L3htcE1NOkhpc3Rvcnk+CiAgPC9yZGY6RGVzY3Jp cHRpb24+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK ICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz5sfIsVAAAAElBM VEWUXUF7UDlaPClaNCBBKBgpKCBTPsHrAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wsa EgYbTHweBAAAAEtJREFUCNdjCIUChiABRgEGRkZVhkAHEwMgVGUIEmEGQmFWhkCwgKEoQ4AwWEiU IdDRxBAIgYpVhEWERYAiQS6OIAjUpQQGqgwwkwER+xCAb77LfwAAAABJRU5ErkJggg==" width="59.266" height="40.746" x="4.233" y="16.266" preserveAspectRatio="none" style="display:inline;image-rendering:pixelated"/>
+        <g style="display:inline">
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__t)" transform="translate(-14.817 29.634)"/>
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__u)" transform="translate(-7.408 22.225)"/>
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__v)" transform="translate(0 29.634)"/>
+          <path d="M37.57 5.152v3.704h-3.704v3.704h3.705v3.705h3.704V12.56h3.704V8.856h-3.704V5.152Z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__w)" transform="translate(7.409 22.225)"/>
+          <path d="M15.346 27.377v3.705H11.64v3.704h3.705v3.704h3.704v-3.704h3.704v-3.704H19.05v-3.705z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__x)"/>
+          <path d="M15.345 42.194v3.704h-3.704v3.705h11.113v-3.705H19.05v-3.704z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__y)"/>
+          <path d="M30.162 42.194v3.704h-3.704v3.705H37.57v-3.705h-3.704v-3.704z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__z)"/>
+          <path d="M44.979 42.194V45.9h-3.704v3.704h11.113V45.9h-3.704v-3.705z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__A)"/>
+          <path d="M52.388 34.786v3.704h-3.704v3.704h3.704v3.704h3.704V34.786z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__B)"/>
+          <path d="M11.641 38.49h3.704v3.704h-3.704z" style="fill:#9f844d;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__C)"/>
+          <path d="M11.641 23.673v3.705h3.705v-3.705zm7.409 0v3.704h3.704v3.704h3.704v-3.704h3.705v-3.704z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__D)"/>
+          <path d="M33.867 23.673v3.704h3.704v3.705h3.703v-3.705h3.705v-3.704h-7.408z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__E)"/>
+          <path d="M48.683 23.673v3.704h3.705v3.704h3.704v-7.408Z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__F)"/>
+          <path d="M7.937 19.969h51.86v33.338H7.936Z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#noteblock__G)"/>
+        </g>
+      </g>
+    </pattern>
+    <clipPath id="noteblock__R" clipPathUnits="userSpaceOnUse">
+      <path fill="url(#noteblock__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:1;fill:url(#noteblock__H)"/>
+    </clipPath>
+    <clipPath id="noteblock__K" clipPathUnits="userSpaceOnUse">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:1;fill:none"/>
+    </clipPath>
+    <clipPath id="noteblock__J" clipPathUnits="userSpaceOnUse">
+      <path d="M29 34a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 46v152a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198V70.137q-.002-1.245-.244-2.418a11.9 11.9 0 0 0-1.805-4.291 12 12 0 0 0-1.467-1.776A11.98 11.98 0 0 0 229 58.136H117.404L104.426 42.38A23.02 23.02 0 0 0 86.672 34Z" style="clip-rule:evenodd;display:inline;opacity:1;fill:#d7d7d7;fill-rule:evenodd;stroke-width:3.77953"/>
+    </clipPath>
+    <radialGradient xlink:href="#noteblock__I" id="noteblock__N" cx="129" cy="103" r="112" fx="129" fy="103" gradientTransform="matrix(0 -.163 .42003 0 -9.398 48.28)" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g clip-path="url(#noteblock__J)" style="display:inline;opacity:1;fill:none" transform="translate(-1)">
+    <g clip-path="url(#noteblock__K)">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;fill:#412818;fill-opacity:1"/>
+      <path d="M3 0h266v252H3z" style="display:inline;opacity:1;mix-blend-mode:normal;fill:url(#noteblock__L);stroke:none;filter:url(#noteblock__M)"/>
+      <g style="display:inline">
+        <path fill="#c53030" fill-rule="evenodd" d="M27.363 11.213a6.09 6.09 0 0 0-4.697-2.217H7.406a3.175 3.175 0 0 0-3.174 3.175v30.162a3.175 3.175 0 0 0 3.175 3.175h52.916a3.175 3.175 0 0 0 3.175-3.175V18.557a3.175 3.175 0 0 0-3.175-3.175H30.797Z" clip-rule="evenodd" style="font-variation-settings:normal;display:inline;opacity:.5;mix-blend-mode:multiply;vector-effect:none;fill:url(#noteblock__N);stroke-width:.122353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000" transform="translate(1)scale(3.77953)"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;opacity:.64;mix-blend-mode:multiply;fill:#fff;fill-opacity:1;fill-rule:evenodd;filter:url(#noteblock__O)" transform="translate(-.006)"/>
+        <path d="M47.611 222.508h19.447a2.117 2.117 45 0 1 2.117 2.117v1.19a2.117 2.117 135 0 1-2.117 2.117H47.61a2.117 2.117 45 0 1-2.117-2.117v-1.19a2.117 2.117 135 0 1 2.117-2.117" style="display:inline;opacity:.254;mix-blend-mode:multiply;fill:#000;fill-opacity:1;stroke:none;stroke-width:.144851;stroke-opacity:1;filter:url(#noteblock__P)" transform="matrix(4.06313 0 0 5.44848 -159.506 -1142.034)"/>
+        <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#noteblock__Q)"/>
+      </g>
+    </g>
+    <g clip-path="url(#noteblock__R)" style="display:inline">
+      <path fill="url(#noteblock__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;fill:#aeaeae;fill-opacity:1"/>
+      <path d="M15.958 33.476h224v210h-224z" style="display:inline;opacity:1;fill:url(#noteblock__S);mix-blend-mode:normal;stroke:none" transform="translate(1.042 -5.476)"/>
+      <path fill="url(#noteblock__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#noteblock__T);fill-opacity:1"/>
+      <path d="M241 193.998a11.9 11.9 0 0 1-2.049 6.709 12 12 0 0 1-1.467 1.775 11.98 11.98 0 0 1-8.484 3.516H29a12 12 0 0 1-2.418-.244 11.9 11.9 0 0 1-6.066-3.272A11.98 11.98 0 0 1 17 193.998V198a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198Z" style="clip-rule:evenodd;display:inline;fill:#1a1a1a;fill-opacity:.495208;fill-rule:evenodd"/>
+      <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#noteblock__U);fill-opacity:.303514;fill-rule:evenodd;stroke:none"/>
+    </g>
+  </g>
+</svg>

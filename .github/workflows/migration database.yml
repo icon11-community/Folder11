@@ -1,0 +1,159 @@
+name: Database Migration (Run Once)
+on:
+  workflow_dispatch: # Hanya bisa dijalankan secara manual melalui tab "Actions" di GitHub
+
+jobs:
+  migrate_database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout SVG Repo
+        uses: actions/checkout@v3
+        with:
+          repository: icon11-community/Folder11
+          path: Folder11
+          fetch-depth: 0
+          
+      - name: Checkout ICO Repo
+        uses: actions/checkout@v3
+        with:
+          repository: icon11-community/Folder-Ico
+          token: ${{ secrets.ACTION_TOKEN }}
+          path: Folder-Ico
+          
+      - name: Setup Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq --fix-missing
+          
+      - name: Clean Old System & Generate New Database
+        env:
+          GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
+        run: |
+          MAIN_SVG_DIR="./Folder11/svg"
+          SMALL_SVG_DIR="./Folder11/small"
+          ICO_DIR="./Folder-Ico/ico"
+          JSON_FILE="./Folder-Ico/Folder11.json"
+          TEMP_JSON_LIST=$(mktemp)
+          
+          # 1. HAPUS FOLDER HASH LAMA
+          echo "🧹 Menghapus folder hash lama..."
+          rm -rf ./Folder-Ico/hash
+          
+          # Cache Bash untuk Author agar tidak terkena limit API GitHub
+          declare -A CACHE_NAME
+          declare -A CACHE_LINK
+          declare -A CACHE_PROFILE
+          
+          echo "🔄 Memindai ulang ribuan ikon dan menyusun database baru..."
+          
+          for main_svg in "$MAIN_SVG_DIR"/*.svg; do
+            [ -f "$main_svg" ] || continue
+            filename=$(basename -- "$main_svg")
+            name="${filename%.*}"
+            ico_output="$ICO_DIR/$name.ico"
+            
+            # Abaikan jika file .ico nya tidak ada
+            if [ ! -f "$ico_output" ]; then
+              continue
+            fi
+            
+            # Kalkulasi ulang hash
+            small_svg="$SMALL_SVG_DIR/$filename"
+            if [ -f "$small_svg" ]; then
+              main_hash=$(git hash-object "$main_svg")
+              small_hash=$(git hash-object "$small_svg")
+              current_hash=$(echo -n "${main_hash}_${small_hash}" | sha1sum | awk '{print $1}')
+            else
+              current_hash=$(git hash-object "$main_svg")
+            fi
+            
+            # Fetch Metadata (Date & Author)
+            date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "svg/$filename")
+            first_commit=$(git -C ./Folder11 log --diff-filter=A --format="%H" -- "svg/$filename" | tail -1)
+            
+            if [ -z "$first_commit" ]; then
+                author_name="Unknown"
+                author_link="https://github.com/icon11-community"
+                author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
+            else
+                author_email=$(git -C ./Folder11 log -1 --format="%ae" "$first_commit")
+                if [ -n "${CACHE_NAME[$author_email]}" ]; then
+                    author_name="${CACHE_NAME[$author_email]}"
+                    author_link="${CACHE_LINK[$author_email]}"
+                    author_profile="${CACHE_PROFILE[$author_email]}"
+                else
+                    author_name=$(git -C ./Folder11 log -1 --format="%an" "$first_commit")
+                    author_link="https://github.com/icon11-community"
+                    author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
+                    
+                    gh_user=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.login' 2>/dev/null || echo "")
+                    gh_avatar=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.avatar_url' 2>/dev/null || echo "")
+                    
+                    if [ -n "$gh_user" ] && [ "$gh_user" != "null" ]; then
+                        author_name="$gh_user"
+                        author_link="https://github.com/$gh_user"
+                        author_profile="$gh_avatar"
+                    fi
+                    
+                    CACHE_NAME[$author_email]="$author_name"
+                    CACHE_LINK[$author_email]="$author_link"
+                    CACHE_PROFILE[$author_email]="$author_profile"
+                fi
+            fi
+            
+            size=$(stat -c%s "$ico_output")
+            url_icon="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/$name.ico"
+            small_svg_url=""
+            if [ -f "$small_svg" ]; then
+              small_svg_url="https://raw.githubusercontent.com/icon11-community/Folder11/main/small/$filename"
+            fi
+            
+            # Tulis data icon dalam satu baris (kompak) ke file temporary
+            jq -n -c \
+              --arg name "$name" \
+              --arg author_name "$author_name" \
+              --arg author_link "$author_link" \
+              --arg author_profile "$author_profile" \
+              --arg size "$size" \
+              --arg url_icon "$url_icon" \
+              --arg hash "$current_hash" \
+              --arg date "$date" \
+              --arg small_svg_url "$small_svg_url" \
+              --argjson is_history false \
+              '{
+                name: $name,
+                author_name: $author_name,
+                author_link: $author_link,
+                author_profile: $author_profile,
+                size: ($size | tonumber),
+                url_icon: $url_icon,
+                hash: $hash,
+                date: $date,
+                small_svg_url: $small_svg_url,
+                is_history: $is_history
+              }' >> "$TEMP_JSON_LIST"
+              
+          done
+          
+          # Gabungkan ribuan baris data menjadi satu format JSON lengkap
+          echo "📦 Membangun Folder11.json..."
+          jq -s '{icons: .}' "$TEMP_JSON_LIST" > "$JSON_FILE"
+          
+          rm -f "$TEMP_JSON_LIST"
+          
+      - name: Commit and Push Migration
+        run: |
+          cd Folder-Ico
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          # Hapus folder hash dari riwayat git
+          git rm -r --ignore-unmatch hash/
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git add Folder11.json
+            git commit -m "chore: migrate to new single database system & delete old hash folder"
+            git push
+          else
+            echo "No changes to commit"
+          fi

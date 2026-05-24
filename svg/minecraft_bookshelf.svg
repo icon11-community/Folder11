@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <filter id="bookshelf__w" width="1.174" height="1.758" x="-.087" y="-.379" style="color-interpolation-filters:sRGB">
+      <feGaussianBlur stdDeviation=".856"/>
+    </filter>
+    <filter id="bookshelf__v" width="1.153" height="2.174" x="-.076" y="-.587" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="7.136 6.841"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="comp1" operator="atop" result="comp2"/>
+    </filter>
+    <filter id="bookshelf__i" width="1.283" height="1.137" x="-.142" y="-.057" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".5" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="bookshelf__k" width="1.283" height="1.137" x="-.142" y="-.057" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".5" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".5"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="bookshelf__l" width="1.397" height="1.152" x="-.198" y="-.066" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".7"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="bookshelf__n" width="1.794" height="1.182" x="-.397" y="-.079" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".7"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="bookshelf__o" width="1.397" height="1.182" x="-.198" y="-.079" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".502" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation=".7"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="bookshelf__p" width="1.199" height="1.417" x="-.094" y="-.189" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset dx=".5" dy="1" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <clipPath id="bookshelf__y" clipPathUnits="userSpaceOnUse">
+      <path fill="url(#bookshelf__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:1;fill:url(#bookshelf__b)"/>
+    </clipPath>
+    <clipPath id="bookshelf__s" clipPathUnits="userSpaceOnUse">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:1;fill:none"/>
+    </clipPath>
+    <clipPath id="bookshelf__r" clipPathUnits="userSpaceOnUse">
+      <path d="M29 34a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 46v152a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198V70.137q-.002-1.245-.244-2.418a11.9 11.9 0 0 0-1.805-4.291 12 12 0 0 0-1.467-1.776A11.98 11.98 0 0 0 229 58.136H117.404L104.426 42.38A23.02 23.02 0 0 0 86.672 34Z" style="clip-rule:evenodd;display:inline;opacity:1;fill:#d7d7d7;fill-rule:evenodd;stroke-width:3.77953"/>
+    </clipPath>
+    <clipPath id="bookshelf__g" clipPathUnits="userSpaceOnUse">
+      <path d="M4.233-2.257h59.268v59.268H4.233z" style="display:inline;fill:#5c5c5c;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers"/>
+    </clipPath>
+    <clipPath id="bookshelf__h" clipPathUnits="userSpaceOnUse">
+      <path d="M8.466 27.378h50.8v25.4h-50.8z" style="display:inline;fill:#000;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers"/>
+    </clipPath>
+    <clipPath id="bookshelf__j" clipPathUnits="userSpaceOnUse">
+      <path d="M16.933 27.378h12.7v25.4h-12.7z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers"/>
+    </clipPath>
+    <clipPath id="bookshelf__m" clipPathUnits="userSpaceOnUse">
+      <path d="M38.1 27.378h8.466v25.4h-8.467z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers"/>
+    </clipPath>
+    <linearGradient id="bookshelf__c">
+      <stop offset="0" style="stop-color:#191919;stop-opacity:.59638554"/>
+      <stop offset=".999" style="stop-color:#b4b4b4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bookshelf__a" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F50"/>
+      <stop offset=".41" stop-color="#F50"/>
+      <stop offset=".582" stop-color="#FF2000"/>
+      <stop offset="1" stop-color="#FF2000"/>
+    </linearGradient>
+    <linearGradient xlink:href="#bookshelf__a" id="bookshelf__b" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#bookshelf__c" id="bookshelf__z" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#bookshelf__c" id="bookshelf__x" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="bookshelf__q">
+      <stop offset="0" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#707070;stop-opacity:1"/>
+    </linearGradient>
+    <pattern xlink:href="#bookshelf__d" id="bookshelf__t" patternTransform="translate(16 50)" preserveAspectRatio="xMidYMid"/>
+    <pattern xlink:href="#bookshelf__e" id="bookshelf__d" x="0" y="0" patternTransform="translate(16 66)" preserveAspectRatio="xMidYMid"/>
+    <pattern xlink:href="#bookshelf__f" id="bookshelf__e" patternTransform="translate(15.998 71.475)" preserveAspectRatio="xMidYMid"/>
+    <pattern id="bookshelf__f" width="224.003" height="144" patternTransform="translate(15.998 71.476)" patternUnits="userSpaceOnUse" preserveAspectRatio="xMidYMid">
+      <g clip-path="url(#bookshelf__g)" style="display:inline" transform="translate(-15.998 -71.476)scale(3.77953)">
+        <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAMAAAA1k+1bAAAAxHpUWHRSYXcgcHJvZmlsZSB0eXBl IGV4aWYAAHjabVBBEsMgCLz7ij5BWKL4HNOkM/1Bn18M2EnaruOCwKxA2l/PR7oNMEmSpWpppWSD NGnczdHs6AdTloMde1i6xlNukWALwSz8qSXqZ5w+Am66ectJSO+RWK+JJqGvX0LsBqOj4W8h1EII 7AkKge5j5dK0nkdY52gT6jcNEr22/fOutr1tsX/AvIOQjYHiDWBcJHRLkDGjWuE4HWJlHb4u8oX8 29NEegMt11k9rCCclwAAAYRpQ0NQSUNDIHByb2ZpbGUAAHicfZE9SMNAHMVfU6WiFQcDSnHIUJ3s oiKOpYpFsFDaCq06mFz6BU0akhQXR8G14ODHYtXBxVlXB1dBEPwAcXVxUnSREv+XFlrEeHDcj3f3 HnfvAKFRYZrVEwU03TZT8ZiUza1KgVcMIIQRBCHKzDIS6cUMPMfXPXx8vYvwLO9zf45BNW8xwCcR R5lh2sQbxLObtsF5n1hkJVklPieeNOmCxI9cV1r8xrnossAzRTOTmicWiaViFytdzEqmRjxDHFY1 nfKFbItVzluctUqNte/JXxjM6ytprtMcQxxLSCAJCQpqKKMCGxFadVIspGg/5uEPuf4kuRRylcHI sYAqNMiuH/wPfndrFaanWknBGND74jgf40BgF2jWHef72HGaJ4D/GbjSO/5qA5j7JL3e0cJHwNA2 cHHd0ZQ94HIHGH0yZFN2JT9NoVAA3s/om3LA8C3Qv9bqrb2P0wcgQ10t3wAHh8BEkbLXPd7d193b v2fa/f0AoYlyuWFU7+QAAA12aVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVn aW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5z Ong9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA0LjQuMC1FeGl2MiI+CiA8cmRm OlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1u cyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczp4bXBNTT0iaHR0 cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMu YWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICB4bWxuczpkYz0iaHR0 cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICB4bWxuczpHSU1QPSJodHRwOi8vd3d3 LmdpbXAub3JnL3htcC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYv MS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgeG1w TU06RG9jdW1lbnRJRD0iZ2ltcDpkb2NpZDpnaW1wOjY0NWQ4YTdkLTIyMzAtNDI2Yy1hNjExLTc4 ZGVmMGZlNTRhNiIKICAgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4ODg0OTllNi0zMTI2LTQ4 YWUtYmI0ZC1mOWJkNzNlYzcwYWEiCiAgIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRp ZDplNTg0Zjk3Zi1hMTVhLTQ2ZDUtYWJiYi1jZTI5N2FlYTE5YTIiCiAgIGRjOkZvcm1hdD0iaW1h Z2UvcG5nIgogICBHSU1QOkFQST0iMi4wIgogICBHSU1QOlBsYXRmb3JtPSJXaW5kb3dzIgogICBH SU1QOlRpbWVTdGFtcD0iMTcwMTA0MjE4MTAyMTcyNiIKICAgR0lNUDpWZXJzaW9uPSIyLjEwLjM2 IgogICB0aWZmOk9yaWVudGF0aW9uPSIxIgogICB4bXA6Q3JlYXRvclRvb2w9IkdJTVAgMi4xMCIK ICAgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMzoxMToyN1QwMDo0MzowMCswMTowMCIKICAgeG1wOk1v ZGlmeURhdGU9IjIwMjM6MTE6MjdUMDA6NDM6MDArMDE6MDAiPgogICA8eG1wTU06SGlzdG9yeT4K ICAgIDxyZGY6U2VxPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJzYXZlZCIKICAg ICAgc3RFdnQ6Y2hhbmdlZD0iLyIKICAgICAgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2NDE1 OWM4YS00YTQwLTRiZTktOTVhZS02MWNhN2I0YTc4NTAiCiAgICAgIHN0RXZ0OnNvZnR3YXJlQWdl bnQ9IkdpbXAgMi4xMCAoV2luZG93cykiCiAgICAgIHN0RXZ0OndoZW49IjIwMjMtMTEtMjdUMDA6 NDM6MDEiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2Ny aXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg CiAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+DXlZAAAAAFdQ TFRFtbW1zKZsvJhis4xRqJsKiYmJn4RNm3dCdY4RiX4IfGI+EY5rXnINMWOjVWgJaVQzMVuODGtQ SUlJKk56vBYWdzAHPz8/kRERYygFQTEaNioVLCITJx4RV2Tx6AAAAAlwSFlzAAALEwAACxMBAJqc GAAAAAd0SU1FB+cLGhcrAZf/f3oAAABkSURBVAjXTY1JDoAwDAOziKRCYU+JCP3/OymcuNgaaSyD MhEiEvcmBVYVGeVNUQbObC1tzrtldvTI6SgW12Uzg8Kwfeh3sRHQo+N+Vo9i2OW6Tet+ZngxBom6 HKvZUuPd/m+JH4U1BelVf3JgAAAAAElFTkSuQmCC" width="59.266" height="38.1" x="4.233" y="18.911" preserveAspectRatio="none" style="image-rendering:pixelated"/>
+        <g clip-path="url(#bookshelf__h)" style="display:inline">
+          <path d="M8.466 31.611h8.467v21.167H8.466z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#bookshelf__i)"/>
+          <path d="M21.166 31.611h8.467v21.167h-8.467z" clip-path="url(#bookshelf__j)" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#bookshelf__k)"/>
+          <path d="M29.633 27.378h8.466v25.4h-8.466z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#bookshelf__l)"/>
+          <path d="M38.1 31.611h4.233v21.167h-4.234z" clip-path="url(#bookshelf__m)" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#bookshelf__n)"/>
+          <path d="M50.8 31.611h8.466v21.167h-8.467z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#bookshelf__o)"/>
+        </g>
+        <path d="M8.466 27.378h50.8v25.4h-50.8Z" style="display:inline;stroke-width:.747001;stroke-linecap:round;paint-order:stroke fill markers;filter:url(#bookshelf__p)"/>
+      </g>
+    </pattern>
+    <radialGradient xlink:href="#bookshelf__q" id="bookshelf__u" cx="129" cy="103" r="112" fx="129" fy="103" gradientTransform="matrix(0 -.163 .42003 0 -9.398 48.28)" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g clip-path="url(#bookshelf__r)" style="display:inline;opacity:1;fill:none" transform="translate(-1)">
+    <g clip-path="url(#bookshelf__s)">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;fill:#d7d7d7;fill-opacity:1"/>
+      <path d="M15.998 11.57h224.003v224.001H15.998z" style="display:inline;opacity:1;mix-blend-mode:normal;fill:url(#bookshelf__t);stroke:none" transform="translate(1)"/>
+      <g style="display:inline">
+        <path fill="#c53030" fill-rule="evenodd" d="M27.363 11.213a6.09 6.09 0 0 0-4.697-2.217H7.406a3.175 3.175 0 0 0-3.174 3.175v30.162a3.175 3.175 0 0 0 3.175 3.175h52.916a3.175 3.175 0 0 0 3.175-3.175V18.557a3.175 3.175 0 0 0-3.175-3.175H30.797Z" clip-rule="evenodd" style="font-variation-settings:normal;display:inline;opacity:.5;mix-blend-mode:multiply;vector-effect:none;fill:url(#bookshelf__u);stroke-width:.122353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000" transform="translate(1)scale(3.77953)"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;opacity:.64;mix-blend-mode:multiply;fill:#fff;fill-opacity:1;fill-rule:evenodd;filter:url(#bookshelf__v)" transform="translate(-.006)"/>
+        <path d="M47.611 222.508h19.447a2.117 2.117 45 0 1 2.117 2.117v1.19a2.117 2.117 135 0 1-2.117 2.117H47.61a2.117 2.117 45 0 1-2.117-2.117v-1.19a2.117 2.117 135 0 1 2.117-2.117" style="display:inline;opacity:.254;mix-blend-mode:multiply;fill:#000;fill-opacity:1;stroke:none;stroke-width:.144851;stroke-opacity:1;filter:url(#bookshelf__w)" transform="matrix(4.06313 0 0 5.44848 -159.506 -1142.034)"/>
+        <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:.64;fill:url(#bookshelf__x);mix-blend-mode:overlay"/>
+      </g>
+    </g>
+    <g clip-path="url(#bookshelf__y)" style="display:inline">
+      <path fill="url(#bookshelf__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;fill:#aeaeae;fill-opacity:1"/>
+      <path d="M15.998 11.57h224.003v224.001H15.998z" style="display:inline;opacity:1;mix-blend-mode:normal;fill:url(#bookshelf__d);stroke:none" transform="translate(1)"/>
+      <path fill="url(#bookshelf__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#bookshelf__z);fill-opacity:1"/>
+      <path d="M241 193.998a11.9 11.9 0 0 1-2.049 6.709 12 12 0 0 1-1.467 1.775 11.98 11.98 0 0 1-8.484 3.516H29a12 12 0 0 1-2.418-.244 11.9 11.9 0 0 1-6.066-3.272A11.98 11.98 0 0 1 17 193.998V198a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198Z" style="clip-rule:evenodd;display:inline;fill:#1a1a1a;fill-opacity:.495208;fill-rule:evenodd"/>
+      <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;fill:#fff;fill-opacity:.303514;fill-rule:evenodd"/>
+    </g>
+  </g>
+</svg>

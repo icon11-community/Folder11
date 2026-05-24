@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <filter id="axolotl-cyan__j" width="1.174" height="1.758" x="-.087" y="-.379" style="color-interpolation-filters:sRGB">
+      <feGaussianBlur stdDeviation=".856"/>
+    </filter>
+    <filter id="axolotl-cyan__i" width="1.153" height="2.174" x="-.076" y="-.587" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="7.136 6.841"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="comp1" operator="atop" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__n" width="1.038" height="1.067" x="-.019" y="-.032" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="SourceGraphic" in2="comp1" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__o" width="1.043" height="1.065" x="-.021" y="-.032" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__u" width="1.343" height="1.343" x="-.171" y="-.171" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__w" width="1.171" height="1.343" x="-.086" y="-.171" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__v" width="1.343" height="1.343" x="-.171" y="-.171" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__l" width="1.04" height="1.138" x="-.02" y="-.069" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="SourceGraphic" in2="comp1" result="comp2"/>
+    </filter>
+    <filter id="axolotl-cyan__m" width="1.054" height="2.275" x="-.027" y="-.637" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".498" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="SourceGraphic" in2="comp1" result="comp2"/>
+    </filter>
+    <linearGradient id="axolotl-cyan__f">
+      <stop offset="0" style="stop-color:#fff;stop-opacity:.8481848"/>
+      <stop offset="1" style="stop-color:#fff;stop-opacity:.3490566"/>
+    </linearGradient>
+    <linearGradient id="axolotl-cyan__d">
+      <stop offset="0" style="stop-color:#191919;stop-opacity:.59638554"/>
+      <stop offset=".999" style="stop-color:#b4b4b4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="axolotl-cyan__b" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F50"/>
+      <stop offset=".41" stop-color="#F50"/>
+      <stop offset=".582" stop-color="#FF2000"/>
+      <stop offset="1" stop-color="#FF2000"/>
+    </linearGradient>
+    <linearGradient xlink:href="#axolotl-cyan__b" id="axolotl-cyan__c" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#axolotl-cyan__d" id="axolotl-cyan__s" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#axolotl-cyan__d" id="axolotl-cyan__k" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="axolotl-cyan__e">
+      <stop offset="0" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#707070;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#axolotl-cyan__f" id="axolotl-cyan__t" x1="17" x2="241" y1="75.989" y2="75.989" gradientUnits="userSpaceOnUse"/>
+    <clipPath id="axolotl-cyan__q" clipPathUnits="userSpaceOnUse">
+      <path fill="url(#axolotl-cyan__b)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:1;fill:url(#axolotl-cyan__c)"/>
+    </clipPath>
+    <clipPath id="axolotl-cyan__g" clipPathUnits="userSpaceOnUse">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:1;fill:none"/>
+    </clipPath>
+    <clipPath id="axolotl-cyan__p" clipPathUnits="userSpaceOnUse">
+      <path d="M245.673 126.004h-4.667v18.675h4.667zm0-18.675h-4.667v18.675h4.667zm4.666-18.675h-4.666v37.35h4.666zm4.667-18.675h-4.667v37.35h4.667zM12.339 126.01h4.667v18.674h-4.667zm0-18.676h4.667v18.675h-4.667ZM7.673 88.658h4.666v37.35H7.673ZM3.006 69.983h4.667v37.35H3.006Zm242.667 107.35h-4.667V196h4.667zm4.666-18.666h-4.666V196h4.666zM255.006 140h-4.667v37.333h4.667zM12.339 177.333h4.667V196h-4.667Zm-4.666-18.666h4.666V196H7.673ZM3.006 140h4.667v37.333H3.006Zm186.66-74.667H171V84h18.667zm18.667-18.666h-18.666V84h18.666zM227 28h-18.667v37.333H227ZM68.333 65.333H87V84H68.333ZM49.667 46.667h18.666V84H49.667ZM31 28h18.667v37.333H31Z" style="display:inline;opacity:1;fill:#ff0;fill-opacity:.848185;stroke-width:.50405;stroke-linejoin:round;paint-order:stroke fill markers"/>
+    </clipPath>
+    <pattern xlink:href="#axolotl-cyan__a" id="axolotl-cyan__r" patternTransform="translate(16 70)" preserveAspectRatio="xMidYMid"/>
+    <pattern id="axolotl-cyan__a" width="224" height="140" patternTransform="translate(16 70)" patternUnits="userSpaceOnUse" preserveAspectRatio="xMidYMid">
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEVQTFRF AAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS0VqK 0lmJkWe+ZmTIOgBs6ooI2gAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+kGExA1EJPTnJkA AAAhSURBVAjXY2CEAgY4Q4yRkZ2dkVGMgRkiwMzABmYxswEACOUAcew+FdgAAAAASUVORK5CYII=" width="224" height="140" preserveAspectRatio="none" style="image-rendering:pixelated"/>
+    </pattern>
+    <radialGradient xlink:href="#axolotl-cyan__e" id="axolotl-cyan__h" cx="129" cy="103" r="112" fx="129" fy="103" gradientTransform="matrix(0 -.163 .42003 0 -9.398 48.28)" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g style="display:inline;opacity:1;fill:none">
+    <g clip-path="url(#axolotl-cyan__g)" transform="translate(-1)">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;fill:#d7d7d7;fill-opacity:1"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEVQTFRF AAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS0VqK 0lmJkWe+ZmTIOgBs6ooI2gAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+kGExA2AdJO76gA AAAeSURBVAjXY+Dk4GBj4+DgZADRIBYDmAaykBgQNRwAGT4BG6GJgmIAAAAASUVORK5CYII=" width="224" height="140" x="17" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated"/>
+      <g style="display:inline">
+        <path fill="#c53030" fill-rule="evenodd" d="M27.363 11.213a6.09 6.09 0 0 0-4.697-2.217H7.406a3.175 3.175 0 0 0-3.174 3.175v30.162a3.175 3.175 0 0 0 3.175 3.175h52.916a3.175 3.175 0 0 0 3.175-3.175V18.557a3.175 3.175 0 0 0-3.175-3.175H30.797Z" clip-rule="evenodd" style="font-variation-settings:normal;display:inline;opacity:.5;mix-blend-mode:multiply;vector-effect:none;fill:url(#axolotl-cyan__h);stroke-width:.122353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000" transform="matrix(3.77953 0 0 3.77953 1 0)"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.923 11.923 0 0 0-8.484 3.516A11.957 11.957 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.923 11.923 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.904 11.904 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28c.303.717.539 1.47.699 2.252.16.78.244 1.59.244 2.418V74a11.922 11.922 0 0 0-3.516-8.484A11.976 11.976 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;opacity:.64;mix-blend-mode:multiply;fill:#fff;fill-opacity:1;fill-rule:evenodd;filter:url(#axolotl-cyan__i)" transform="matrix(1 0 0 1 -.006 0)"/>
+        <path d="M47.611 222.508h19.447a2.117 2.117 45 0 1 2.117 2.117v1.19a2.117 2.117 135 0 1-2.117 2.117H47.61a2.117 2.117 45 0 1-2.117-2.117v-1.19a2.117 2.117 135 0 1 2.117-2.117" style="display:inline;opacity:.254;mix-blend-mode:multiply;fill:#000;fill-opacity:1;stroke:none;stroke-width:.144851;stroke-opacity:1;filter:url(#axolotl-cyan__j)" transform="matrix(4.06313 0 0 5.44848 -159.506 -1142.034)"/>
+        <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:.64;fill:url(#axolotl-cyan__k);mix-blend-mode:overlay"/>
+      </g>
+    </g>
+    <g style="display:inline;opacity:1;fill:none;filter:url(#axolotl-cyan__l)" transform="translate(-1)">
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAMAAAB883U1AAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRHQGl/Hj2AAAAFklEQVQI12Ng4GJgYOBkYBBmEgYSDAACDABPBKkJwQAAAABJRU5E rkJggg==" width="42" height="56" x="125.078" y="146.676" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated" transform="rotate(29.552)"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAMAAAB883U1AAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRHQGl/Hj2AAAAFklEQVQI12Ng4GJgYOBkYBBmEgYSDAACDABPBKkJwQAAAABJRU5E rkJggg==" width="42" height="56" x="-99.359" y="273.925" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated" transform="scale(-1 1)rotate(29.552)"/>
+    </g>
+    <path d="M-217.187 202.469h16.093V210h-16.094zm176.375 0h-16.094V210h16.093z" style="display:inline;opacity:1;fill:#ff0;fill-opacity:.848185;stroke-width:.755906;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#axolotl-cyan__m)" transform="matrix(-1 0 0 1 -1 0)"/>
+    <g style="display:inline;opacity:1;fill:none;filter:url(#axolotl-cyan__n)" transform="translate(-.994)">
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAMAAABh9kWNAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRBAE+/NHuAAAAEklEQVQI12MQYWBg4OMBEixMAAGcADXR7Q/FAAAAAElFTkSuQmCC" width="14" height="56" x="3" y="140" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAMAAABh9kWNAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRBAE+/NHuAAAAEklEQVQI12MQYWBg4OMBEixMAAGcADXR7Q/FAAAAAElFTkSuQmCC" width="14" height="56" x="-255" y="140" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated" transform="scale(-1 1)"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAMAAAB883U1AAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRHBDWV2lFAAAAFElEQVQI12MQYWBg4OMBEixMIAIAAnQAOb5g298AAAAASUVORK5C YII=" width="14" height="74.7" x="3.006" y="70" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated" transform="translate(-.006)"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAMAAAB883U1AAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRHBDWV2lFAAAAFElEQVQI12MQYWBg4OMBEixMIAIAAnQAOb5g298AAAAASUVORK5C YII=" width="14" height="74.7" x="-255" y="70" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated" transform="matrix(-1 0 0 1 -.006 0)"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAMAAABh9kWNAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRBAE+/NHuAAAAEklEQVQI12MQYWBg4OMBEixMAAGcADXR7Q/FAAAAAElFTkSuQmCC" width="56" height="56" x="30.994" y="28" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAMAAABh9kWNAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEhQTFRF AAAAAAAA4u7/3ur50+X9zOL0wdj1sNX84qrAj7/zbLLe0nnPp4rJ43Km33KnTqbUn3PF1VqafXnS 0VqK0lmJkWe+ZmTIOgBsneROtgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAH dElNRQfpBhMRBAE+/NHuAAAAEklEQVQI12MQYWBg4OMBEixMAAGcADXR7Q/FAAAAAElFTkSuQmCC" width="56" height="56" x="-227" y="28" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated" transform="scale(-1 1)"/>
+    </g>
+    <path fill="url(#axolotl-cyan__b)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-path="url(#axolotl-cyan__p)" clip-rule="evenodd" style="display:inline;opacity:1;fill:#aeaeae;fill-opacity:1;filter:url(#axolotl-cyan__o)" transform="translate(-1)"/>
+    <g clip-path="url(#axolotl-cyan__q)" style="display:inline" transform="translate(-1)">
+      <path fill="url(#axolotl-cyan__b)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;fill:#aeaeae;fill-opacity:1"/>
+      <path d="M16 42h224v168H16z" style="fill:url(#axolotl-cyan__r);stroke:none" transform="translate(1)"/>
+      <path fill="url(#axolotl-cyan__b)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#axolotl-cyan__s);fill-opacity:1"/>
+      <path d="M241 193.998a11.904 11.904 0 0 1-2.049 6.709 12 12 0 0 1-1.467 1.775 11.975 11.975 0 0 1-8.484 3.516H29a12 12 0 0 1-2.418-.244 11.9 11.9 0 0 1-6.066-3.272A11.975 11.975 0 0 1 17 193.998V198a11.904 11.904 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.957 11.957 0 0 0 29 210h200a11.903 11.903 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.975 11.975 0 0 0 241 198Z" style="clip-rule:evenodd;display:inline;fill:#1a1a1a;fill-opacity:.495208;fill-rule:evenodd"/>
+      <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.923 11.923 0 0 0-8.484 3.516A11.957 11.957 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.923 11.923 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.904 11.904 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28c.303.717.539 1.47.699 2.252.16.78.244 1.59.244 2.418V74a11.922 11.922 0 0 0-3.516-8.484A11.976 11.976 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#axolotl-cyan__t);fill-opacity:.84818482;fill-rule:evenodd"/>
+      <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.923 11.923 0 0 0-8.484 3.516A11.957 11.957 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.923 11.923 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.904 11.904 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28c.303.717.539 1.47.699 2.252.16.78.244 1.59.244 2.418V74a11.922 11.922 0 0 0-3.516-8.484A11.976 11.976 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#axolotl-cyan__t);fill-opacity:.84818482;fill-rule:evenodd"/>
+      <g style="display:inline;opacity:1;fill:none">
+        <path d="M17 126h28v28H17z" style="opacity:1;fill:#ff0;fill-opacity:.848185;stroke:none;stroke-width:.755906;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#axolotl-cyan__u)"/>
+        <path d="M213 126h28v28h-28z" style="opacity:1;fill:#ff0;fill-opacity:.848185;stroke:none;stroke-width:.755906;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#axolotl-cyan__v)"/>
+        <path d="M101 126h56v28h-56z" style="opacity:1;fill:#ff0;fill-opacity:.848185;stroke:none;stroke-width:.755906;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#axolotl-cyan__w)"/>
+      </g>
+    </g>
+  </g>
+</svg>

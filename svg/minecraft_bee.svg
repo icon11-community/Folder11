@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bee__c">
+      <stop offset="0" style="stop-color:#989898;stop-opacity:.25"/>
+      <stop offset="1" style="stop-color:#fff;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bee__b">
+      <stop offset="0" style="stop-color:#191919;stop-opacity:.59638554"/>
+      <stop offset=".999" style="stop-color:#b4b4b4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bee__a" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F50"/>
+      <stop offset=".41" stop-color="#F50"/>
+      <stop offset=".582" stop-color="#FF2000"/>
+      <stop offset="1" stop-color="#FF2000"/>
+    </linearGradient>
+    <linearGradient xlink:href="#bee__a" id="bee__d" x1="17.131" x2="240.956" y1="135.967" y2="135.967" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#bee__b" id="bee__o" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#bee__b" id="bee__j" x1="149.708" x2="98.918" y1="186.64" y2="95.709" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="bee__e">
+      <stop offset="0" style="stop-color:#000;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#707070;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#bee__c" id="bee__p" x1="209" x2="65" y1="82" y2="82" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#bee__b" id="bee__u" x1="132.251" x2="91.665" y1="164.326" y2="98.001" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#bee__b" id="bee__l" x1="147.667" x2="104.111" y1="178.9" y2="98.011" gradientUnits="userSpaceOnUse"/>
+    <filter id="bee__i" width="1.174" height="1.758" x="-.087" y="-.379" style="color-interpolation-filters:sRGB">
+      <feGaussianBlur stdDeviation=".856"/>
+    </filter>
+    <filter id="bee__h" width="1.153" height="2.174" x="-.076" y="-.587" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="7.136 6.841"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="comp1" operator="atop" result="comp2"/>
+    </filter>
+    <filter id="bee__q" width="1.129" height="1.129" x="-.064" y="-.064" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".753" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="bee__r" width="1.129" height="1.129" x="-.064" y="-.064" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".753" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="out" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="in" result="comp2"/>
+    </filter>
+    <filter id="bee__s" width="1.077" height="1.193" x="-.039" y="-.096" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#000" flood-opacity=".753" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <filter id="bee__k" width="1.029" height=".899" x="-.014" y="-.024" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#252525" flood-opacity=".855" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="1.5"/>
+      <feOffset dy=".5" in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="SourceGraphic" in2="comp1" result="comp2"/>
+    </filter>
+    <filter id="bee__m" width="1.086" height="1.275" x="-.043" y="-.137" style="color-interpolation-filters:sRGB">
+      <feFlood flood-color="#262626" flood-opacity="1" result="flood"/>
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="4"/>
+      <feOffset in="blur" result="offset"/>
+      <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+      <feComposite in="comp1" in2="SourceGraphic" operator="out" result="comp2"/>
+    </filter>
+    <clipPath id="bee__n" clipPathUnits="userSpaceOnUse">
+      <path fill="url(#bee__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:1;fill:url(#bee__d)"/>
+    </clipPath>
+    <clipPath id="bee__f" clipPathUnits="userSpaceOnUse">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:1;fill:none"/>
+    </clipPath>
+    <clipPath id="bee__t" clipPathUnits="userSpaceOnUse">
+      <path d="M191.224 35.778H174.63v24.89h16.594zm-16.594 24.89h-8.298v24.888h8.298zM66.775 35.777h16.594v24.89H66.775Zm16.594 24.89h8.298v24.888h-8.298z" style="display:inline;opacity:1;fill:#302b37;stroke:none;stroke-width:.218223;stroke-linejoin:round;stroke-opacity:.498824;paint-order:stroke fill markers"/>
+    </clipPath>
+    <radialGradient xlink:href="#bee__e" id="bee__g" cx="129" cy="103" r="112" fx="129" fy="103" gradientTransform="matrix(0 -.163 .42003 0 -9.398 48.28)" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g style="display:inline;opacity:1;fill:none">
+    <g clip-path="url(#bee__f)" transform="translate(-1)">
+      <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;fill:#d7d7d7;fill-opacity:1"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAMAAADtRZdSAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADZQTFRF AAAA9/398fLg/tZo7cNDfMnR5K470I5IxYI8q2cgllMkXzIlVS4iMCs3QyQbNBkRHh4oFhAObKr3 UgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+kEFww6E23cT88AAAAwSURBVAjXJYpBDgAw CMK4Q2r2/88ON6NJqSix3YuI8Y7gS9Y57Heea9AptsGUhrcXaH8DITRRr0cAAAAASUVORK5CYII=" width="223.996" height="174.219" x="17" y="34" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated"/>
+      <g style="display:inline">
+        <path fill="#c53030" fill-rule="evenodd" d="M27.363 11.213a6.09 6.09 0 0 0-4.697-2.217H7.406a3.175 3.175 0 0 0-3.174 3.175v30.162a3.175 3.175 0 0 0 3.175 3.175h52.916a3.175 3.175 0 0 0 3.175-3.175V18.557a3.175 3.175 0 0 0-3.175-3.175H30.797Z" clip-rule="evenodd" style="font-variation-settings:normal;display:inline;opacity:.5;mix-blend-mode:multiply;vector-effect:none;fill:url(#bee__g);stroke-width:.122353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000" transform="translate(1)scale(3.77953)"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;opacity:.64;mix-blend-mode:multiply;fill:#fff;fill-opacity:1;fill-rule:evenodd;filter:url(#bee__h)" transform="translate(-.006)"/>
+        <path d="M47.611 222.508h19.447a2.117 2.117 45 0 1 2.117 2.117v1.19a2.117 2.117 135 0 1-2.117 2.117H47.61a2.117 2.117 45 0 1-2.117-2.117v-1.19a2.117 2.117 135 0 1 2.117-2.117" style="display:inline;opacity:.254;mix-blend-mode:multiply;fill:#000;fill-opacity:1;stroke:none;stroke-width:.144851;stroke-opacity:1;filter:url(#bee__i)" transform="matrix(4.06313 0 0 5.44848 -159.506 -1142.034)"/>
+        <path fill="#c53030" fill-rule="evenodd" d="M104.425 42.378A23 23 0 0 0 86.671 34H29c-6.627 0-12 5.373-12 12v114c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12V70.137c0-6.627-5.373-12-12-12H117.404Z" clip-rule="evenodd" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#bee__j)"/>
+      </g>
+    </g>
+    <g style="display:inline;filter:url(#bee__k)" transform="matrix(-1 0 0 1 256 13.736)">
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAMAAAA40HREAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAFFQTFRF AAAAAAAA9/398fLg/tZo7cNDfMnR5K470I5IxYI8q2cgllMkXzIlVS4iMCs3QyQbNBkRHh4oFhAO 8vX19/399/399/399/399/39reXqx/L2tKmzqgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsT AQCanBgAAAAHdElNRQfpBhESGxumi1DYAAAAK0lEQVQI12NgYGBgYmJmAFHCwlJABrMws5QkE5CS kpIEcnkkJSHSPEwgEgAfFQFSon/0egAAAABJRU5ErkJggg==" width="174.222" height="149.333" x="-257.778" y="110.456" preserveAspectRatio="none" style="image-rendering:pixelated" transform="matrix(-.10175 .01468 .05086 .69456 -12.02 -6.792)"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAMAAAA40HREAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAFFQTFRF AAAAAAAA9/398fLg/tZo7cNDfMnR5K470I5IxYI8q2cgllMkXzIlVS4iMCs3QyQbNBkRHh4oFhAO 8vX19/399/399/399/399/39reXqx/L2tKmzqgAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAACxMAAAsT AQCanBgAAAAHdElNRQfpBhESGxumi1DYAAAAK0lEQVQI12NgYGBgYmJmAFHCwlJABrMws5QkE5CS kpIEcnkkJSHSPEwgEgAfFQFSon/0egAAAABJRU5ErkJggg==" width="174.222" height="149.333" x="-257.778" y="110.456" preserveAspectRatio="none" style="display:inline;image-rendering:pixelated" transform="matrix(.10175 .01468 -.05086 .69456 268.02 -6.792)"/>
+      <path d="m241 167.754 2.527.334 1.249-17.195 2.537.34 1.262-17.28 2.534.35 2.539-34.596-2.54-.353 1.294-17.298-7.665-1.104-1.25 17.302L241 97.87Zm-224 0-2.527.334-1.249-17.195-2.537.34-1.262-17.28-2.534.35-2.539-34.596 2.54-.353-1.294-17.298 7.665-1.104 1.25 17.302L17 97.87Z" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#bee__l);stroke-width:.1;stroke-linejoin:round;paint-order:stroke fill markers" transform="matrix(-1 0 0 1 257 -13.736)"/>
+    </g>
+    <path d="M17 97.869h224v69.886H17z" style="display:inline;opacity:1;fill:navy;fill-opacity:1;stroke-width:.1;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#bee__m)" transform="translate(-1)"/>
+    <g clip-path="url(#bee__n)" style="display:inline" transform="translate(-1)">
+      <path fill="url(#bee__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;fill:#aeaeae;fill-opacity:1"/>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAMAAADtRZdSAAAAAXNSR0IB2cksfwAAAARnQU1BAACx jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADZQTFRF AAAA9/398fLg/tZo7cNDfMnR5K470I5IxYI8q2cgllMkXzIlVS4iMCs3QyQbNBkRHh4oFhAObKr3 UgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+kEFww4MhODPRMAAAA2SURBVAjXHYpBCgAw DMIEXe1F6P9fu26gIYggqR9QoV5hl8SykTmSzgSTWVvullIt0b1Pu/sCN5kB4NsybEIAAAAASUVO RK5CYII=" width="223.996" height="174.219" x="17" y="35.792" preserveAspectRatio="none" style="display:inline;opacity:1;fill:none;image-rendering:pixelated"/>
+      <g style="display:inline">
+        <path fill="url(#bee__a)" fill-rule="evenodd" d="M92.789 74c4.975 0 9.816-1.613 13.797-4.598L116.459 62H229c6.627 0 12 5.373 12 12v124c0 6.627-5.373 12-12 12H29c-6.627 0-12-5.373-12-12V86c0-6.627 5.373-12 12-12h58z" clip-rule="evenodd" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#bee__o);fill-opacity:1"/>
+        <path d="M241 193.998a11.9 11.9 0 0 1-2.049 6.709 12 12 0 0 1-1.467 1.775 11.98 11.98 0 0 1-8.484 3.516H29a12 12 0 0 1-2.418-.244 11.9 11.9 0 0 1-6.066-3.272A11.98 11.98 0 0 1 17 193.998V198a11.9 11.9 0 0 0 2.049 6.709c.431.638.924 1.232 1.467 1.775A11.96 11.96 0 0 0 29 210h200a11.9 11.9 0 0 0 6.709-2.049 12 12 0 0 0 1.775-1.467A11.98 11.98 0 0 0 241 198Z" style="clip-rule:evenodd;display:inline;fill:#1a1a1a;fill-opacity:.495208;fill-rule:evenodd"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#bee__p);fill-opacity:.303514;fill-rule:evenodd;stroke:none"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#bee__p);fill-opacity:.303514;fill-rule:evenodd;stroke:none"/>
+        <path d="m116.459 62-9.873 7.402a23 23 0 0 1-6.525 3.418A23 23 0 0 1 92.789 74H29a11.92 11.92 0 0 0-8.484 3.516A11.96 11.96 0 0 0 17 86v3.979q.002-1.245.244-2.418a11.9 11.9 0 0 1 1.805-4.291 12.1 12.1 0 0 1 3.242-3.24 11.9 11.9 0 0 1 4.291-1.807A12 12 0 0 1 29 77.979h63.79a23 23 0 0 0 8.993-1.83 23 23 0 0 0 4.803-2.766l9.873-7.404H229a11.9 11.9 0 0 1 6.709 2.05 12.05 12.05 0 0 1 4.348 5.28 11.9 11.9 0 0 1 .943 4.67V74a11.92 11.92 0 0 0-3.516-8.484A11.98 11.98 0 0 0 229 62z" style="clip-rule:evenodd;display:inline;mix-blend-mode:hard-light;fill:url(#bee__p);fill-opacity:.303514;fill-rule:evenodd;stroke:none;opacity:.5"/>
+      </g>
+      <path d="M17 110.455h74.667v74.667H17z" style="display:inline;fill:#302b37;fill-opacity:1;stroke:none;stroke-width:.377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:.498824;paint-order:stroke fill markers;filter:url(#bee__q)"/>
+      <path d="M166.334 110.455h74.667v74.667h-74.667z" style="display:inline;fill:#302b37;fill-opacity:1;stroke:none;stroke-width:.377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:.498824;paint-order:stroke fill markers;filter:url(#bee__r)"/>
+    </g>
+    <g style="display:inline;opacity:1;fill:none">
+      <path d="M191.224 35.778H174.63v24.89h16.594zm-16.594 24.89h-8.298v24.888h8.298zM66.775 35.777h16.594v24.89H66.775Zm16.594 24.89h8.298v24.888h-8.298z" style="display:inline;fill:#302b37;stroke:none;stroke-width:.218223;stroke-linejoin:round;stroke-opacity:.498824;paint-order:stroke fill markers" transform="translate(-1 .01)"/>
+      <path d="M191.224 35.778H174.63v24.89h16.594zm-16.594 24.89h-8.298v24.888h8.298zM66.775 35.777h16.594v24.89H66.775Zm16.594 24.89h8.298v24.888h-8.298z" style="display:inline;opacity:1;fill:#302b37;stroke:none;stroke-width:.218223;stroke-linejoin:round;stroke-opacity:.498824;paint-order:stroke fill markers;filter:url(#bee__s)" transform="translate(-1 .01)"/>
+      <path d="M66.776 35.778h124.448v49.778H66.776z" clip-path="url(#bee__t)" style="display:inline;opacity:.64;mix-blend-mode:overlay;fill:url(#bee__u);stroke:none;stroke-width:.377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:.498824;paint-order:stroke fill markers" transform="translate(-1 .01)"/>
+    </g>
+  </g>
+</svg>
