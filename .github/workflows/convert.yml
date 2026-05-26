@@ -122,26 +122,28 @@ jobs:
             fi
             
             # 3. FETCH METADATA UNTUK VERSI CURRENT BARU
+            # Author/date sengaja hanya diambil dari commit terakhir file utama di folder svg/.
+            # Perubahan di folder small/ tetap boleh memicu build ICO, tapi tidak menjadi referensi author.
             date=$(git -C ./Folder11 log -1 --format=%cd --date=iso-strict -- "svg/$filename")
-            first_commit=$(git -C ./Folder11 log --diff-filter=A --format="%H" -- "svg/$filename" | tail -1)
+            author_commit=$(git -C ./Folder11 log -1 --format="%H" -- "svg/$filename")
             
-            if [ -z "$first_commit" ]; then
+            if [ -z "$author_commit" ]; then
                 author="Unknown"
                 author_link="https://github.com/icon11-community"
                 author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
             else
-                author_email=$(git -C ./Folder11 log -1 --format="%ae" "$first_commit")
+                author_email=$(git -C ./Folder11 log -1 --format="%ae" "$author_commit")
                 if [ -n "${CACHE_NAME[$author_email]}" ]; then
                     author="${CACHE_NAME[$author_email]}"
                     author_link="${CACHE_LINK[$author_email]}"
                     author_profile="${CACHE_PROFILE[$author_email]}"
                 else
-                    author=$(git -C ./Folder11 log -1 --format="%an" "$first_commit")
+                    author=$(git -C ./Folder11 log -1 --format="%an" "$author_commit")
                     author_link="https://github.com/icon11-community"
                     author_profile="https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/folder11.ico"
                     
-                    gh_user=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.login' 2>/dev/null || echo "")
-                    gh_avatar=$(gh api repos/icon11-community/Folder11/commits/$first_commit --jq '.author.avatar_url' 2>/dev/null || echo "")
+                    gh_user=$(gh api repos/icon11-community/Folder11/commits/$author_commit --jq '.author.login' 2>/dev/null || echo "")
+                    gh_avatar=$(gh api repos/icon11-community/Folder11/commits/$author_commit --jq '.author.avatar_url' 2>/dev/null || echo "")
                     
                     if [ -n "$gh_user" ] && [ "$gh_user" != "null" ]; then
                         author="$gh_user"
