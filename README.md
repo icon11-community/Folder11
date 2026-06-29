@@ -54,6 +54,7 @@ We provided svg, ai, and fig template to make it easier. The specifications incl
 - Name of the icon must be written in snake case.
 - Because of we should not replace existing icon, new icon must be numbered that starts with 1.
 - First icon must be not numbered.
+- If an icon variant for an existing icon is created it's maximum size in pixel - seperated with a dash, after potential numbering - is appended. The size must be followed by the unit shorthand 'px'.
 
 ```
 Folder11
@@ -65,6 +66,7 @@ Folder11
     ├──📄 my_folder.svg
     ├──📄 my_folder-1.svg
     └──📄 my_folder-2.svg
+    └──📄 my_folder-2-32px.svg
 ```
 
 ### Commit Naming
