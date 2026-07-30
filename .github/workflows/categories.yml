@@ -1,0 +1,76 @@
+name: Generate Folder11 Categories
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Convert to ICO
+    types:
+      - completed
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: folder11-categories
+  cancel-in-progress: false
+
+jobs:
+  categorize:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Folder11
+        uses: actions/checkout@v6
+        with:
+          repository: icon11-community/Folder11
+          path: Folder11
+          fetch-depth: 1
+
+      - name: Checkout Folder-Ico
+        uses: actions/checkout@v6
+        with:
+          repository: icon11-community/Folder-Ico
+          token: ${{ secrets.ACTION_TOKEN }}
+          path: Folder-Ico
+          fetch-depth: 1
+
+      - name: Validate Category Metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "./Folder11/.github/workflows/generate_categories.py"
+          test -f "./Folder-Ico/Folder11.json"
+          test -f "./Folder-Ico/metadata/categories.json"
+          test -f "./Folder-Ico/metadata/category-classification-rules.json"
+
+      - name: Generate Categories Without AI
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 "./Folder11/.github/workflows/generate_categories.py" \
+            --catalog "./Folder-Ico/Folder11.json" \
+            --taxonomy "./Folder-Ico/metadata/categories.json" \
+            --rules "./Folder-Ico/metadata/category-classification-rules.json" \
+            --review "./Folder-Ico/metadata/review-low-confidence.json"
+
+      - name: Commit and Push Category Changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd Folder-Ico
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add Folder11.json metadata/review-low-confidence.json
+            git commit -m "gen: update deterministic icon categories"
+            git push
+          else
+            echo "No category changes to commit"
+          fi
