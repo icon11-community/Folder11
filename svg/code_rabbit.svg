@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___coderabbit"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___coderabbit" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1C1F"/>
+      <stop offset="1" stop-color="#1C1C1F"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___coderabbit" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/><stop offset="0.953125" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <filter id="filter0_f___coderabbit" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___coderabbit" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___coderabbit" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___coderabbit)"/>
+    </mask>
+    
+  </defs>
+  <g clip-path="url(#clip0___coderabbit)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#1C1C1F"/>
+    <g mask="url(#mask0___coderabbit)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___coderabbit)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___coderabbit)" fill="url(#paint1_linear___coderabbit)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.375000 85.375000) scale(4.21875000)">
+    <path fill="#000000" d="M23.991 13.05c-.243-6.186-5.244-11.23-11.424-11.515C5.678 1.223 0 6.711 0 13.525c0 2.601.825 5.007 2.231 6.968a4.73 4.73 0 0 0 3.442 1.962c-2.015-2.284-.302-4.193-.302-4.193c-.798.386-1.126 1.687-1.126 1.687c-1.512-.93-1.163-2.041-1.163-2.041c.095-.233.312-.872 1.475-.64c2.252-7.417 9.67-3.552 9.67-3.552c-.117-.233-.503-1.555-.503-1.555c-4.816-.698-6.444-4.113-6.444-4.113c4.467-1.358 7.185 2.332 7.185 2.332c-1.243-3.03-4.23-1.824-5.007-6.794c5.186.862 5.937 4.927 6.043 5.805c.074-.17.486-.396 2.189-.296c2.638.153 4.737 2.834 4.737 2.834c0 5.434-6.64 4.123-6.64 8.231c0 .962 1.046.904 1.395 1.37c.286.38.164.803.106.94h.629c1.49 0 2.908-.687 3.785-1.892a11.98 11.98 0 0 0 2.29-7.534zm-8.395 9.426c-1.153-.38-2.268-2.982-3.653-2.982c1.94 1.168 1.115 2.718.957 2.982h2.7z"/>
+  </g></g>
+</svg>

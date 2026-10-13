@@ -1,0 +1,47 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___cherrystudio"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___cherrystudio" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6E6E"/>
+      <stop offset="1" stop-color="#FF5F5F"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___cherrystudio" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6E6E"/>
+      <stop offset="0.953125" stop-color="#F55353"/>
+    </linearGradient>
+    <filter id="filter0_f___cherrystudio" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___cherrystudio" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___cherrystudio" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___cherrystudio)"/>
+    </mask>
+    <clipPath id="logoClip0___cherrystudio"><path d="M6.513 18.419c-1.6 0-3.107-.64-4.247-1.802A6.146 6.146 0 01.5 12.287c0-1.63.626-3.168 1.766-4.33 1.14-1.162 2.647-1.802 4.247-1.802s3.132.655 4.25 1.795c.835.849.835 2.23 0 3.078a2.11 2.11 0 01-3.02 0 1.737 1.737 0 00-1.234-.521c-.945 0-1.744.813-1.744 1.776 0 .964.799 1.777 1.744 1.777.46 0 .907-.19 1.234-.522a2.11 2.11 0 013.02 0c.835.85.835 2.23 0 3.079a5.997 5.997 0 01-4.25 1.794v.008z" clip-rule="evenodd"/></clipPath><clipPath id="logoClip1___cherrystudio"><path d="M12.026 24c-1.6 0-3.107-.64-4.247-1.802a6.146 6.146 0 01-1.766-4.33c0-1.63.644-3.193 1.762-4.337a2.11 2.11 0 013.021 0c.834.849.834 2.23 0 3.078-.324.331-.51.788-.51 1.255 0 .964.798 1.777 1.744 1.777.945 0 1.744-.813 1.744-1.777 0-.341-.083-.83-.475-1.233a6.255 6.255 0 01-1.77-4.348c0-1.615.627-3.168 1.767-4.33s2.646-1.802 4.247-1.802c1.6 0 3.107.64 4.247 1.802a6.146 6.146 0 011.766 4.33c0 1.63-.644 3.194-1.762 4.337a2.11 2.11 0 01-3.021 0 2.206 2.206 0 010-3.078c.323-.331.51-.788.51-1.255 0-.964-.798-1.777-1.744-1.777s-1.744.813-1.744 1.777c0 .47.19.935.521 1.27 1.115 1.136 1.727 2.667 1.727 4.311a6.122 6.122 0 01-1.766 4.33C15.137 23.36 13.63 24 12.03 24h-.004z" clip-rule="evenodd"/></clipPath><radialGradient id="logoBlob0___cherrystudio" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="translate(11.0849 15.2265) scale(11.3029 9.077)"><stop offset="0.0" stop-color="#F7CCCC" stop-opacity="0.9067"/><stop offset="0.0858" stop-color="#F7CCCC" stop-opacity="0.9067"/><stop offset="0.2136" stop-color="#F7CCCC" stop-opacity="0.7609"/><stop offset="0.3042" stop-color="#F7CCCC" stop-opacity="0.5377"/><stop offset="0.3995" stop-color="#F7CCCC" stop-opacity="0.3048"/><stop offset="0.4806" stop-color="#F7CCCC" stop-opacity="0.1085"/><stop offset="0.5413" stop-color="#F7CCCC" stop-opacity="0.0435"/><stop offset="0.5946" stop-color="#F7CCCC" stop-opacity="0.0169"/><stop offset="0.6431" stop-color="#F7CCCC" stop-opacity="0.0043"/><stop offset="0.6863" stop-color="#F7CCCC" stop-opacity="0.0003"/><stop offset="1.0" stop-color="#F7CCCC" stop-opacity="0.0"/></radialGradient><radialGradient id="logoBlob1___cherrystudio" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="translate(21.0253 15.9562) scale(13.6269 23.6297)"><stop offset="0.0" stop-color="#F7CCCC" stop-opacity="0.7625"/><stop offset="0.0585" stop-color="#F7CCCC" stop-opacity="0.7625"/><stop offset="0.1492" stop-color="#F7CCCC" stop-opacity="0.6302"/><stop offset="0.2208" stop-color="#F7CCCC" stop-opacity="0.3392"/><stop offset="0.287" stop-color="#F7CCCC" stop-opacity="0.0982"/><stop offset="0.3393" stop-color="#F7CCCC" stop-opacity="0.0293"/><stop offset="0.3869" stop-color="#F7CCCC" stop-opacity="0.0087"/><stop offset="0.4291" stop-color="#F7CCCC" stop-opacity="0.0016"/><stop offset="1.0" stop-color="#F7CCCC" stop-opacity="0.0"/></radialGradient>
+  </defs>
+  <g clip-path="url(#clip0___cherrystudio)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#FF5F5F"/>
+    <g mask="url(#mask0___cherrystudio)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___cherrystudio)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___cherrystudio)" fill="url(#paint1_linear___cherrystudio)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.164062 85.375000) scale(4.21875000)">
+    <g fill-rule="evenodd"><path fill="#ffffff" d="M6.513 18.419c-1.6 0-3.107-.64-4.247-1.802A6.146 6.146 0 01.5 12.287c0-1.63.626-3.168 1.766-4.33 1.14-1.162 2.647-1.802 4.247-1.802s3.132.655 4.25 1.795c.835.849.835 2.23 0 3.078a2.11 2.11 0 01-3.02 0 1.737 1.737 0 00-1.234-.521c-.945 0-1.744.813-1.744 1.776 0 .964.799 1.777 1.744 1.777.46 0 .907-.19 1.234-.522a2.11 2.11 0 013.02 0c.835.85.835 2.23 0 3.079a5.997 5.997 0 01-4.25 1.794v.008z"></path><path fill="#ffffff" d="M12.026 24c-1.6 0-3.107-.64-4.247-1.802a6.146 6.146 0 01-1.766-4.33c0-1.63.644-3.193 1.762-4.337a2.11 2.11 0 013.021 0c.834.849.834 2.23 0 3.078-.324.331-.51.788-.51 1.255 0 .964.798 1.777 1.744 1.777.945 0 1.744-.813 1.744-1.777 0-.341-.083-.83-.475-1.233a6.255 6.255 0 01-1.77-4.348c0-1.615.627-3.168 1.767-4.33s2.646-1.802 4.247-1.802c1.6 0 3.107.64 4.247 1.802a6.146 6.146 0 011.766 4.33c0 1.63-.644 3.194-1.762 4.337a2.11 2.11 0 01-3.021 0 2.206 2.206 0 010-3.078c.323-.331.51-.788.51-1.255 0-.964-.798-1.777-1.744-1.777s-1.744.813-1.744 1.777c0 .47.19.935.521 1.27 1.115 1.136 1.727 2.667 1.727 4.311a6.122 6.122 0 01-1.766 4.33C15.137 23.36 13.63 24 12.03 24h-.004z"></path><path fill="#ffffff" d="M12.026 6.867L8.53 3.587a1.336 1.336 0 111.827-1.949l1.4 1.313L13.744.495a1.336 1.336 0 012.075 1.68l-3.798 4.692h.004z"></path></g><g clip-path="url(#logoClip0___cherrystudio)"><ellipse cx="11.0849" cy="15.2265" rx="11.3029" ry="9.077" fill="url(#logoBlob0___cherrystudio)"/></g><g clip-path="url(#logoClip1___cherrystudio)"><ellipse cx="21.0253" cy="15.9562" rx="13.6269" ry="23.6297" fill="url(#logoBlob1___cherrystudio)"/></g>
+  </g></g>
+</svg>

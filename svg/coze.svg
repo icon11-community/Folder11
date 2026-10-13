@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___coze"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___coze" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D53E8"/>
+      <stop offset="1" stop-color="#4D53E8"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___coze" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6E73F2"/><stop offset="0.953125" stop-color="#3B41CC"/>
+    </linearGradient>
+    <filter id="filter0_f___coze" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___coze" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___coze" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___coze)"/>
+    </mask>
+    
+  </defs>
+  <g clip-path="url(#clip0___coze)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#4D53E8"/>
+    <g mask="url(#mask0___coze)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___coze)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___coze)" fill="url(#paint1_linear___coze)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.375000 86.429688) scale(4.21875000)">
+    <g fill-rule="evenodd"><path fill="#ffffff" clip-rule="evenodd" d="M3.908 9.096A8.092 8.092 0 0111.998 1h.006c4.468 0 8.09 3.628 8.09 8.096v3.392h1.942c2.23 0 2.732 3.126.615 3.828l-2.556.85v1.466a1.947 1.947 0 01-2.818 1.742l-1.42-.707c-.067-.03-.149 0-.17.071-1.147 3.587-6.225 3.587-7.373 0a.123.123 0 00-.169-.07l-1.42.706c-1.29.65-2.817-.292-2.817-1.742v-1.466l-2.557-.85c-2.122-.697-1.614-3.828.615-3.828h1.942V9.096zm4.571 2.613a.784.784 0 00-.784.784v1.568a.784.784 0 101.568 0v-1.568a.784.784 0 00-.784-.784zm7.045.779a.784.784 0 100 1.568.784.784 0 000-1.568zm-6.186 3.415a.78.78 0 00.17.254 3.517 3.517 0 004.98 0 .782.782 0 10-1.106-1.107 1.958 1.958 0 01-2.767 0 .78.78 0 00-1.277.254.78.78 0 000 .6z"></path></g>
+  </g></g>
+</svg>

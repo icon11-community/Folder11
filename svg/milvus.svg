@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___milvus"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___milvus" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1C1F"/>
+      <stop offset="1" stop-color="#1C1C1F"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___milvus" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/><stop offset="0.953125" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <filter id="filter0_f___milvus" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___milvus" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___milvus" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___milvus)"/>
+    </mask>
+    
+  </defs>
+  <g clip-path="url(#clip0___milvus)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#1C1C1F"/>
+    <g mask="url(#mask0___milvus)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___milvus)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___milvus)" fill="url(#paint1_linear___milvus)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.375000 85.375000) scale(4.21875000)">
+    <path fill="#000000" d="M15.536 11.997a4.005 4.005 0 0 1-4.015 4.018c-2.36-.005-4.05-1.954-4.01-4.08a4.013 4.013 0 0 1 8.025.061zm8.463-.04a.82.82 0 0 1-.25.616q-1.122 1.128-2.248 2.25q-.123.124-.25.054c-.091-.048-.124-.121-.098-.242a13 13 0 0 0 .25-1.626a12 12 0 0 0 .028-1.49a11.6 11.6 0 0 0-.27-2.114a.26.26 0 0 1 .017-.213a.194.194 0 0 1 .273-.052a1 1 0 0 1 .086.075l2.174 2.174c.171.17.29.366.289.567zM11.226 20c-1.89-.002-3.488-.565-4.926-1.611a8 8 0 0 1-.952-.816q-1.125-1.112-2.253-2.221l-1.931-1.899q-.437-.427-.873-.857c-.393-.39-.387-.83.012-1.217q.443-.433.885-.868q1.433-1.41 2.867-2.818c.532-.522 1.057-1.051 1.604-1.555a8 8 0 0 1 3.786-1.95A7.7 7.7 0 0 1 11.135 4c1.89.015 3.612.546 5.113 1.723a8 8 0 0 1 2.282 2.77a7.6 7.6 0 0 1 .76 2.556c.255 2.404-.414 4.518-2.046 6.312a7.77 7.77 0 0 1-3.927 2.366a9 9 0 0 1-2.091.274zm.364-2.137a6 6 0 0 0 .605-.036a5 5 0 0 0 .38-.05c1.525-.28 2.76-1.051 3.704-2.263c.92-1.178 1.28-2.542 1.168-4.028a5.6 5.6 0 0 0-.631-2.168c-.627-1.213-1.596-2.067-2.817-2.646c-1.096-.519-2.248-.649-3.443-.464A5.8 5.8 0 0 0 7.33 7.8c-.858.83-1.707 1.669-2.56 2.504c-.426.419-.85.841-1.28 1.257c-.274.266-.286.588-.013.857q.804.793 1.61 1.583c.722.709 1.44 1.42 2.165 2.126c1.184 1.153 2.604 1.737 4.339 1.738z"/>
+  </g></g>
+</svg>

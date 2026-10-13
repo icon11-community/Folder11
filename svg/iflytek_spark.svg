@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___iflytekcloud"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___iflytekcloud" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A80E2"/>
+      <stop offset="1" stop-color="#1D66BE"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___iflytekcloud" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/><stop offset="0.953125" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <filter id="filter0_f___iflytekcloud" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___iflytekcloud" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___iflytekcloud" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___iflytekcloud)"/>
+    </mask>
+    
+  </defs>
+  <g clip-path="url(#clip0___iflytekcloud)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#1D66BE"/>
+    <g mask="url(#mask0___iflytekcloud)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___iflytekcloud)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___iflytekcloud)" fill="url(#paint1_linear___iflytekcloud)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.375000 85.375000) scale(4.21875000)">
+    <path d="M20.713 6.655c-.414-1.426-1.748-2.472-3.357-2.472a3.62 3.62 0 00-1.7.423C14.62 3.046 12.804 2 10.735 2 7.77 2 5.31 4.16 4.943 6.944 2.138 7.39 0 9.728 0 12.58c0 3.14 2.62 5.68 5.862 5.68 1.61 0 3.08-.646 4.138-1.671.276-.267.529-.557.736-.89a5.02 5.02 0 01-.713.845 8.998 8.998 0 00-1.77 5.39V22a16.682 16.682 0 018.666-2.717h.046c3.035 0 5.633-1.871 6.621-4.499A6.599 6.599 0 0024 12.445c0-2.427-1.31-4.565-3.287-5.79zM6.966 12.869a.836.836 0 01-.851.824.81.81 0 01-.805-.824v-2.183a.81.81 0 01.805-.824c.46 0 .85.379.85.824v2.183zm3.011 1.069a.86.86 0 01-.874.846.86.86 0 01-.873-.846v-4.9a.86.86 0 01.873-.846.86.86 0 01.874.846v4.9zm3.104-1.047c0 .445-.414.824-.874.824s-.85-.379-.85-.824v-2.227c0-.446.367-.824.85-.824.46 0 .873.378.873.824v2.227zm3.149 1.069a.86.86 0 01-.874.846.86.86 0 01-.873-.846v-4.9a.86.86 0 01.873-.846.86.86 0 01.874.846v4.9zm3.08-1.091a.836.836 0 01-.85.824.81.81 0 01-.805-.824v-2.183a.81.81 0 01.805-.824c.46 0 .85.379.85.824v2.183z" fill="#2A80E2"></path>
+  </g></g>
+</svg>
