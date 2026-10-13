@@ -1,0 +1,47 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___chatgpt-3"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___chatgpt-3" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___chatgpt-3" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.953125" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <filter id="filter0_f___chatgpt-3" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___chatgpt-3" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___chatgpt-3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___chatgpt-3)"/>
+    </mask>
+    
+  </defs>
+  <g clip-path="url(#clip0___chatgpt-3)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#FFFFFF"/>
+    <g mask="url(#mask0___chatgpt-3)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___chatgpt-3)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___chatgpt-3)" fill="url(#paint1_linear___chatgpt-3)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(62.519918 69.241758) scale(0.26077438)">
+    <g fill-rule="evenodd"><path fill="#000000" d="m421 220.7l-.1-.1c8.5-26.2 5.4-54.8-8.4-78.5c-21.1-36.5-63.3-55.4-104.5-46.7l-.1.1c-18.4-20.5-44.7-32.1-72.2-32c-42.2 0-79.6 27.1-92.6 67.1v.2c-26.9 5.7-50.1 22.7-63.8 46.6c-21.2 36.4-16.5 82.4 11.7 113.7l.1.1c-8.5 26.2-5.4 54.8 8.4 78.5c21.1 36.5 63.3 55.4 104.5 46.7l.1-.1c18.4 20.5 44.7 32.1 72.2 32c42.2 0 79.6-27.1 92.6-67.1v-.2c26.9-5.7 50.1-22.7 63.8-46.6C453.9 298 449.2 252 421 220.7m-126.9 57.2l-38.1 22l-38.1-22v-44l38.1-22l38.1 22zm96.7-123.4h-.2c8.4 14.6 11.5 31.6 8.7 48.2l-78.7-45.4c-.9-.5-1.8-.9-2.8-1.2c-3.3-1.1-7-.7-10.1 1.2l-89.8 51.9v-37.9l74.2-42.9c7.2-4.2 15-7 23.1-8.5l-.1-.2c29.2-5.4 59.9 7.7 75.7 34.8m-155.2-66l-.1.1c16.9 0 33.1 5.8 46.1 16.5L203 150.6q-1.35.75-2.4 1.8c-2.6 2.3-4.1 5.7-4.1 9.4v103.7l-32.8-18.9v-85.7c0-8.3 1.4-16.5 4.2-24.2l-.2-.1c9.8-28 36.5-48.1 67.9-48.1M100.8 189.8v.2c8.4-14.6 21.6-25.8 37.4-31.7v90.9c0 1 .1 2 .4 3c.7 3.4 2.9 6.4 6.1 8.2l89.8 51.9l-32.8 19l-74.2-42.8c-7.2-4.1-13.6-9.5-18.9-15.8l-.2.2c-19.2-22.7-23.2-55.8-7.6-83.1m20.4 167.4h.2c-8.4-14.6-11.5-31.6-8.7-48.2l78.7 45.4c.9.5 1.8.9 2.8 1.2c3.3 1.1 7 .7 10.1-1.2l89.8-51.9v37.9l-74.2 42.9c-7.2 4.2-15 7-23.1 8.5l.1.2c-29.2 5.5-59.9-7.6-75.7-34.8m155.2 66.1l.1-.1c-16.9 0-33.1-5.8-46.1-16.5l78.7-45.4q1.35-.75 2.4-1.8c2.6-2.3 4.1-5.7 4.1-9.4V246.3l32.8 18.9v85.7c0 8.3-1.4 16.5-4.2 24.2l.2.1c-9.9 28-36.6 48.1-68 48.1M411.2 322v-.2c-8.4 14.6-21.6 25.8-37.4 31.7v-90.9c0-1-.1-2-.4-3c-.7-3.4-2.9-6.4-6.1-8.2l-89.8-51.9l32.8-19l74.2 42.8c7.2 4.1 13.6 9.5 18.9 15.8l.2-.2c19.2 22.7 23.2 55.8 7.6 83.1"/></g>
+  </g></g>
+</svg>

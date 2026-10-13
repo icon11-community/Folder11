@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___udio"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___udio" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E30A5D"/>
+      <stop offset="1" stop-color="#B80749"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___udio" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/><stop offset="0.953125" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <filter id="filter0_f___udio" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___udio" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___udio" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___udio)"/>
+    </mask>
+    
+  </defs>
+  <g clip-path="url(#clip0___udio)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#B80749"/>
+    <g mask="url(#mask0___udio)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___udio)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___udio)" fill="url(#paint1_linear___udio)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(76.173913 80.972826) scale(4.40217391)">
+    <path d="M15.763 1.02c.212-.021.44.002.654.004l1.21.001c1.68.001 3.373.043 5.052-.025l-.001 8.93v2.652c0 .744.013 1.486-.065 2.227a9.643 9.643 0 01-.585 2.453 8.895 8.895 0 01-3.215 4.14c-.289.201-.602.422-.925.564a10.01 10.01 0 01-2.582.976c-.361.083-.728.131-1.088.216-.381-.311-.725-.694-1.072-1.043l-1.893-1.893c-.722-.716-1.455-1.417-2.171-2.14-.303-.304-.639-.604-.907-.938.106.694.047 1.75.047 2.486.007 1.457.003 2.913-.013 4.37a.906.906 0 01-.046-.035c-.236-.185-.447-.428-.66-.642-.41-.415-.823-.827-1.239-1.237l-2.991-2.979c-.54-.54-1.098-1.07-1.624-1.623-.07-.074-.215-.21-.228-.311a.348.348 0 01.129.001l-.005-.012c.869-.05 1.76-.013 2.63-.013 1.332 0 2.665-.018 3.996.001a597.835 597.835 0 01-6.839-6.807c-.047-.357-.02-.74-.02-1.101l.001-1.915L1.3 1.178c0-.04.01-.075.028-.112.059-.04.104-.038.175-.042.52-.03 1.06 0 1.582.001 1.512 0 3.036.042 4.546-.006.197-.014.397-.011.594-.015l-.003 10.581c.009 1.859.003 3.717-.018 5.575.426-.044.89-.01 1.32-.01h2.772c.964-.007 1.857-.19 2.558-.904.538-.548.764-1.256.88-2 .08-.51.042-1.08.041-1.597l-.002-2.645c-.001-2.994.026-5.99-.01-8.984z" fill="#E30A5D"></path>
+  </g></g>
+</svg>

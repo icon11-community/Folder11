@@ -1,0 +1,68 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="clip0___aider"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___aider" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B014"/>
+      <stop offset="1" stop-color="#0E800E"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear___aider" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/><stop offset="0.953125" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <filter id="filter0_f___aider" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur_16_132"/>
+    </filter>
+    <filter id="filter1_ii___aider" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_132"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="-4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0"/>
+      <feBlend mode="soft-light" in2="effect1_innerShadow_16_132" result="effect2_innerShadow_16_132"/>
+    </filter>
+    <mask id="mask0___aider" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138">
+      <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___aider)"/>
+    </mask>
+    
+    <filter id="glow__aider" x="-40%" y="-30%" width="180%" height="160%">
+      <feGaussianBlur stdDeviation="7 1" result="blur" />
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0" result="lighter-blur"/>
+      <feComposite in="SourceGraphic" in2="lighter-blur" operator="over" />
+    </filter>
+  
+  </defs>
+  <g clip-path="url(#clip0___aider)" id="base-svg-group">
+    <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#0E800E"/>
+    <g mask="url(#mask0___aider)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___aider)">
+        <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___aider)" fill="url(#paint1_linear___aider)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(50.187500 111.523438) scale(0.81250000)">
+    <style>
+    @font-face {
+      font-family: 'GlassTTYVT220';
+      src: url(data:font/truetype;charset=utf-8;base64,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) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    .logo-text {
+      font-family: 'GlassTTYVT220', monospace;
+      font-size: 60px;
+      fill: #14b014;
+      text-anchor: middle; /* Center the text horizontally */
+      dominant-baseline: middle; /* Center the text vertically */
+      filter: url(#glow__aider);
+    }
+  </style>
+  <text x="100.0" y="37.2" class="logo-text">aider</text>
+  </g></g>
+</svg>
