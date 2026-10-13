@@ -15,7 +15,7 @@
   <defs transform="skewX(0) skewY(0)">
     <style transform="skewX(0) skewY(0)">
       .cls-1 {
-        fill:#000000;
+        fill:#ffffff;
         stroke-width: 0px;
       }
     </style>
@@ -49,8 +49,8 @@
               <stop offset="1" stop-color="#FFCB3D"/>
             </linearGradient>
             <linearGradient id="paint1_linear_16_132" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#ffffff"/>
-              <stop offset="0.953125" stop-color="#ffffff"/>
+              <stop stop-color="#3A3A3A"/>
+              <stop offset="0.953125" stop-color="#050505"/>
             </linearGradient>
           </defs>
         </svg>
