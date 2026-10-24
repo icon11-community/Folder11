@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip0___deluge"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___deluge" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse"><stop stop-color="#4A79C0"/><stop offset="1" stop-color="#062F66"/></linearGradient>
+    <linearGradient id="paint1_linear___deluge" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1257A8"/><stop offset="1" stop-color="#094491"/></linearGradient>
+    <filter id="filter0_f___deluge" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur___deluge"/></filter>
+    <filter id="filter1_ii___deluge" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow___deluge"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="-4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"/><feBlend mode="soft-light" in2="effect1_innerShadow___deluge" result="effect2_innerShadow___deluge"/></filter>
+    <mask id="mask0___deluge" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138"><path fill-rule="evenodd" clip-rule="evenodd" d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___deluge)"/></mask>
+  </defs>
+  <g clip-path="url(#clip0___deluge)" id="base-svg-group">
+    <path id="back-svg-group" fill-rule="evenodd" clip-rule="evenodd" d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#062F66"/>
+    <g mask="url(#mask0___deluge)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___deluge)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V160C241 166.627 235.627 172 229 172H29C22.3726 172 17 166.627 17 160L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path id="front-svg-group" filter="url(#filter1_ii___deluge)" fill-rule="evenodd" clip-rule="evenodd" d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="url(#paint1_linear___deluge)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.375 85.375) scale(4.21875)">
+<path fill="#FFFFFF" d="M18.766 10.341 12.006 0l-6.77 10.342c-1.945 2.97-2.191 6.432-.66 9.264C6.04 22.316 8.885 24 12.001 24c3.113 0 5.957-1.681 7.421-4.388 1.532-2.832 1.287-6.297-.657-9.27zm-10.082 6.9c1.433 2.554 3.608 3.045 6.585 2.102-1.7 1.848-5.188 2.337-7.557-.302-1.63-1.817-1.773-4.351-.642-6.468 1.132-2.117 3.388-2.706 5.012-1.551-3.723.09-4.43 4.38-3.398 6.218zm8.72-6.009c.723 1.107 1.152 2.267 1.314 3.418-3.354 5.763-7.862 4.879-9.062 1.377-.554-1.618 1.19-5.08 4.514-3.725-1.296-2.838-4.238-4.017-6.911-1.809a5.099 5.099 0 0 0-.609.66l5.355-8.179 5.398 8.258z"/>
+  </g></g>
+</svg>
