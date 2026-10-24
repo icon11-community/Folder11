@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip0___tresorit"><rect width="256" height="256"/></clipPath>
+    <linearGradient id="paint0_linear___tresorit" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse"><stop stop-color="#4DA8CC"/><stop offset="1" stop-color="#0E7CA8"/></linearGradient>
+    <linearGradient id="paint1_linear___tresorit" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FCFCFC"/><stop offset="1" stop-color="#D5D5D5"/></linearGradient>
+    <filter id="filter0_f___tresorit" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur___tresorit"/></filter>
+    <filter id="filter1_ii___tresorit" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow___tresorit"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="-4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"/><feBlend mode="soft-light" in2="effect1_innerShadow___tresorit" result="effect2_innerShadow___tresorit"/></filter>
+    <mask id="mask0___tresorit" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138"><path fill-rule="evenodd" clip-rule="evenodd" d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___tresorit)"/></mask>
+  </defs>
+  <g clip-path="url(#clip0___tresorit)" id="base-svg-group">
+    <path id="back-svg-group" fill-rule="evenodd" clip-rule="evenodd" d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V58.1371V68.2V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#0E7CA8"/>
+    <g mask="url(#mask0___tresorit)">
+      <g style="mix-blend-mode:multiply" filter="url(#filter0_f___tresorit)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V160C241 166.627 235.627 172 229 172H29C22.3726 172 17 166.627 17 160L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+      </g>
+    </g>
+    <path id="front-svg-group" filter="url(#filter1_ii___tresorit)" fill-rule="evenodd" clip-rule="evenodd" d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="url(#paint1_linear___tresorit)"/>
+  </g>
+  <g id="custom-svg-container"><g class="custom-svg" transform="translate(78.375 85.375) scale(3.1640625)">
+<defs><linearGradient id="paint0_linear_1664_7___tresorit" x1="2.1817" y1="16" x2="29.8181" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C4D5"/>
+<stop offset="1" stop-color="#2B6DF1"/>
+</linearGradient></defs><path d="M15.9999 0L2.1817 8V24L15.9999 32L29.8181 24V8L15.9999 0ZM5.09079 9.67727L15.9999 3.36182L20.7653 6.12L5.09079 15.1245V9.67727ZM26.909 22.3226L15.9999 28.6381L5.09079 22.3226V18.4799L23.6744 7.80445L26.909 9.67718V22.3226Z" fill="url(#paint0_linear_1664_7___tresorit)"/><path d="M15.9999 0L29.8181 8V24L15.9999 32L2.1817 24V8L15.9999 0ZM5.09079 15.1245L20.7653 6.12L15.9999 3.36182L5.09079 9.67727V15.1245ZM15.9999 28.6381L26.909 22.3226V9.67718L23.6744 7.80445L5.09079 18.4799V22.3226L15.9999 28.6381ZM15.9999 0.105L2.27261 8.05236V23.9475L15.9999 31.8949L29.7272 23.9475V8.05236L15.9999 0.105ZM4.99988 15.2815V15.1245V9.67718V9.62473L5.04525 9.59845L15.9543 3.283L15.9999 3.25673L16.0454 3.28309L20.8109 6.04127L20.9473 6.12027L20.8106 6.19882L5.13607 15.2034L4.99988 15.2815ZM15.9999 28.7431L15.9543 28.7167L5.04525 22.4013L4.99988 22.3751V22.3227V18.48V18.4274L5.04552 18.4011L23.6292 7.72564L23.6746 7.69955L23.72 7.72582L26.9545 9.59855L26.9999 9.62482V9.67727V22.3227V22.3751L26.9545 22.4014L16.0454 28.7168L15.9999 28.7431Z" fill="#000000" opacity="0.15"/>
+  </g></g>
+</svg>
