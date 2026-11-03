@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="clip0___sony_xperia"><rect width="256" height="256"/></clipPath>
+<linearGradient id="paint0_linear___sony_xperia" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5A5A5A"/><stop offset="1" stop-color="#0A0A0A"/></linearGradient>
+<linearGradient id="paint1_linear___sony_xperia" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8E8"/></linearGradient>
+<filter id="filter0_f___sony_xperia" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur___sony_xperia"/></filter>
+<filter id="filter1_ii___sony_xperia" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow___sony_xperia"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="-4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"/><feBlend mode="soft-light" in2="effect1_innerShadow___sony_xperia" result="effect2_innerShadow___sony_xperia"/></filter>
+<mask id="mask0___sony_xperia" mask-type="alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138"><path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___sony_xperia)"/></mask>
+
+</defs>
+<g clip-path="url(#clip0___sony_xperia)" id="base-svg-group">
+  <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#0A0A0A"/>
+  <g mask="url(#mask0___sony_xperia)">
+    <g style="mix-blend-mode:multiply" filter="url(#filter0_f___sony_xperia)">
+      <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+    </g>
+  </g>
+  <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___sony_xperia)" fill="url(#paint1_linear___sony_xperia)"/>
+</g>
+<g id="custom-svg-container">
+  <g class="custom-svg" transform="translate(54.0000 124.5810) scale(0.500556)">
+    <g fill="#000000"><path xmlns="http://www.w3.org/2000/svg" d="M293.756 46.0797c-.1143-.2608-6.1118-14.0168-6.1118-14.0168H271.37c.1965-.468 1.9218-4.483 2.0325-4.7259h12.1593l-8.8266-20.9609s-17.0137 39.4357-17.1316 39.7036h-6.4726C253.4131 45.4545 273.7275.2607 273.849 0h5.9868c.1286.3036 19.8178 45.308 20.1643 46.0797h-6.244M172.4344.0036h23.597c.0643-.0036 6.694-.1643 10.9484 3.7614 2.5362 2.336 3.8221 5.5902 3.8221 9.6695l.0179.5823c0 1.4145-.3822 8.648-7.705 11.477l-.993.393s11.1413 19.557 11.5163 20.1929h-6.6011c-.1286-.218-10.584-19.182-10.584-19.182s-12.3451 0-12.781-.0036c.0072-.593.0072-4.6366.0072-4.808h11.0627c.025.0036 4.9009.0786 7.8871-2.7648 1.486-1.4074 2.2433-3.3256 2.2433-5.6903 0-3.3685-1.2752-5.8296-3.7793-7.3192-2.086-1.2323-4.6186-1.4895-6.3725-1.4895h-16.2636v41.2574h-6.0225V.0036m-43.715 24.6115h21.4467v-4.7008h-21.4467z" /><path xmlns="http://www.w3.org/2000/svg" d="M117.496.0036h35.8778V4.783h-29.8625v36.5744h30.1983v4.7258H117.496V.0036M70.1768 46.0797h-6.0046V0h22.904c9.8911.125 15.2456 4.7866 15.4778 13.4667-.2357 8.6265-5.6046 13.231-15.517 13.3202H75.4027c0-.3786-.0035-4.3543-.0035-4.733h11.0484c2.8505 0 5.3402-.7644 7.2013-2.2182 1.886-1.4217 2.8326-3.5114 2.8933-6.3904-.0607-3.0149-1.0073-5.176-2.8933-6.594-1.8897-1.4075-4.4687-2.1255-7.6621-2.1255h-15.81v41.3539m-29.9018 0L24.1973 27.3585 8.0979 46.076H0L39.6428 0h8.0729L28.1586 22.747l20.0429 23.3327H40.275M8.5944.0036l11.9378 13.8667-3.9685 4.6223L.6537.0036h7.9407M231.77 46.0797h6.0153V0H231.77z" /></g>
+  </g>
+</g>
+</svg>

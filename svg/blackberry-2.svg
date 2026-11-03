@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="clip0___blackberry-2"><rect width="256" height="256"/></clipPath>
+<linearGradient id="paint0_linear___blackberry-2" x1="17" y1="34" x2="197.768" y2="215.142" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D8D8D8"/><stop offset="1" stop-color="#F2F2F2"/></linearGradient>
+<linearGradient id="paint1_linear___blackberry-2" x1="17" y1="62" x2="241" y2="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D8D8D8"/></linearGradient>
+<filter id="filter0_f___blackberry-2" x="-20" y="25" width="298" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="18.5" result="effect1_foregroundBlur___blackberry-2"/></filter>
+<filter id="filter1_ii___blackberry-2" x="17" y="62" width="224" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/><feBlend mode="normal" in2="shape" result="effect1_innerShadow___blackberry-2"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="-4"/><feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"/><feBlend mode="soft-light" in2="effect1_innerShadow___blackberry-2" result="effect2_innerShadow___blackberry-2"/></filter>
+<mask id="mask0___blackberry-2" mask-type="alpha" maskUnits="userSpaceOnUse" x="17" y="34" width="224" height="138"><path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="url(#paint0_linear___blackberry-2)"/></mask>
+
+</defs>
+<g clip-path="url(#clip0___blackberry-2)" id="base-svg-group">
+  <path d="M104.425 42.3784C100.056 37.0733 93.5437 34 86.6712 34H29C22.3726 34 17 39.3726 17 46V160C17 166.627 22.3726 172 29 172H229C235.627 172 241 166.627 241 160V70.1371C241 63.5097 235.627 58.1371 229 58.1371H117.404L104.425 42.3784Z" fill="#F2F2F2"/>
+  <g mask="url(#mask0___blackberry-2)">
+    <g style="mix-blend-mode:multiply" filter="url(#filter0_f___blackberry-2)">
+      <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" fill="black" fill-opacity="0.3"/>
+    </g>
+  </g>
+  <path d="M92.789 74C97.7642 74 102.605 72.3868 106.586 69.4024L116.459 62H229C235.627 62 241 67.3726 241 74V108V198C241 204.627 235.627 210 229 210H29C22.3726 210 17 204.627 17 198L17 108V86C17 79.3726 22.3726 74 29 74H87H92.789Z" filter="url(#filter1_ii___blackberry-2)" fill="url(#paint1_linear___blackberry-2)"/>
+</g>
+<g id="custom-svg-container">
+  <g class="custom-svg" transform="translate(78.3750 85.3750) scale(4.278169)">
+    <g fill="#231F20"><title xmlns="http://www.w3.org/2000/svg">Blackberry</title><path xmlns="http://www.w3.org/2000/svg" d="M2.05 3.54L1.17 7.7H4.45C6.97 7.7 7.73 6.47 7.73 5.36C7.73 4.54 7.26 3.54 5.21 3.54H2.05M10.54 3.54L9.66 7.7H12.94C15.5 7.7 16.22 6.47 16.22 5.36C16.22 4.54 15.75 3.54 13.7 3.54H10.54M18.32 7.23L17.39 11.39H20.67C23.24 11.39 24 10.22 24 9.05C24 8.23 23.53 7.23 21.5 7.23H18.32M.88 9.8L0 13.96H3.28C5.85 13.96 6.56 12.73 6.56 11.62C6.56 10.8 6.09 9.8 4.04 9.8H.88M9.43 9.8L8.5 13.96H11.77C14.34 13.96 15.11 12.73 15.11 11.62C15.11 10.8 14.64 9.8 12.59 9.8H9.42M17.09 13.73L16.22 17.88H19.5C22 17.88 22.77 16.71 22.77 15.54C22.77 14.72 22.3 13.73 20.26 13.73H17.09M8.2 16.3L7.32 20.46H10.6C13.11 20.46 13.87 19.23 13.87 18.12C13.87 17.3 13.41 16.3 11.36 16.3H8.2Z" /></g>
+  </g>
+</g>
+</svg>
